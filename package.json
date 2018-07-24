@@ -1,0 +1,30 @@
+{
+  "name": "creative-nerd-land",
+  "version": "1.0.0",
+  "description": "Creative Nerd landing page",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "gulp sass_lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geniorama/creative-nerd-land.git"
+  },
+  "author": "Geniorama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geniorama/creative-nerd-land/issues"
+  },
+  "keywords": [
+    "SASS"
+  ],
+  "homepage": "https://github.com/Geniorama/creative-nerd-land#readme",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.4"
+  },
+  "dependencies": {
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.4"
+  }
+}

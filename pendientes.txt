@@ -1,0 +1,15 @@
+**Index**
+* Menu desplegable
+* Diagonal banner
+* Reemplazar imagen (taza de café) banner principal
+* Funcionalidad color menu scroll
+
+* Funcionalidad Servicios
+
+* Reemplazar imagen NOSOTROS
+
+* Reemplazar imagen contacto
+
+* Cambiar las imagenes que no tienen transparencia a .png
+
+* Montserrat, work sans
