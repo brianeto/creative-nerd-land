@@ -65,18 +65,22 @@
 </section>
 <section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
 		<div id="div_contenedor_iconos">
-			<div class="col-xs-12 col-lg-4 icons">
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+			<div class="row justify-content-center text-center">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Páginas web</h5>
 				</div>
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Landing Pages</h5>
 				</div>
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text big">Comercio<br>Electrónico</h5> 
 				</div>
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text big">Soporte y administración<br>de sitios web</h5>
 				</div>
 			</div>
 		</div>
@@ -104,18 +108,18 @@
 </section>
 <section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
 		<div id="div_contenedor_iconos">
-			<div class="col-xs-12 col-lg-4 icons">
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+			<div class="row justify-content-center text-center">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Desarrollo App Móvil</h5>
 				</div>
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Diseño de Apps</h5>
 				</div>
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
-				</div>
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Implementación en<br>Tiendas Oficiales</h5>
 				</div>
 			</div>
 		</div>
@@ -143,21 +147,160 @@
 </section>
 <section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
 		<div id="div_contenedor_iconos">
-			<div class="col-xs-12 col-lg-4 icons">
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+			<div class="row justify-content-center text-center">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Branding</h5>
 				</div>
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Piezas Publicitarias</h5>
 				</div>
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Diseño de Campañas</h5>
 				</div>
-				<div class="grid-icon">
-					<img src="image/printing-01.png" alt="">
+			</div>
+			<div class="row justify-content-center text-center">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Suministros de Publicidad</h5>
+				</div>
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Medios Impresos</h5>
+				</div>
+			</div>	
+		</div>
+</section>
+<section id="seccion_servicios" class="seccion_padding">
+	<div class="container">
+		<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+			MARKETING <span>DIGITAL</span>
+		</h2>
+		<div class="row contenedor_slider">
+			<div class="col-12  col-lg-6">
+				<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-gallery.png">
+			</div>
+			<div class="col-12 col-lg-6 right">
+				<div class="barra-izq">
+
+				</div>
+				<h3 class="tag_titulo_detalle_servicio">
+					COTIZA TU <br> <span class="digital">PROYECTO</span>
+				</h3>
+				<i class="fab fa-telegram-plane fa-3x"></i>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
+		<div id="div_contenedor_iconos">
+			<div class="row justify-content-center text-center">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Marketing Digital</h5>
+				</div>
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Social Media</h5>
+				</div>
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Mail Marketing</h5>
+				</div>
+			</div>
+			<div class="row justify-content-center text-center">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Publicidad en<br>Google Adwords</h5>
+				</div>
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Posicionamiento en<br>Buscadores</h5>
+				</div>
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Administración de Campañas<br>Digitales (Ads)</h5>
+				</div>
+			</div>	
+		</div>
+</section>
+<section id="seccion_servicios" class="seccion_padding">
+	<div class="container">
+		<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+			DISEÑO <span>INDUSTRIAL</span>
+		</h2>
+		<div class="row contenedor_slider">
+			<div class="col-12  col-lg-6">
+				<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-gallery.png">
+			</div>
+			<div class="col-12 col-lg-6 right">
+				<div class="barra-izq">
+
+				</div>
+				<h3 class="tag_titulo_detalle_servicio">
+					COTIZA TU <br> <span class="digital">PROYECTO</span>
+				</h3>
+				<i class="fab fa-telegram-plane fa-3x"></i>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
+		<div id="div_contenedor_iconos">
+			<div class="row justify-content-center text-center">
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Desarrollo de Productos</h5>
+				</div>
+				<div class="grid-icon col-2">
+					<img class="img-fluid" src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Diseñado de empaques</h5>
+				</div>
+				<div class="grid-icon col-2">
+					<img class="img-fluid"src="image/printing-01.png" alt="">
+					<h5 class="grid-icon text">Ambientación</h5>
 				</div>
 			</div>
 		</div>
+</section>
+<section id="seccion_contacto" class="seccion_padding">
+	<div class="container">
+		<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+			CONTÁCTANOS
+		</h2>
+		<p class="tag_subtitulo_secciones tag_titulo_secciones_black text-center">
+			¿Estás listo para iniciar tu proyecto?<br>
+			<span>Cuéntanos de él</span>
+		</p>
+		<div class="row">
+			<div class="col-12 col-lg-6 align-self-center">
+				<form class="text-center" id="form_contacto" method="post" action="javascript:enviarContacto();">
+					<div class="form-row">
+						<div class="col-12 col-lg-6 text-left">
+							<label for="txt_nombre" class="tag_indicador_form">Nombre</label>
+							<input type="text" class="form-control form-control-mine" id="txt_nombre">
+						</div>
+						<div class="col-12 col-lg-6 text-left">
+							<label for="txt_email" class="tag_indicador_form">Email</label>
+							<input type="email" class="form-control form-control-mine" id="txt_email">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col-12 text-left">
+							<label for="txt_mensaje" class="tag_indicador_form">Mensaje</label>
+							<textarea class="form-control form-control-mine" id="txt_mensaje"></textarea>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-form-mine" id="btn_enviar">ENVIAR</button>
+				</form>
+			</div>
+			<div class="col-12 col-lg-6 align-self-end">
+				<img class="img_persona_contacto" src="<?php echo $path; ?>image/contact.png">
+			</div>			
+		</div>		
+	</div>		
 </section>
 <?php 
 	include('footer.php');

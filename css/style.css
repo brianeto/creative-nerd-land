@@ -912,6 +912,7 @@ footer{
 	background: rgba(165, 20, 28, .8);
 	
 }
+/*cotiza tu proyecto || right side*/
 .col-12.col-lg-6.right{
 	display: flex;
 	height: 50%;
@@ -922,26 +923,28 @@ footer{
     width: 10px;
     height: 55px;
 }
-#div_contenedor_iconos {
-    display: inline-block;
-}
-.col-xs-12.col-lg-4.icons {
-	display: flex;
-	margin-left: 8%;
-	margin-bottom: 4%;
-}
-.grid.icons{
-	grid-template-columns: repeat(4, 1fr);
-}
+/*iconos sección fondo gris*/
 .grid-icon {
-	display: flex;
-	align-items: center;
 	overflow: hidden;
 	position: relative;
-	grid-row: span 5;
-	margin: 50px;
+	padding: 2em;
 }
+.grid-icon img{
+	max-width: 80px;
+	margin: auto;
+}
+.grid-icon.text {
+	color: #ffff;
+	padding: 0;
+	margin-top: 20px;
+	font-size: 1em;
+	line-height: 1.4;
+}
+/*padding contenedor iconos*/
 
+#div_contenedor_iconos {
+    padding-bottom: 120px;
+}
 @media (min-width: 1366px){
 	.diagonal_cut::before {
 		content: '';
