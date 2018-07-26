@@ -74,7 +74,7 @@ p {
 }
 
 .bg_dark {
-	background: #000;
+	background: rgba(0, 0, 0, .7);
 	z-index: 2;
 }
 /* dropdown servicios */
@@ -90,18 +90,29 @@ p {
 }
 .img_brand_navbar{
 	width: 70px;
+	transition: all .3s;
+}
+
+.img_brand_navbar.resize{
+	width: 50px;
 }
 .div_menu_principal{
 	position: fixed;
 	top: 0;
 	z-index: 9;
 	transition: all .3s;
+	padding-bottom: 1em;
 }
 .collapse .navbar-collapse {
 	margin: 0 4em 2px 2px;
 }
 .nav_menu_principal{
 	padding-top: 50px;
+	transition: all .3s;
+}
+
+.bg_dark .nav_menu_principal{
+	padding-top: 30px;
 }
 .tag_enlace_menu{
 	padding: 12px 15px;

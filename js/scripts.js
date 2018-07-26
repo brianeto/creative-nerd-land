@@ -89,10 +89,12 @@ $(document).ready(function(){
             if ($(this).scrollTop() > 250) {
               // esta parte cambia el atributo "src" de la etiqueta "img" 
               $('.div_menu_principal').addClass('bg_dark');
+              $('.img_brand_navbar').addClass('resize');
              
             }
             if ($(this).scrollTop() < 250) {
                $('.div_menu_principal').removeClass('bg_dark');
+               $('.img_brand_navbar').removeClass('resize');
 
             }
       });
