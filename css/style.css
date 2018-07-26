@@ -924,15 +924,48 @@ footer{
 	
 }
 /*cotiza tu proyecto || right side*/
-.col-12.col-lg-6.right{
-	display: flex;
+.col-12.col-lg-6.right {
+    display: flex;
+    top: 15em;
+    max-width: 27%;
 	height: 50%;
-	top: 15em;
+	cursor: pointer;
 }
+
 .barra-izq {
-    background-color: red;
-    width: 10px;
-    height: 55px;
+    background-color: #a4141b;
+	height: 55px;
+	width: 0;
+	transition: width .3s;
+	transition-timing-function: linear;
+}
+.col-12.col-lg-6.right:hover .barra-izq {
+	width: 10px;
+}
+.tag_titulo_detalle_servicio.digital {
+    padding-left: 15px;
+}
+.tag_titulo_detalle_servicio span.digital {
+
+    color: #282828;
+
+}
+.fab.fa-telegram-plane.fa-3x {
+
+    background: #a4141b;
+    height: 50px;
+    border-radius: 50px;
+    width: 50px;
+    margin-left: 25px;
+    padding-top: 4px;
+
+}
+.fa-telegram-plane::before {
+
+    content: "\f3fe";
+    color: #ffff;
+    padding-left: 1px;
+
 }
 /*iconos sección fondo gris*/
 .grid-icon {

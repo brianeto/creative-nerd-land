@@ -55,8 +55,8 @@
 				<div class="barra-izq">
 
 				</div>
-				<h3 class="tag_titulo_detalle_servicio">
-					COTIZA TU <br> <span class="digital">PROYECTO</span>
+				<h3 class="tag_titulo_detalle_servicio digital">
+					COTIZA TU <br> PROYECTO
 				</h3>
 				<i class="fab fa-telegram-plane fa-3x"></i>
 			</div>
