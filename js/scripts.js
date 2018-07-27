@@ -99,6 +99,18 @@ $(document).ready(function(){
             }
       });
 
+      //SERVICIOS
+
+      $('.btn-services').click(function(){
+        $('.btn-services').removeClass('active');
+        $(this).addClass('active');
+
+        var category = $(this).attr('data-category');
+
+        $('.item-services').removeClass('able');
+        $('.item-services[id="'+category+'"]').addClass('able');
+      });
+
  });
 
 $(window).resize(function() {
@@ -164,62 +176,3 @@ var hT = $('.tag_numero_contadores').offset().top,
         });
     }
 }
-
-// disparador del slider Digital agency
-// $(window).scroll(startAnimation);
-// function startAnimation() {
-// var hT = $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').offset().top,
-//       hH = $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').outerHeight(),
-//       wH = $(window).height();
-//     if ($(window).scrollTop() > hT+hH-wH) {
-//         $(window).off("scroll", startAnimation);
-//         $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').scroll(function () {
-//             var animation_name = 'itemUno itemDos itemTres';
-//             $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').scroll(function(){
-//                 $(this).addClass(animation_name);
-//             });
-        
-//             $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').scroll(function(){
-//                 $(this).removeClass(animation_name);
-//             });
-//         });
-//     }
-// }
-
-// Activate or inactivate class and color in servicios section
-// TRAINING
-$('.div_item_servicios.position_relative.training').click(function() {
-    $('.col-12.col-lg-6.able').removeClass('able').addClass('disabled');
-    $('.col-12.col-lg-6.training').addClass('able');
-    $('.div_item_servicios.position_relative.active').removeClass('active');
-    $('.div_item_servicios.position_relative.training').addClass('active');
-    $('.triangulo_item_servicios.active').removeClass('active');
-    $('.triangulo_item_servicios.training').addClass('active');
-});
-// DIGITAL
-$('.div_item_servicios.position_relative.digital').click(function() {
-    $('.col-12.col-lg-6.able').removeClass('able').addClass('disabled');
-    $('.col-12.col-lg-6.digital').addClass('able');
-    $('.div_item_servicios.position_relative.active').removeClass('active');
-    $('.div_item_servicios.position_relative.digital').addClass('active');
-    $('.triangulo_item_servicios.active').removeClass('active');
-    $('.triangulo_item_servicios.digital').addClass('active');
-});
-// PROMOCIONAL
-$('.div_item_servicios.position_relative.promocional').click(function() {
-    $('.col-12.col-lg-6.able').removeClass('able').addClass('disabled');
-    $('.col-12.col-lg-6.promocional').addClass('able');
-    $('.div_item_servicios.position_relative.active').removeClass('active');
-    $('.div_item_servicios.position_relative.promocional').addClass('active');
-    $('.triangulo_item_servicios.active').removeClass('active');
-    $('.triangulo_item_servicios.promocional').addClass('active');
-});
-// PRINTING
-$('.div_item_servicios.position_relative.printing').click(function() {
-    $('.col-12.col-lg-6.able').removeClass('able').addClass('disabled');
-    $('.col-12.col-lg-6.printing').addClass('able');
-    $('.div_item_servicios.position_relative.active').removeClass('active');
-    $('.div_item_servicios.position_relative.printing').addClass('active');
-    $('.triangulo_item_servicios.active').removeClass('active');
-    $('.triangulo_item_servicios.printing').addClass('active');
-});

@@ -250,127 +250,72 @@ footer{
     display: none;
 }
 /*SERVICIOS */
-/*training*/
-.div_item_servicios.position_relative.training.active {
-	background-color: #902B89;
-}
-.triangulo_item_servicios.training.active {
-	border-top-color: #902B89;
-}
-.tag_titulo_detalle_servicio span.training {
-    color: #902B89;
+
+.contenedor_detalles_servicios {
+	padding-top: 3em;
 }
 
-/*digital*/
-.div_item_servicios.position_relative.digital.active {
-	background-color: #A4141B;
-}
-.triangulo_item_servicios.digital.active {
-	border-top-color: #A4141B;
-}
-.tag_titulo_detalle_servicio span.digital {
-    color: #A4141B;
+.contenedor_botones {
+	margin-top: 3em;
 }
 
-/*promocional*/
-.div_item_servicios.position_relative.promocional.active {
-	background-color: #0D91C1;
-}
-.triangulo_item_servicios.promocional.active {
-	border-top-color: #0D91C1;
-}
-.tag_titulo_detalle_servicio span.promocional {
-    color: #0D91C1;
-}
-/*printing*/
-.div_item_servicios.position_relative.printing.active {
-	background-color: #3CA630;
-}
-.triangulo_item_servicios.printing.active {
-	border-top-color: #3CA630;
-}
-.tag_titulo_detalle_servicio span.printing {
-    color: #3CA630;
-}
-/*disabled*/
-.div_item_servicios.position_relative.inactive {
+.contenedor_botones .boton{
 	background-color: #bcbcbc;
-}
-.triangulo_item_servicios.inactive {
-	border-top-color: #bcbcbc;
-}
-/*able or disabled info content*/
-.col-12.col-lg-6.disabled {
-    display: none;
-}
-.col-12.col-lg-6.able {
-    display: block;
-}
-
-#seccion_servicios{
-
-}
-.div_contenedor_items_servicios{
-	padding-top: 50px;
-}
-.div_item_servicios_out{
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	padding: 2em 3em;
+	border-radius: 15px;
+	transition: 0.4s all;
+	position: relative;
 	cursor: pointer;
 }
 
-.tag_nombre_servicios{
+.contenedor_botones .boton img {
+	width: 70%;
+}
+
+.contenedor_botones  h3 {
 	color: #282828;
 	font-weight: bold;
 	font-size: 1.2em;
 	margin: 0 auto;
 	margin-top: 30px;
 	margin-bottom: 10px;
+	position: relative;
 }
-.tag_rayita_nombre_servicios{
+
+.contenedor_botones .rayita{
+	width: 0px;
+	bottom: 0;
+	border: 3px solid transparent;
+	transition: all .3s;
+}
+
+.contenedor_botones .digital:hover .rayita, .contenedor_botones .active.digital .rayita{
 	width: 60px;
-	margin: 0 auto;
-	border-bottom: 3px solid;
-	border-color: transparent;
-	transition: 0.4s all;
+	border: 3px solid #A4141B;
 }
-.div_item_servicios_out:hover > .tag_rayita_nombre_servicios.digital{
-	border-color:#A4141B;
+
+.contenedor_botones .training:hover .rayita,.contenedor_botones .active.training .rayita {
+	width: 60px;
+	border: 3px solid #902B89;
 }
-.div_item_servicios_out:hover > .tag_rayita_nombre_servicios.training{
-	border-color: #902B89;
+
+.contenedor_botones .promocional:hover .rayita,.contenedor_botones .active.promocional .rayita{
+	width: 60px;
+	border: 3px solid #0D91C1;
 }
-.div_item_servicios_out:hover > .tag_rayita_nombre_servicios.promocional{
-	border-color: #0D91C1;
+
+.contenedor_botones .printing:hover .rayita,.contenedor_botones .active.printing .rayita{
+	width: 60px;
+	border: 3px solid #3CA630;
 }
-.div_item_servicios_out:hover > .tag_rayita_nombre_servicios.printing{
-	border-color: #3CA630;
-}
-.div_item_servicios{
-	background-color: #bcbcbc;
-	text-align: center;
-	margin: 0 auto;
-	width: 95%;
-	padding: 30px 0;
-	border-radius: 15px;
-	transition: 0.4s all;
-}
-/* items hover color*/
-.div_item_servicios.position_relative.digital:hover {
-	background-color:#A4141B;
-}
-.div_item_servicios.position_relative.training:hover {
-	background-color:#902B89;
-}
-.div_item_servicios.position_relative.promocional:hover {
-	background-color:#0D91C1;
-}
-.div_item_servicios.position_relative.printing:hover {
-	background-color:#3CA630;
-}
-.img_item_servicios{
-	width: 100px;
-	margin: 0 auto;
-}
-.triangulo_item_servicios{
+
+
+.contenedor_botones .boton:before {
+	content: '';
+	position: absolute;
 	width: 0; 
 	height: 0; 
 	border-top: 15px solid;
@@ -383,23 +328,48 @@ footer{
 	bottom: -.9em;
 	transition: 0.4s all;
 }
-.div_item_servicios:hover > .triangulo_item_servicios.digital{
+
+.contenedor_botones .digital .boton:hover:before, .contenedor_botones .digital.active .boton:before{
 	border-top-color: #A4141B;
 }
-.div_item_servicios:hover > .triangulo_item_servicios.training{
-	border-top-color: #8f2a88;
+
+.contenedor_botones .training .boton:hover:before, .contenedor_botones .training.active .boton:before{
+	border-top-color: #902B89;
 }
-.div_item_servicios:hover > .triangulo_item_servicios.promocional{
+.contenedor_botones .promocional .boton:hover:before, .contenedor_botones .promocional.active .boton:before{
 	border-top-color: #0D91C1;
 }
-.div_item_servicios:hover > .triangulo_item_servicios.printing{
+.contenedor_botones .printing .boton:hover:before, .contenedor_botones .printing.active .boton:before{
 	border-top-color: #3CA630;
+}
+
+
+.contenedor_botones .digital .boton:hover, .contenedor_botones .digital.active .boton{
+	background-color:#A4141B;
+}
+.contenedor_botones .training .boton:hover, .contenedor_botones .training.active .boton {
+	background-color:#902B89;
+}
+.contenedor_botones .promocional .boton:hover, .contenedor_botones .promocional.active .boton {
+	background-color:#0D91C1;
+}
+.contenedor_botones .printing .boton:hover, .contenedor_botones .printing.active .boton {
+	background-color:#3CA630;
+}
+
+
+
+.item-services {
+	display: none;
+}
+
+.able {
+    display: block;
 }
 
 .img_detalle_servicios{
 	width: 100%;
-	height: 100%;
-	object-fit: cover;
+
 }
 .tag_titulo_detalle_servicio{
 	color: #282828;

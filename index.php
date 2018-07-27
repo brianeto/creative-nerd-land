@@ -44,122 +44,161 @@
 		<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
 			NUESTROS <span>SERVICIOS</span>
 		</h2>
-		<div class="row div_contenedor_items_servicios">
-			<div class="col-3 text-center div_item_servicios_out digital">
-				<div class="div_item_servicios position_relative digital active">
-					<img class="img_item_servicios" src="<?php echo $path; ?>image/logo-blanco-2.png">
-					<div class="triangulo_item_servicios digital active"></div>
+		<div class="row justify-content-center text-center contenedor_botones">
+			<div class="col-12 col-md-3 digital active btn-services" data-category="digital">
+				<div class="boton">
+					<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
 				</div>
-				<p class="tag_nombre_servicios">Digital Agency</p>
-				<hr class="tag_rayita_nombre_servicios digital">
+				<h3>Digital Agency</h3>
+				<hr class="rayita">
 			</div>
-			<div class="col-3 text-center div_item_servicios_out training">
-				<div class="div_item_servicios position_relative training inactive">
-					<img class="img_item_servicios" src="<?php echo $path; ?>image/logo-blanco-2.png">
-					<div class="triangulo_item_servicios training inactive"></div>
+			<div class="col-12 col-md-3 training btn-services" data-category="training">
+				<div class="boton">
+					<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
 				</div>
-				<p class="tag_nombre_servicios">Training</p>
-				<hr class="tag_rayita_nombre_servicios training">				
+				<h3>Digital Agency</h3>
+				<hr class="rayita">
 			</div>
-			<div class="col-3 text-center div_item_servicios_out promocional">
-				<div class="div_item_servicios position_relative promocional inactive">
-					<img class="img_item_servicios" src="<?php echo $path; ?>image/logo-blanco-2.png">
-					<div class="triangulo_item_servicios promocional inactive"></div>
+			<div class="col-12 col-md-3 promocional btn-services" data-category="promocional">
+				<div class="boton">
+					<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
 				</div>
-				<p class="tag_nombre_servicios">Promocional</p>
-				<hr class="tag_rayita_nombre_servicios promocional">				
+				<h3>Digital Agency</h3>
+				<hr class="rayita">
 			</div>
-			<div class="col-3 text-center div_item_servicios_out printing">
-				<div class="div_item_servicios position_relative printing inactive">
-					<img class="img_item_servicios" src="<?php echo $path; ?>image/logo-blanco-2.png">
-					<div class="triangulo_item_servicios printing inactive"></div>
+			<div class="col-12 col-md-3 printing btn-services" data-category="printing">
+				<div class="boton">
+					<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
 				</div>
-				<p class="tag_nombre_servicios">Printing</p>
-				<hr class="tag_rayita_nombre_servicios printing">					
+				<h3>Digital Agency</h3>
+				<hr class="rayita">
 			</div>
 		</div>
-		<div class="row div_contenedor_detalles_servicios">
-			<div class="col-12  col-lg-6">
-				<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/bg-quienes-somos.png">
+
+		<!--CONTENEDORES SERVICIOS-->
+		<div class="row contenedor_detalles_servicios">
+			<div class="col-12 digital item-services able" id="digital">
+				<div class="row align-items-center">
+					<div class="col-12  col-lg-6">
+						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-digital-agency.png">
+					</div>
+					<div class="col-12 col-lg-6">
+						<h3 class="tag_titulo_detalle_servicio">
+							Creative Nerd <span class="digital">Digital Agency</span>
+						</h3>
+						<p class="tag_descripcion_detalle_servicio">
+							Somos una marca que nace con el fin de solucionar las necesidades de los empresarios de promocionar 
+							sus productos y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos 
+							corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i><a href="#">Desarrollo web</a>
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i><a href="#">Desarrollo de apps</a>
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i><a href="#">Diseño gráfico</a>
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i><a href="#">Diseño multimedia</a>
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i><a href="#">Social media</a>
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i><a href="#">Diseño industrial</a>
+						</p>
+						<div class="div_botones_detalle_servicio">
+							<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
+							<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+						</div>
+					</div>
+				</div>	
 			</div>
-			<div class="col-12 col-lg-6 digital able">
-				<h3 class="tag_titulo_detalle_servicio">
-					Creative Nerd <span class="digital">Digital Agency</span>
-				</h3>
-				<p class="tag_descripcion_detalle_servicio">
-					Somos una marca que nace con el fin de solucionar las necesidades de los empresarios de promocionar 
-					sus productos y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos 
-					corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
-				</p>
-				<p class="tag_caracteristicas_detalle_servicio">
-					<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-				</p>
-				<p class="tag_caracteristicas_detalle_servicio">
-					<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-				</p>
-				<div class="div_botones_detalle_servicio">
-					<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
-					<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+			
+
+			<div class="col-12 training item-services" id="training">
+				<div class="row align-items-center">
+					<div class="col-12  col-lg-6">
+						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-training.png">
+					</div>
+
+					<div class="col-12 col-lg-6">
+						<h3 class="tag_titulo_detalle_servicio">
+							Creative Nerd <span class="training">Training</span>
+						</h3>
+						<p class="tag_descripcion_detalle_servicio">
+							El conocimiento adquirido en cada una de nuestras áreas de interés ayuda a que muchas personas se interesen y es por ello que creamos una unidad en la cual podamos ofrecer capacitaciones de cada uno de los servicios que ofrecemos.
+						</p>
+						<!-- ITEMS DETALLE DE SERVICIO
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+						</p>
+						-->
+						<div class="div_botones_detalle_servicio">
+							<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
+							<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-12 col-lg-6 training disabled">
-				<h3 class="tag_titulo_detalle_servicio">
-					Creative Nerd <span class="training">Training</span>
-				</h3>
-				<p class="tag_descripcion_detalle_servicio">
-					Somos una marca que nace con el fin de solucionar las necesidades de los empresarios de promocionar 
-					sus productos y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos 
-					corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
-				</p>
-				<p class="tag_caracteristicas_detalle_servicio">
-					<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-				</p>
-				<p class="tag_caracteristicas_detalle_servicio">
-					<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-				</p>
-				<div class="div_botones_detalle_servicio">
-					<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
-					<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+
+			<div class="col-12 promocional item-services " id="promocional">
+				<div class="row align-items-center">
+					<div class="col-12  col-lg-6">
+						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/promocional.png">
+					</div>
+					<div class="col-12 col-lg-6 promocional disabled">
+						<h3 class="tag_titulo_detalle_servicio">
+							Creative Nerd <span class="promocional">Promocional</span>
+						</h3>
+						<p class="tag_descripcion_detalle_servicio">
+							Material promocional para las empresas que desean promocionar sus productos o servicios a través del uso de elementos publicitarios que lleven la marca de su compañía entregándolo a clientes interno y cliente externo en eventos, ferias, etc..
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+						</p>
+						<div class="div_botones_detalle_servicio">
+							<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
+							<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-12 col-lg-6 promocional disabled">
-				<h3 class="tag_titulo_detalle_servicio">
-					Creative Nerd <span class="promocional">Promocional</span>
-				</h3>
-				<p class="tag_descripcion_detalle_servicio">
-					Somos una marca que nace con el fin de solucionar las necesidades de los empresarios de promocionar 
-					sus productos y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos 
-					corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
-				</p>
-				<p class="tag_caracteristicas_detalle_servicio">
-					<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-				</p>
-				<p class="tag_caracteristicas_detalle_servicio">
-					<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-				</p>
-				<div class="div_botones_detalle_servicio">
-					<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
-					<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
-				</div>
-			</div>
-			<div class="col-12 col-lg-6 printing disabled">
-				<h3 class="tag_titulo_detalle_servicio">
-					Creative Nerd <span class="printing">Printing</span>
-				</h3>
-				<p class="tag_descripcion_detalle_servicio">
-					Somos una marca que nace con el fin de solucionar las necesidades de los empresarios de promocionar 
-					sus productos y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos 
-					corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
-				</p>
-				<p class="tag_caracteristicas_detalle_servicio">
-					<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-				</p>
-				<p class="tag_caracteristicas_detalle_servicio">
-					<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-				</p>
-				<div class="div_botones_detalle_servicio">
-					<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
-					<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+			
+			<div class="col-12 printing item-services" id="printing">
+				<div class="row align-items-center">
+					<div class="col-12  col-lg-6">
+						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-printing.png">
+					</div>
+
+					<div class="col-12 col-lg-6 printing">
+						<h3 class="tag_titulo_detalle_servicio">
+							Creative Nerd <span class="printing">Printing</span>
+						</h3>
+						<p class="tag_descripcion_detalle_servicio">
+							Somos una marca que nace con el fin de solucionar las necesidades de los empresarios de promocionar 
+							sus productos y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos 
+							corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+						</p>
+						<p class="tag_caracteristicas_detalle_servicio">
+							<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+						</p>
+						<div class="div_botones_detalle_servicio">
+							<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
+							<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
