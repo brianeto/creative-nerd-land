@@ -56,21 +56,21 @@
 				<div class="boton">
 					<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
 				</div>
-				<h3>Digital Agency</h3>
+				<h3>Training</h3>
 				<hr class="rayita">
 			</div>
 			<div class="col-12 col-md-3 promocional btn-services" data-category="promocional">
 				<div class="boton">
 					<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
 				</div>
-				<h3>Digital Agency</h3>
+				<h3>Promocional</h3>
 				<hr class="rayita">
 			</div>
 			<div class="col-12 col-md-3 printing btn-services" data-category="printing">
 				<div class="boton">
 					<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
 				</div>
-				<h3>Digital Agency</h3>
+				<h3>Printing</h3>
 				<hr class="rayita">
 			</div>
 		</div>
@@ -78,7 +78,7 @@
 		<!--CONTENEDORES SERVICIOS-->
 		<div class="row contenedor_detalles_servicios">
 			<div class="col-12 digital item-services able" id="digital">
-				<div class="row align-items-center">
+				<div class="row">
 					<div class="col-12  col-lg-6">
 						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-digital-agency.png">
 					</div>
@@ -119,7 +119,7 @@
 			
 
 			<div class="col-12 training item-services" id="training">
-				<div class="row align-items-center">
+				<div class="row">
 					<div class="col-12  col-lg-6">
 						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-training.png">
 					</div>
@@ -148,7 +148,7 @@
 			</div>
 
 			<div class="col-12 promocional item-services " id="promocional">
-				<div class="row align-items-center">
+				<div class="row">
 					<div class="col-12  col-lg-6">
 						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/promocional.png">
 					</div>
@@ -174,7 +174,7 @@
 			</div>
 			
 			<div class="col-12 printing item-services" id="printing">
-				<div class="row align-items-center">
+				<div class="row">
 					<div class="col-12  col-lg-6">
 						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-printing.png">
 					</div>

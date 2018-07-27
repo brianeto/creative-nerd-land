@@ -28,26 +28,26 @@
 							</a>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 							
-									<a class="dropdown-item digital" href="#">
-										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-6 col-sm-1  img-fluid">
+									<a class="dropdown-item digital" href="digital-agency.php">
+										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1">
 										<span class="drop-right">Digital Agency</span>	
 									</a>
 								
 							
 									<a class="dropdown-item training" href="#">
-										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-6 col-sm-1 img-fluid">
+										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid">
 										<span class="drop-right">Training</span>	
 									</a>
 								
 							
 									<a class="dropdown-item promocional" href="#">
-										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-6 col-sm-1 img-fluid">
+										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid">
 										<span class="drop-right">Promocional</span>	
 									</a>
 								
 							
 									<a class="dropdown-item printing" href="#">
-										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-6 col-sm-1 img-fluid">
+										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid">
 										<span class="drop-right">Printing</span>	
 									</a>
 								

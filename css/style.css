@@ -67,11 +67,27 @@ p {
 .dropdown-item {
     padding: 0;
 }
-.drop-left {
-	background: #a4141b;
-	width: 63px;
-	height: 40px;
+
+.dropdown-item .drop-left{
+	padding: 10px;
 }
+
+.dropdown-item.digital .drop-left {
+	background: #A4141B;
+}
+
+.dropdown-item.training .drop-left {
+	background: #902B89;
+}
+
+.dropdown-item.promocional .drop-left {
+	background: #0D91C1;
+}
+
+.dropdown-item.printing .drop-left {
+	background: #3CA630;
+}
+
 
 .bg_dark {
 	background: rgba(0, 0, 0, .7);
@@ -367,6 +383,7 @@ footer{
     display: block;
 }
 
+
 .img_detalle_servicios{
 	width: 100%;
 
@@ -377,9 +394,135 @@ footer{
 	font-weight: bold;
 	margin-bottom: 20px;
 }
-.tag_titulo_detalle_servicio span{
-	color: #8f2a88;
+
+.tag_enlace_servicios_2{
+	background-color: white;
+	border: 2px solid;
+	font-size: 1.2em;
+	border-radius: 14px;
 }
+.tag_enlace_servicios_2:hover{
+	color: white !important;
+}
+
+/*Digital*/
+.tag_titulo_detalle_servicio span.digital {
+	color: #A4141B !important;
+}
+
+.digital .tag_caracteristicas_detalle_servicio i{
+	color: #A4141B;
+	margin-right: 4px;
+}
+
+.digital .tag_enlace_servicios{
+	background-color: #A4141B;
+	border-color: #A4141B;
+}
+.digital .tag_enlace_servicios:hover{
+	background-color: white;
+	color: #A4141B;
+}
+
+.digital .tag_enlace_servicios_2{
+	color: #A4141B;
+	border-color: #A4141B;
+}
+
+.digital .tag_enlace_servicios_2:hover{
+	background-color: #A4141B;
+}
+
+/*Training*/
+
+.tag_titulo_detalle_servicio span.training {
+	color: #902B89 !important;
+}
+
+.training .tag_caracteristicas_detalle_servicio i{
+	color: #902B89;
+	margin-right: 4px;
+}
+
+.training .tag_enlace_servicios{
+	background-color: #902B89;
+	border-color: #902B89;
+}
+.training .tag_enlace_servicios:hover{
+	background-color: white;
+	color: #902B89;
+}
+
+.training .tag_enlace_servicios_2{
+	color: #902B89;
+	border-color: #902B89;
+}
+
+.training .tag_enlace_servicios_2:hover{
+	background-color: #902B89;
+}
+
+/*Promocional*/
+
+.tag_titulo_detalle_servicio span.promocional {
+	color: #0D91C1 !important;
+}
+
+.promocional .tag_caracteristicas_detalle_servicio i{
+	color: #0D91C1;
+	margin-right: 4px;
+}
+
+.promocional .tag_enlace_servicios{
+	background-color: #0D91C1;
+	border-color: #0D91C1;
+}
+.promocional .tag_enlace_servicios:hover{
+	background-color: white;
+	color: #0D91C1;
+}
+
+.promocional .tag_enlace_servicios_2{
+	color: #0D91C1;
+	border-color: #0D91C1;
+}
+
+.promocional .tag_enlace_servicios_2:hover{
+	background-color: #0D91C1;
+}
+
+
+/*Printing*/
+
+.tag_titulo_detalle_servicio span.printing {
+	color: #3CA630 !important;
+}
+
+.printing .tag_caracteristicas_detalle_servicio i{
+	color: #3CA630;
+	margin-right: 4px;
+}
+
+.printing .tag_enlace_servicios{
+	background-color: #3CA630;
+	border-color: #3CA630;
+}
+.printing .tag_enlace_servicios:hover{
+	background-color: white;
+	color: #3CA630;
+}
+
+.printing .tag_enlace_servicios_2{
+	color: #3CA630;
+	border-color: #3CA630;
+}
+
+.printing .tag_enlace_servicios_2:hover{
+	background-color: #3CA630;
+}
+
+
+
 .tag_descripcion_detalle_servicio{
 	color: #545454;
 	text-align: justify;
@@ -394,38 +537,33 @@ footer{
 	font-size: 0.9em;
 	margin-bottom: 9px;
 }
-.tag_caracteristicas_detalle_servicio i{
-	color: #8f2a88;
-	margin-right: 4px;
+
+.tag_caracteristicas_detalle_servicio a{
+	color: #545454;
+	font-family: 'WorkSans', sans-serif;
+	font-weight: bold;
+	line-height: 30px;
+	text-transform: capitalize;
 }
+
+.tag_caracteristicas_detalle_servicio a:hover{
+	text-decoration: none;
+	opacity: .7;
+}
+
 .div_botones_detalle_servicio{
 	text-align: right;
 	margin-top: 20px;
 }
 .tag_enlace_servicios{
-	background-color: #8f2a88;
 	color: white;
 	border: 2px solid;
-	border-color: #8f2a88;
 	font-size: 1.2em;
 	border-radius: 14px;
 }
-.tag_enlace_servicios:hover{
-	background-color: white;
-	color: #8f2a88;
-}
-.tag_enlace_servicios_2{
-	background-color: white;
-	color: #8f2a88;
-	border: 2px solid;
-	border-color: #8f2a88;
-	font-size: 1.2em;
-	border-radius: 14px;
-}
-.tag_enlace_servicios_2:hover{
-	background-color: #8f2a88;
-	color: white;
-}
+
+
+
 
 #seccion_quienes_somos{
 	background-image: url('../image/bg-quienes-somos-shadow.png');
