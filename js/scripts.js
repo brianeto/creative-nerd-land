@@ -144,7 +144,7 @@ function enviarContacto(){
 }
 
 /*FUNCIONES*/ 
-// disparador del contador sección QUIENES SOMOS
+// disparador del contador sección QUIENES SOMOS del Home
 $(window).scroll(startCounter);
 function startCounter() {
 var hT = $('.tag_numero_contadores').offset().top,
@@ -164,6 +164,28 @@ var hT = $('.tag_numero_contadores').offset().top,
         });
     }
 }
+
+// disparador del slider Digital agency
+// $(window).scroll(startAnimation);
+// function startAnimation() {
+// var hT = $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').offset().top,
+//       hH = $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').outerHeight(),
+//       wH = $(window).height();
+//     if ($(window).scrollTop() > hT+hH-wH) {
+//         $(window).off("scroll", startAnimation);
+//         $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').scroll(function () {
+//             var animation_name = 'itemUno itemDos itemTres';
+//             $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').scroll(function(){
+//                 $(this).addClass(animation_name);
+//             });
+        
+//             $('.tag_titulo_secciones.tag_titulo_secciones_black.text-center').scroll(function(){
+//                 $(this).removeClass(animation_name);
+//             });
+//         });
+//     }
+// }
+
 // Activate or inactivate class and color in servicios section
 // TRAINING
 $('.div_item_servicios.position_relative.training').click(function() {

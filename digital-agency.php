@@ -48,9 +48,23 @@
 			DISEÑO <span>WEB</span>
 		</h2>
 		<div class="row div_contenedor_detalles_servicios">
-			<div class="col-12  col-lg-6">
-				<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-gallery.png">
+
+			<div class="row align-items-center digital">
+				<div class="col-md-8 digital">
+					<div class="carrusel">
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+					</div>
+				</div>
 			</div>
+		
 			<div class="col-12 col-lg-6 right">
 				<div class="barra-izq">
 
@@ -91,15 +105,27 @@
 			DESARROLLO DE <span>APPS</span>
 		</h2>
 		<div class="row div_contenedor_detalles_servicios">
-			<div class="col-12  col-lg-6">
-				<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-gallery.png">
+			<div class="row align-items-center digital">
+				<div class="col-md-8 digital">
+					<div class="carrusel">
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="col-12 col-lg-6 right">
 				<div class="barra-izq">
 
 				</div>
-				<h3 class="tag_titulo_detalle_servicio">
-					COTIZA TU <br> <span class="digital">PROYECTO</span>
+				<h3 class="tag_titulo_detalle_servicio digital">
+					COTIZA TU <br> PROYECTO
 				</h3>
 				<i class="fab fa-telegram-plane fa-3x"></i>
 			</div>
@@ -130,14 +156,26 @@
 			DISEÑO <span>GRÁFICO</span>
 		</h2>
 		<div class="row contenedor_slider">
-			<div class="col-12  col-lg-6">
-				<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-gallery.png">
+			<div class="row align-items-center digital">
+				<div class="col-md-8 digital">
+					<div class="carrusel">
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="col-12 col-lg-6 right">
 				<div class="barra-izq">
 
 				</div>
-				<h3 class="tag_titulo_detalle_servicio">
+				<h3 class="tag_titulo_detalle_servicio digital">
 					COTIZA TU <br> <span class="digital">PROYECTO</span>
 				</h3>
 				<i class="fab fa-telegram-plane fa-3x"></i>
@@ -179,14 +217,26 @@
 			MARKETING <span>DIGITAL</span>
 		</h2>
 		<div class="row contenedor_slider">
-			<div class="col-12  col-lg-6">
-				<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-gallery.png">
+			<div class="row align-items-center digital">
+				<div class="col-md-8 digital">
+					<div class="carrusel">
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="col-12 col-lg-6 right">
 				<div class="barra-izq">
 
 				</div>
-				<h3 class="tag_titulo_detalle_servicio">
+				<h3 class="tag_titulo_detalle_servicio digital">
 					COTIZA TU <br> <span class="digital">PROYECTO</span>
 				</h3>
 				<i class="fab fa-telegram-plane fa-3x"></i>
@@ -232,14 +282,26 @@
 			DISEÑO <span>INDUSTRIAL</span>
 		</h2>
 		<div class="row contenedor_slider">
-			<div class="col-12  col-lg-6">
-				<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-gallery.png">
+			 <div class="row align-items-center digital">
+				<div class="col-md-8 digital">
+					<div class="carrusel">
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+						<div class="item-carrusel">
+							<img src="image/mux1.png" alt="" class="img-fluid">
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="col-12 col-lg-6 right">
 				<div class="barra-izq">
 
 				</div>
-				<h3 class="tag_titulo_detalle_servicio">
+				<h3 class="tag_titulo_detalle_servicio digital">
 					COTIZA TU <br> <span class="digital">PROYECTO</span>
 				</h3>
 				<i class="fab fa-telegram-plane fa-3x"></i>
