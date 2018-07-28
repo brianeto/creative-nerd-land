@@ -34,8 +34,8 @@
 	include('head.php');
 ?>
 
-<section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut digital">
-	<img class="d-block w-100" src="<?php echo $path; ?>image/portada-home.png">
+<section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut opacity">
+	<img class="d-block w-100" src="<?php echo $path; ?>image/bg-digital.png">
 		<h1 class="tag_titulo_secciones tag_titulo_secciones_black text-center titulo-banner">
 			Digital <span>Agency</span>
 		</h1>
@@ -77,7 +77,7 @@
 		</div>
 	</div>
 </section>
-<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
+<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut opacity bg-imagen opacity opacity-red">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
 				<div class="grid-icon col-2">
@@ -132,7 +132,7 @@
 		</div>
 	</div>
 </section>
-<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
+<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
 				<div class="grid-icon col-2">
@@ -183,7 +183,7 @@
 		</div>
 	</div>
 </section>
-<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
+<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-red">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
 				<div class="grid-icon col-2">
@@ -244,7 +244,7 @@
 		</div>
 	</div>
 </section>
-<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
+<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
 				<div class="grid-icon col-2">
@@ -309,7 +309,7 @@
 		</div>
 	</div>
 </section>
-<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut">
+<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-red">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
 				<div class="grid-icon col-2">

@@ -11,7 +11,7 @@
 	<header class="header">			
 		<div class="container-fluid div_menu_principal">	
 			<nav class="navbar navbar-expand-lg container nav_menu_principal">
-				<a class="navbar-brand fondo_img_brand_navbar bg_blanco" href="/">
+				<a class="navbar-brand fondo_img_brand_navbar bg_blanco" href="index.php">
 					<img class="img_brand_navbar" src="<?php echo $path; ?>image/logo.png">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a class="tag_enlace_menu" href="/">HOME</a>
+							<a class="tag_enlace_menu" href="index.php">HOME</a>
 						</li>
 						<div class="dropdown">
 							<a class="dropdown-toggle tag_enlace_menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,19 +34,19 @@
 									</a>
 								
 							
-									<a class="dropdown-item training" href="#">
+									<a class="dropdown-item training" href="training.php">
 										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid">
 										<span class="drop-right">Training</span>	
 									</a>
 								
 							
-									<a class="dropdown-item promocional" href="#">
+									<a class="dropdown-item promocional" href="promocional.php">
 										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid">
 										<span class="drop-right">Promocional</span>	
 									</a>
 								
 							
-									<a class="dropdown-item printing" href="#">
+									<a class="dropdown-item printing" href="printing.php">
 										<img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid">
 										<span class="drop-right">Printing</span>	
 									</a>

@@ -90,8 +90,40 @@ p {
 
 
 .bg_dark {
-	background: rgba(0, 0, 0, .7);
+	background: rgba(0, 0, 0, .4);
 	z-index: 2;
+}
+/* imagen cover */
+.bg-imagen {
+	background-size: cover;
+}
+/*OPACIDAD BACKGROUND */
+.opacity{
+	position: relative;
+}
+
+.opacity h1{
+	z-index: 2;
+}
+
+.opacity:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.opacity-red.opacity:after {
+	background-color: rgba(165, 20, 28, .4);
+}
+.opacity-blue.opacity:after {
+	background-color: rgba(13, 145, 193, .4);
+}
+.opacity-green.opacity:after {
+	background-color: rgba(60, 166, 48, .4);
 }
 /* dropdown servicios */
 .fondo_img_brand_navbar{
@@ -434,7 +466,9 @@ footer{
 }
 
 /*Training*/
-
+.tag_titulo_secciones.tag_titulo_secciones_black.text-center.titulo-banner.training {
+	left: 45%;
+}
 .tag_titulo_detalle_servicio span.training {
 	color: #902B89 !important;
 }
@@ -493,7 +527,9 @@ footer{
 
 
 /*Printing*/
-
+.titulo-banner.printing {
+	left: 45%;
+}
 .tag_titulo_detalle_servicio span.printing {
 	color: #3CA630 !important;
 }
@@ -614,8 +650,7 @@ footer{
 	position: relative;
 }
 #seccion_diseño_web_iconos {
-	background-color: #282828;
-	background-image: src('image/portada-home.png');
+	background-image: url('../image/branding-promocional.jpeg');
 }
 #div_contenedor_testimonios{
 	margin-top: 35px;
@@ -1212,13 +1247,69 @@ box-shadow: 0px 9px 10px -5px black;
 	margin-top: 20px;
 	font-size: 1em;
 	line-height: 1.4;
+	font-weight: bold;
 }
 /*padding contenedor iconos*/
 
 #div_contenedor_iconos {
     padding-bottom: 7%;
 	padding-top: 6%;
+	position: relative;
+	z-index: 3;
 }
+
+/*TRAINING PAGE*/
+.tag_titulo_secciones.tag_titulo_secciones_black.text-center.training span {
+	color: #902B89;
+}
+.barra-izq.training {
+	background-color: #902B89;
+}
+.fab.fa-telegram-plane.fa-3x.training {
+	background: #902B89;
+}
+.col-12.col-lg-6.right.training {
+    display: flex;
+    position: absolute;
+    top: 112%;
+    max-width: 73%;
+    cursor: pointer;
+    left: 0;
+}
+/*PROMOCIONAL PAGE*/
+.titulo-banner.promocional {
+	left: 43%;
+}
+.fab.fa-telegram-plane.fa-3x.promocional {
+	background:#0D91C1;
+}
+.tag_titulo_secciones.tag_titulo_secciones_black.text-center.promocional span {
+	color: #0D91C1;
+}
+.barra-izq.promocional {
+	background-color: #0D91C1;
+}
+.contenedor_detalles_servicios {
+    padding-top: 10em;
+    padding-bottom: 4em;
+}
+.img_detalle_servicios.promocional {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: -7em;
+}
+/*PRINTING PAGE*/
+.fab.fa-telegram-plane.fa-3x.printing {
+	background:#3CA630;
+}
+.tag_titulo_secciones.tag_titulo_secciones_black.text-center.printing span {
+	color: #3CA630;
+}
+.barra-izq.printing {
+	background-color: #3CA630;
+}
+
 @media (min-width: 1366px){
 	.diagonal_cut::before {
 		content: '';
@@ -1229,6 +1320,7 @@ box-shadow: 0px 9px 10px -5px black;
 		bottom: -80px;
 		right: -10px;
 		transform: rotate(-3deg);
+		z-index: 2;
 	}
 	.diagonal_cut_footer::before {
 		content: '';

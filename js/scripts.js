@@ -83,7 +83,7 @@ $(document).ready(function(){
 
 
      //Menu sroll
-
+        
       $(window).on('scroll', function(){
          // aca se pregunta si el scroll se movio de pa bajo.
             if ($(this).scrollTop() > 250) {
@@ -176,3 +176,4 @@ var hT = $('.tag_numero_contadores').offset().top,
         });
     }
 }
+

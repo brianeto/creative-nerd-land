@@ -35,7 +35,7 @@
 ?>
 
 <section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut">
-	<img class="d-block w-100" src="<?php echo $path; ?>image/portada-home.png">
+	<img class="d-block w-100" src="<?php echo $path; ?>image/portada-home.jpeg">
 	<div class="div_diagonal div_diagonal_white"></div>
 </section>
 
