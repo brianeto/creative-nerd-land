@@ -81,16 +81,16 @@
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
 				<div class="grid-icon col-2">
-					<img class="img-fluid" src="image/printing-01.png" alt="">
-					<h5 class="grid-icon text">Páginas web</h5>
+					<img class="img-fluid" src="image/quality.png" alt="">
+					<h5 class="grid-icon text">Materiales de Alta Calidad</h5>
 				</div>
 				<div class="grid-icon col-2">
-					<img class="img-fluid" src="image/printing-01.png" alt="">
-					<h5 class="grid-icon text">Landing Pages</h5>
+					<img class="img-fluid" src="image/price-tag.png" alt="">
+					<h5 class="grid-icon text">Precios Competitivos</h5>
 				</div>
 				<div class="grid-icon col-2">
-					<img class="img-fluid" src="image/printing-01.png" alt="">
-					<h5 class="grid-icon text big">Comercio<br>Electrónico</h5> 
+					<img class="img-fluid" src="image/running-man.png" alt="">
+					<h5 class="grid-icon text">Respuesta Inmediata</h5> 
 				</div>
 			</div>
 		</div>

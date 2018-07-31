@@ -80,20 +80,20 @@
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
 				<div class="grid-icon col-2">
-					<img class="img-fluid" src="image/printing-01.png" alt="">
-					<h5 class="grid-icon text">Páginas web</h5>
+					<img class="img-fluid" src="image/id-card.png" alt="">
+					<h5 class="grid-icon text">Tarjetas de Presentación</h5>
 				</div>
 				<div class="grid-icon col-2">
-					<img class="img-fluid" src="image/printing-01.png" alt="">
-					<h5 class="grid-icon text">Landing Pages</h5>
+					<img class="img-fluid" src="image/printer.png" alt="">
+					<h5 class="grid-icon text">Impresión Digital</h5>
 				</div>
 				<div class="grid-icon col-2">
-					<img class="img-fluid" src="image/printing-01.png" alt="">
-					<h5 class="grid-icon text big">Comercio<br>Electrónico</h5> 
+					<img class="img-fluid" src="image/menu.png" alt="">
+					<h5 class="grid-icon text">Publicidad Impresa</h5> 
 				</div>
 				<div class="grid-icon col-2">
-					<img class="img-fluid" src="image/printing-01.png" alt="">
-					<h5 class="grid-icon text big">Comercio<br>Electrónico</h5> 
+					<img class="img-fluid" src="image/shopping-bag.png" alt="">
+					<h5 class="grid-icon text">Bolsas y Empaques</h5> 
 				</div>
 			</div>
 		</div>
