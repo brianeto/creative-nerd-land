@@ -81,27 +81,27 @@
 	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut opacity bg-imagen opacity opacity-red">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#exampleModal">
+					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#paginasWebModal">
 						<img class="img-fluid" src="image/launch.svg" alt="">
 						<h5 class="grid-icon text">Páginas web</h5>
 					</div>
-					<div class="grid-icon col-2 btn">
+					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#landingPagesModal">
 						<img class="img-fluid" src="image/pagelanding.svg" alt="">
 						<h5 class="grid-icon text">Landing Pages</h5>
 					</div>
-					<div class="grid-icon col-2">
+					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#comercioElectronicoModal">
 						<img class="img-fluid" src="image/smartphone-comercio.svg" alt="">
-						<h5 class="grid-icon text big">Comercio<br>Electrónico</h5> 
+						<h5 class="grid-icon text">Comercio Electrónico</h5> 
 					</div>
-					<div class="grid-icon col-2">
+					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#soporteAdministracionModal">
 						<img class="img-fluid" src="image/support-administracion.svg" alt="">
-						<h5 class="grid-icon text big">Soporte y administración<br>de sitios web</h5>
+						<h5 class="grid-icon text">Soporte y administración de sitios web</h5>
 					</div>
 				</div>
 			</div>
 	</section>
 	<!-- Modal Paginas web -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" id="paginasWebModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -122,11 +122,53 @@
 		</div>
 	</div>
 	<!-- Modal Landing Pages -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" id="landingPagesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title" id="exampleModalLabel">Landing Pages</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+						quas dolore impedit? Ad dolore veritatis sit tenetur.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Comercio Electronico -->
+	<div class="modal fade" id="comercioElectronicoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Comercio Electronico</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+						quas dolore impedit? Ad dolore veritatis sit tenetur.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Soporte y Administración -->
+	<div class="modal fade" id="soporteAdministracionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Soporte y Administración de sitios web</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 					</button>
