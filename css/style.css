@@ -60,9 +60,7 @@ p {
 	color: #a4141b;
 }
 /*Head*/
-#digital.img_brand_navbar{
-	background-image: none;
-}
+
 .dropdown-menu.show {
 	width: 220px;
 	padding: 0;
@@ -1217,23 +1215,31 @@ box-shadow: 0px 9px 10px -5px black;
     color: #282828;
 
 }
-.fab.fa-telegram-plane.fa-3x {
-
-    background: #a4141b;
+/*Icono avion de papel*/
+.container-icon-place {
     height: 50px;
     border-radius: 50px;
     width: 50px;
     margin-left: 25px;
     padding-top: 4px;
-
 }
-.fa-telegram-plane::before {
-
-    content: "\f3fe";
-    color: #ffff;
-    padding-left: 1px;
-
+.container-icon-place.digital-icon {
+    background: #a4141b;
 }
+.container-icon-place.training-icon {
+    background: #902B89;
+}
+.container-icon-place.promocional-icon {
+    background: #0D91C1;
+}
+.container-icon-place.printing-icon {
+    background: #3CA630;
+}
+.paper-plane {
+	width: 47px;
+	padding: 4px;
+}
+
 /*iconos sección fondo gris*/
 .grid-icon {
 	overflow: hidden;
@@ -1265,6 +1271,12 @@ box-shadow: 0px 9px 10px -5px black;
 .tag_titulo_secciones.tag_titulo_secciones_black.text-center.training span {
 	color: #902B89;
 }
+.tag_descripcion_detalle_servicio {
+    color: #545454;
+    line-height: 30px;
+    font-size: 1em;
+    text-align: justify;
+}
 .barra-izq.training {
 	background-color: #902B89;
 }
@@ -1277,7 +1289,8 @@ box-shadow: 0px 9px 10px -5px black;
     top: 112%;
     max-width: 73%;
     cursor: pointer;
-    left: 0;
+	left: 0;
+	margin-left: 1em;
 }
 /*PROMOCIONAL PAGE*/
 .titulo-banner.promocional {
@@ -1293,14 +1306,14 @@ box-shadow: 0px 9px 10px -5px black;
 	background-color: #0D91C1;
 }
 .contenedor_detalles_servicios {
-    padding-top: 10em;
-    padding-bottom: 4em;
+    padding-top: 5em;
 }
 .img_detalle_servicios.promocional {
     width: 100%;
     position: absolute;
     z-index: 2;
-    top: -7em;
+    top: -10em;
+	padding: 2em;
 }
 /*PRINTING PAGE*/
 .fab.fa-telegram-plane.fa-3x.printing {
@@ -1311,6 +1324,13 @@ box-shadow: 0px 9px 10px -5px black;
 }
 .barra-izq.printing {
 	background-color: #3CA630;
+}
+.img_detalle_servicios.printing {
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	top: -13em;
+	padding: 4em;
 }
 
 @media (min-width: 1366px){

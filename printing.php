@@ -54,7 +54,7 @@
 			<div class="col-12 digital item-services able" id="digital">
 				<div class="row align-items-center">
 					<div class="col-12  col-lg-6">
-						<img class="img_detalle_servicios promocional" src="<?php echo $path; ?>image/mockup-digital-agency.png">
+						<img class="img_detalle_servicios printing" src="<?php echo $path; ?>image/mockup-card.png">
 					</div>
 					<div class="col-12 col-lg-6">
 						<p class="tag_descripcion_detalle_servicio">
@@ -68,7 +68,9 @@
 							<h3 class="tag_titulo_detalle_servicio digital">
 								COTIZA TUS <br> IMPRESOS
 							</h3>
-							<i class="fab fa-telegram-plane fa-3x printing"></i>
+							<div class="container-icon-place printing-icon">
+								<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+							</div>
 						</div>
 					</div>
 				</div>	
@@ -79,27 +81,109 @@
 <section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-green">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
-				<div class="grid-icon col-2">
+				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#tarjetasPresentacionModal">
 					<img class="img-fluid" src="image/id-card.png" alt="">
-					<h5 class="grid-icon text">Tarjetas de Presentación</h5>
+					<h5 class="grid-icon text">Tarjetas de<br>Presentación</h5>
 				</div>
-				<div class="grid-icon col-2">
+				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#impresionDigitalModal">
 					<img class="img-fluid" src="image/printer.png" alt="">
 					<h5 class="grid-icon text">Impresión Digital</h5>
 				</div>
-				<div class="grid-icon col-2">
+				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#publicidadImpresaModal">
 					<img class="img-fluid" src="image/menu.png" alt="">
 					<h5 class="grid-icon text">Publicidad Impresa</h5> 
 				</div>
-				<div class="grid-icon col-2">
+				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#bolsasEmpaquesModal">
 					<img class="img-fluid" src="image/shopping-bag.png" alt="">
 					<h5 class="grid-icon text">Bolsas y Empaques</h5> 
 				</div>
 			</div>
 		</div>
 </section>
-
-
+<!-- Modal Tarjetas de Presentación -->
+<div class="modal fade" id="tarjetasPresentacionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Tarjetas de Presentación</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+					aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+					quas dolore impedit? Ad dolore veritatis sit tenetur.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal Impresión Digital -->
+<div class="modal fade" id="impresionDigitalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Impresión Digital</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+					aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+					quas dolore impedit? Ad dolore veritatis sit tenetur.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal Publicidad Impresa -->
+<div class="modal fade" id="publicidadImpresaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Publicidad Impresa</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+					aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+					quas dolore impedit? Ad dolore veritatis sit tenetur.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal Bolsas y Empaques -->
+<div class="modal fade" id="bolsasEmpaquesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Bolsas y Empaques</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+					aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+					quas dolore impedit? Ad dolore veritatis sit tenetur.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
 <section id="seccion_contacto" class="seccion_padding">
 	<div class="container">
 		<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">

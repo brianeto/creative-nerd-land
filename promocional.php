@@ -54,7 +54,7 @@
 			<div class="col-12 digital item-services able" id="digital">
 				<div class="row align-items-center">
 					<div class="col-12  col-lg-6">
-						<img class="img_detalle_servicios promocional" src="<?php echo $path; ?>image/mockup-digital-agency.png">
+						<img class="img_detalle_servicios promocional" src="<?php echo $path; ?>image/promocional.png">
 					</div>
 					<div class="col-12 col-lg-6">
 						<p class="tag_descripcion_detalle_servicio">
@@ -69,7 +69,9 @@
 							<h3 class="tag_titulo_detalle_servicio digital">
 								COTIZA TUS <br> PROMOCIONALES
 							</h3>
-							<i class="fab fa-telegram-plane fa-3x promocional"></i>
+							<div class="container-icon-place promocional-icon">
+								<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+							</div>
 						</div>
 					</div>
 				</div>	
@@ -80,23 +82,84 @@
 <section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-blue">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
-				<div class="grid-icon col-2">
+				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#materialesAltaCalidadModal">
 					<img class="img-fluid" src="image/quality.png" alt="">
-					<h5 class="grid-icon text">Materiales de Alta Calidad</h5>
+					<h5 class="grid-icon text">Materiales de<br>Alta Calidad</h5>
 				</div>
-				<div class="grid-icon col-2">
+				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#preciosCompetitivosModal">
 					<img class="img-fluid" src="image/price-tag.png" alt="">
 					<h5 class="grid-icon text">Precios Competitivos</h5>
 				</div>
-				<div class="grid-icon col-2">
+				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#respuestaInmediataModal">
 					<img class="img-fluid" src="image/running-man.png" alt="">
 					<h5 class="grid-icon text">Respuesta Inmediata</h5> 
 				</div>
 			</div>
 		</div>
 </section>
-
-
+<!-- Modal Materiales de Alta Calidad -->
+<div class="modal fade" id="materialesAltaCalidadModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Materiales de Alta Calidad</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+					aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+					quas dolore impedit? Ad dolore veritatis sit tenetur.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal Precios Competitivos -->
+<div class="modal fade" id="preciosCompetitivosModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Precios Competitivos</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+					aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+					quas dolore impedit? Ad dolore veritatis sit tenetur.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>	
+<!-- Modal Respuesta Inmediata -->
+<div class="modal fade" id="respuestaInmediataModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Respuesta Inmediata</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+					aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+					quas dolore impedit? Ad dolore veritatis sit tenetur.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
 <section id="seccion_contacto" class="seccion_padding">
 	<div class="container">
 		<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">

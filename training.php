@@ -54,10 +54,10 @@
 			<div class="col-12 digital item-services able" id="digital">
 				<div class="row align-items-center">
 					<div class="col-12  col-lg-6">
-						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/mockup-digital-agency.png">
+						<img class="img_detalle_servicios digital" src="<?php echo $path; ?>image/teacher.jpg">
 					</div>
 					<div class="col-12 col-lg-6">
-						<p class="tag_descripcion_detalle_servicio">
+						<p class="tag_descripcion_detalle_servicio training">
 							El conocimiento adquirido en cada una de nuestras áreas de interes ayuda a que muchas personas
 							se interesen y es por ello que creamos una unidad en la cual podamos ofrecer capacitaciones de
 							cada uno de los servicios que ofrecemos.
@@ -69,7 +69,9 @@
 							<h3 class="tag_titulo_detalle_servicio digital">
 								CAPACÍTATE CON <br> NOSOTROS
 							</h3>
-							<i class="fab fa-telegram-plane fa-3x training"></i>
+							<div class="container-icon-place training-icon">
+								<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+							</div>
 						</div>
 					</div>
 				</div>	
