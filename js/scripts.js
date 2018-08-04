@@ -81,7 +81,15 @@ $(document).ready(function(){
      $('.owl-prev').html('<i class="fas fa-chevron-circle-left"></i>');
      $('.owl-next').html('<i class="fas fa-chevron-circle-right"></i>');
 
-
+    
+     $(document).ready(function () {
+         if($(window).width() < 575) {
+            $(".dropdown-item.digital").addClass("col-2");
+            $(".dropdown-item.training").addClass("col-2");
+            $(".dropdown-item.promocional").addClass("col-2");
+            $(".dropdown-item.printing").addClass("col-2");
+         }    
+     });
      //Menu sroll
 
       $(window).on('scroll', function(){

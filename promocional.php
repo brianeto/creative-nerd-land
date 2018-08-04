@@ -56,17 +56,17 @@
 					<div class="col-12  col-lg-6">
 						<img class="img_detalle_servicios promocional" src="<?php echo $path; ?>image/promocional.png">
 					</div>
-					<div class="col-12 col-lg-6">
+					<div class="col-12 col-lg-6 promocional">
 						<p class="tag_descripcion_detalle_servicio">
 							Material promocional para las empresas que desean promocionar sus productos o servicios a través
 							del uso de elementos publicitarios que lleven la marca de su compañia entregándolo a clientes 
 							internos y clientes externos en eventos, ferias, etc...
 						</p>
-						<div class="col-12 col-lg-6 right training">
+						<div class="col-12 col-lg-6 right training promocional">
 							<div class="barra-izq promocional">
 
 							</div>
-							<h3 class="tag_titulo_detalle_servicio digital">
+							<h3 class="tag_titulo_detalle_servicio promocional">
 								COTIZA TUS <br> PROMOCIONALES
 							</h3>
 							<div class="container-icon-place promocional-icon">
@@ -191,7 +191,7 @@
 					<button type="submit" class="btn btn-form-mine" id="btn_enviar">ENVIAR</button>
 				</form>
 			</div>
-			<div class="col-12 col-lg-6 align-self-end">
+			<div class="col-12 col-lg-6 align-self-end man">
 				<img class="img_persona_contacto" src="<?php echo $path; ?>image/contact.png">
 			</div>			
 		</div>		

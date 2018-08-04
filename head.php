@@ -15,7 +15,7 @@
 					<img class="img_brand_navbar" src="<?php echo $path; ?>image/logo.png">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
 				</button>			
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav ml-auto">

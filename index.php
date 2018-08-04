@@ -74,6 +74,29 @@
 				</div>
 			</div>
 
+			<ul class="nav nav-pills servicios">
+				<a class="nav-link col-12 col-md-3 digital active btn-services servicios" data-category="digital">
+				<div class="boton">
+					<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
+				</div>
+				</a>
+				<a class="nav-link col-12 col-md-3 training btn-services servicios" data-category="training">
+					<div class="boton">
+						<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
+					</div>
+				</a>
+				<a class="nav-link col-12 col-md-3 promocional btn-services servicios" data-category="promocional">
+				<div class="boton">
+						<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
+					</div>
+				</a>
+				<a class="nav-link col-12 col-md-3 printing btn-services servicios" data-category="printing">
+				<div class="boton">
+						<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
+					</div>
+				</a>
+			</ul>
+
 			<!--CONTENEDORES SERVICIOS-->
 			<div class="row contenedor_detalles_servicios">
 				<div class="col-12 digital item-services able" id="digital">
@@ -254,7 +277,7 @@
 				<div class="owl-carousel owl-team col-xs-12">
 					<div class="item">
 						<img src="image/team-1.png" alt="">
-						<div class="caption">
+						<div class="caption equipo">
 							<h2>nombre</h2>
 							<h3>cargo</h3>
 							<hr class="line-bottom">
@@ -270,7 +293,7 @@
 					</div>
 					<div class="item">
 						<img src="image/team-2.png" alt="">
-						<div class="caption">
+						<div class="caption equipo">
 							<h2>nombre</h2>
 							<h3>cargo</h3>
 							<hr class="line-bottom">
@@ -286,7 +309,7 @@
 					</div>
 					<div class="item">
 						<img src="image/team-3.png" alt="">
-						<div class="caption">
+						<div class="caption equipo">
 							<h2>nombre</h2>
 							<h3>cargo</h3>
 							<hr class="line-bottom">
@@ -302,7 +325,7 @@
 					</div>
 					<div class="item">
 						<img src="image/team-1.png" alt="">
-						<div class="caption">
+						<div class="caption equipo">
 							<h2>nombre</h2>
 							<h3>cargo</h3>
 							<hr class="line-bottom">
@@ -345,7 +368,7 @@
 				<div class="grid">
 					<div class="grid-item large">
 						<img src="image/mockup-1.png" alt="">
-						<div class="caption">
+						<div class="caption portafolio">
 							<h2>Titulo</h2>
 							<h3>categoria</h3>
 							<hr class="line-bottom">
@@ -358,7 +381,7 @@
 					</div>
 					<div class="grid-item x-small">
 						<img src="image/mockup-3.png" alt="">
-						<div class="caption">
+						<div class="caption portafolio">
 							<h2>Titulo</h2>
 							<h3>categoria</h3>
 							<hr class="line-bottom">
@@ -371,7 +394,7 @@
 					</div>
 					<div class="grid-item small">
 						<img src="image/mockup-4.png" alt="">
-						<div class="caption">
+						<div class="caption portafolio">
 							<h2>Titulo</h2>
 							<h3>categoria</h3>
 							<hr class="line-bottom">
@@ -384,7 +407,7 @@
 					</div>
 					<div class="grid-item medium">
 						<img src="image/mockup-2.png" alt="">
-						<div class="caption">
+						<div class="caption portafolio">
 							<h2>Titulo</h2>
 							<h3>categoria</h3>
 							<hr class="line-bottom">
@@ -397,7 +420,7 @@
 					</div>
 					<div class="grid-item small">
 						<img src="image/mockup-6.png" alt="">
-						<div class="caption">
+						<div class="caption portafolio">
 							<h2>Titulo</h2>
 							<h3>categoria</h3>
 							<hr class="line-bottom">

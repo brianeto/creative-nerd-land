@@ -34,7 +34,7 @@
 ?>	
 	<section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut opacity">
 		<img class="d-block w-100" src="<?php echo $path; ?>image/bg-digital.png">
-			<h1 class="tag_titulo_secciones tag_titulo_secciones_black text-center titulo-banner">
+			<h1 class="tag_titulo_secciones tag_titulo_secciones_black text-center titulo-banner digital-agency">
 				Digital <span>Agency</span>
 			</h1>
 		</img>
@@ -807,7 +807,7 @@
 						<button type="submit" class="btn btn-form-mine" id="btn_enviar">ENVIAR</button>
 					</form>
 				</div>
-				<div class="col-12 col-lg-6 align-self-end">
+				<div class="col-12 col-lg-6 align-self-end man">
 					<img class="img_persona_contacto" src="<?php echo $path; ?>image/contact.png">
 				</div>			
 			</div>		

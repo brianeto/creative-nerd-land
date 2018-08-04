@@ -1023,6 +1023,7 @@ footer{
 	transform: translateX(0);
 }
 
+
 .grid-item img {
 	min-height: 100%;
 }
@@ -1062,6 +1063,11 @@ footer{
 	background: rgba(165, 20, 28, .8);
 	
 }
+/*display:none, nuestros servicios nav*/
+.nav.nav-pills.servicios{
+	display: none;
+}
+
 /*cotiza tu proyecto || right side*/
 .col-12.col-lg-6.right {
 	display: flex;
@@ -1296,6 +1302,7 @@ box-shadow: 0px 9px 10px -5px black;
 .titulo-banner.promocional {
 	left: 43%;
 }
+
 .fab.fa-telegram-plane.fa-3x.promocional {
 	background:#0D91C1;
 }
@@ -1484,6 +1491,121 @@ box-shadow: 0px 9px 10px -5px black;
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 575px) {  
+	.navbar-toggler {
+		margin-left: 80%;
+		margin-top: -10%;
+		background-color: wheat;
+	
+	}
+	.navbar-nav.ml-auto {
+		width: 70%;
+	}
+	.ml-auto {
+		margin: 0 0 0 0;
+	}
+	/*HOME PAGE*/
+	.row.justify-content-center.text-center.contenedor_botones {
+		display: none;
+	}
+	.nav.nav-pills.servicios {
+		display: flex;
+		justify-content: space-around;
+	}
+	.nav-link.col-12.col-md-3.servicios {
+		max-width: 63px;
+	}
+	
+	.nav-link.col-12.col-md-3.training.btn-services.servicios {
+		background: #902B89;
+	}
+	.nav-link.col-12.col-md-3.promocional.btn-services.servicios {
+		background: #0D91C1;
+	}
+	.nav-link.col-12.col-md-3.digital.btn-services.servicios {
+		background: #A5141C;
+	}
+	.nav-link.col-12.col-md-3.printing.btn-services.servicios {
+		background: #3CA630;
+	}
+	/*info and img*/
+	.contenedor_detalles_servicios {
+		padding-top: 2em !important;
+	}
+	.tag_titulo_detalle_servicio {
+		margin-top: 30px;
+	}
+	.tag_titulo_secciones {
+		margin-bottom: 52px;
+	}
+	/*Quienes somos*/
+	#seccion_quienes_somos {
+		margin-top: 10px;
+	}
+	/*titulo*/
+	.tag_titulo_secciones {
+		margin-bottom: 30px;
+	}
+	/*texto*/
+	.tag_texto_quienes_somos {
+		margin-bottom: 50px;
+		line-height: 1.5;
+		font-size: 1em;
+	}
+	/*Portafolio*/
+	#seccion_portafolio {
+		margin-top: -100px;
+	}
+	/*imagenes portfolio*/
+	.grid {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		position: relative;
+	}
+	.caption:hover{
+		opacity: 1;
+	}
+	
+	.caption h2, .caption h3{
+		transform: translateX(0);
+	}
+	.caption{
+		opacity: 1;
+		position: absolute;
+		margin-top: 173px;
+		height: 55%;
+	}
+	.caption.equipo {
+		position: relative;
+		padding: 32px;
+		margin-top: 0;
+	}
+	.caption:before {
+		width: 50px;
+	}
+	
+	.caption:after {
+		height: 50px;
+	}
+	.grid-item:before{
+		width: 50px;
+	}
+	.grid-item:after{
+		height: 50px;
+	}
+	.grid-item:before, .grid-item:after  {
+		opacity: 1;
+	}
+	.grid-item img {
+		position: relative;
+		margin-bottom: 70%;
+	}
+
+	/*Nuestro equipo*/
+	/*flechas slider*/
+	.owl-nav {
+		display: none;
+	}
 	.div_item_servicios{
 		padding: 15px 0;
 	}
@@ -1531,16 +1653,101 @@ box-shadow: 0px 9px 10px -5px black;
 	#seccion_testimonios{
 		padding-bottom: 0;
 	}
-	/*Digital agency page*/
+	/*DIGITAL AGENCY PAGE*/
 	#seccion_diseño_web_iconos{
 		padding-bottom: 0;
 	}
-}
+	/*banner*/
+	.diagonal_cut::before{
+		position: unset; 	
+	}
+	.titulo-banner.digital-agency {
+		bottom: 37%;
+	}
+	.tag_titulo_detalle_servicio.digital {
+		margin-top: 6px;
+	}
+	/*carrusel*/
+	.carrusel {
+		width: 100%;
+	}
+	/*cotiza tu proyecto*/
+	.col-12.col-lg-6.right {
+		position: relative;
+		cursor: pointer;
+		display: flex;
+		margin-top: 35%;
+		left: 15%;
 
+	}
+	/*iconos*/
+	.grid-icon {
+		display: table;
+	}
+
+	/* TRAINING PAGE */
+	/*capacitate con nosotros*/
+	.col-12.col-lg-6.right.training {
+		margin-left: 2em;
+		top: 60%;
+	}
+	.tag_titulo_detalle_servicio.training {
+		margin-top: 0px;
+	}
+	/*info imagen*/
+	.tag_descripcion_detalle_servicio {
+		margin: 40px 0 70px 0px;
+	}
+
+	/*PROMOCIONAL PAGE*/
+	.titulo-banner.promocional {
+		left: 37%;
+		font-size: 1.7em;
+		top: 45px;
+	}
+
+	/*info imagen*/
+	.col-12.col-lg-6.promocional{
+		margin-top: 140px;
+	}
+	/*imagen*/
+	.img_detalle_servicios.promocional {
+		top: -5em;
+		left: 0;
+	}
+	/*cotiza tus promocionales*/
+	.col-12.col-lg-6.right.training.promocional {
+		margin: 95px 0 0 15px;
+	}
+	.tag_titulo_detalle_servicio.promocional {
+		margin-top: 0px;
+	}
+	/*PRINTING PAGE*/
+	/*info imagen*/
+	.tag_descripcion_detalle_servicio.printing {
+		margin-top: 145px;
+	}
+	.tag_titulo_detalle_servicio.printing {
+		margin-top: 0px;
+	}
+	/*imagen*/
+	.img_detalle_servicios.printing {
+		top: -7em;
+		right: 2px;
+	}
+	/*cotiza tus impresos*/
+	.col-12.col-lg-6.right.training {
+		margin-top: 105px;
+	}
+
+	/*FOOTER*/
+	.col-12.col-lg-6.align-self-end.man {
+		top: 36px;
+	}
 /* Small devices (landscape phones, 576px and up) */
 
 /* 
 Extra small devices (portrait phones, less than 544px) 
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
-
+}

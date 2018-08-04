@@ -66,7 +66,7 @@
 							<div class="barra-izq training">
 
 							</div>
-							<h3 class="tag_titulo_detalle_servicio digital">
+							<h3 class="tag_titulo_detalle_servicio training">
 								CAPACÍTATE CON <br> NOSOTROS
 							</h3>
 							<div class="container-icon-place training-icon">
@@ -142,7 +142,7 @@
 					<button type="submit" class="btn btn-form-mine" id="btn_enviar">ENVIAR</button>
 				</form>
 			</div>
-			<div class="col-12 col-lg-6 align-self-end">
+			<div class="col-12 col-lg-6 align-self-end man">
 				<img class="img_persona_contacto" src="<?php echo $path; ?>image/contact.png">
 			</div>			
 		</div>		
