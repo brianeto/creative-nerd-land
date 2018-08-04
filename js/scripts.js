@@ -88,6 +88,7 @@ $(document).ready(function(){
             $(".dropdown-item.training").addClass("col-2");
             $(".dropdown-item.promocional").addClass("col-2");
             $(".dropdown-item.printing").addClass("col-2");
+            $(".grid-icon").removeClass("col-2");
          }    
      });
      //Menu sroll
