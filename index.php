@@ -531,7 +531,7 @@
 						<button type="submit" class="btn btn-form-mine" id="btn_enviar">ENVIAR</button>
 					</form>
 				</div>
-				<div class="col-12 col-lg-6 align-self-end">
+				<div class="col-12 col-lg-6 align-self-end man">
 					<img class="img_persona_contacto" src="<?php echo $path; ?>image/contact.png">
 				</div>			
 			</div>		

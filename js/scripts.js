@@ -34,11 +34,12 @@ $(document).ready(function(){
     $(".owl-clientes").owlCarousel({
                items: 6,
                autoplay: true,
+               autoplayTimeout:2000,
                nav: false,
                 responsive : {
                  // breakpoint from 0 up
                  0 : {
-                     items: 1
+                     items: 1,
                  },
                  // breakpoint from 480 up
                  480 : {
