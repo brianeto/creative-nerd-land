@@ -489,12 +489,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="owl-carousel owl-clientes col-md-12">
-					<div class="item"><img src="image/clientes/marca-ejemplo.png"></div>
-					<div class="item"><img src="image/clientes/marca-ejemplo.png"></div>
-					<div class="item"><img src="image/clientes/marca-ejemplo.png"></div>
-					<div class="item"><img src="image/clientes/marca-ejemplo.png"></div>
-					<div class="item"><img src="image/clientes/marca-ejemplo.png"></div>
-					<div class="item"><img src="image/clientes/marca-ejemplo.png"></div>
+					<div class="item clientes"><img src="image/cliente-alianza-sst.png"></div>
+					<div class="item clientes"><img src="image/cliente-Bioclass.png"></div>
+					<div class="item clientes"><img src="image/cliente-carpas-e- ingenieria.png"></div>
+					<div class="item clientes"><img src="image/cliente-clavel-y-la-rosa.png"></div>
+					<div class="item clientes"><img src="image/cliente-coop-futura.png"></div>
+					<div class="item clientes"><img src="image/cliente-inversionin.png"></div>
+					<div class="item clientes"><img src="image/cliente-jimenes-higuita.png"></div>
+					<div class="item clientes"><img src="image/cliente-lotus.png"></div>
 				</div>
 			</div>	
 		</div>	

@@ -90,21 +90,76 @@ $(document).ready(function(){
             $(".dropdown-item.promocional").addClass("col-2");
             $(".dropdown-item.printing").addClass("col-2");
             $(".grid-icon").removeClass("col-2");
+
          }    
      });
-     //Menu sroll
+     $(document).ready(function () {
+        if($(window).width() < 575) {
+           $(".dropdown-item.digital").addClass("col-2");
+           $(".dropdown-item.training").addClass("col-2");
+           $(".dropdown-item.promocional").addClass("col-2");
+           $(".dropdown-item.printing").addClass("col-2");
+           $(".grid-icon").removeClass("col-2");
 
+        }    
+    });
+
+    // Menu background mobile
+     $(window).on('scroll', function(){
+        if($(window).width() < 575) {
+         // aca se pregunta si el scroll se movio de pa bajo.
+         if ($(this).scrollTop() > 250) {
+            // esta parte cambia el atributo "src" de la etiqueta "img"
+            $('.navbar-nav.ml-auto').css("background","none");
+            $('.tag_enlace_menu').css("color","#fff");
+          }
+          if ($(this).scrollTop() < 250) {
+            $('.navbar-nav.ml-auto').css("background","white");
+            $('.tag_enlace_menu').css("color","#000");
+          }
+         }    
+      });
+
+    //Pagina Digital agency slider trigger mobile
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        console.log(scroll);
+        if ($(window).width() < 575) {
+            if (scroll >= 90) {
+                console.log(scroll);
+                $(".carrusel.first").addClass("functional-carrusel");
+            }
+            if (scroll >= 900) {
+                console.log(scroll);
+                $(".carrusel.second").addClass("functional-carrusel");
+            }
+            if (scroll >= 1850) {
+                console.log(scroll);
+                $(".carrusel.third").addClass("functional-carrusel");
+            }
+            if (scroll >= 2970) {
+                console.log(scroll);
+                $(".carrusel.fourth").addClass("functional-carrusel");
+            }
+            if (scroll >= 4400) {
+                console.log(scroll);
+                $(".carrusel.fifth").addClass("functional-carrusel");
+            }
+        }
+    });
+
+     //Menu sroll
       $(window).on('scroll', function(){
          // aca se pregunta si el scroll se movio de pa bajo.
             if ($(this).scrollTop() > 250) {
               // esta parte cambia el atributo "src" de la etiqueta "img"
-              $('.div_menu_principal').addClass('bg_dark');
-              $('.img_brand_navbar').addClass('resize');
+                $('.div_menu_principal').addClass('bg_dark');
+                $('.img_brand_navbar').addClass('resize');
 
             }
             if ($(this).scrollTop() < 250) {
-               $('.div_menu_principal').removeClass('bg_dark');
-               $('.img_brand_navbar').removeClass('resize');
+                $('.div_menu_principal').removeClass('bg_dark');
+                $('.img_brand_navbar').removeClass('resize');
 
             }
       });

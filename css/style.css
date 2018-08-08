@@ -60,7 +60,9 @@ p {
 	color: #a4141b;
 }
 /*Head*/
-
+.navbar-toggler-icon {
+	display: none;
+}
 .dropdown-menu.show {
 	width: 220px;
 	padding: 0;
@@ -699,9 +701,12 @@ footer{
 	margin: 0 auto;
 	margin-bottom: 35px;
 }
-
+/*Clientes sección*/
 #seccion_clientes{
-
+	padding-top: 30px;
+}
+.item.clientes {
+	padding: 2em;
 }
 .img_logo_clientes{
 	width: 100%;
@@ -1513,15 +1518,25 @@ box-shadow: 0px 9px 10px -5px black;
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 575px) {  
+	/*header*/
 	.navbar-toggler-icon {
-		position: absolute;
-		right: 2%;
-		top: 20%;
+		display: block;
+		position: fixed;
+		right: 7% !important;
+		top: 2% !important;
+		z-index: 12323;
 	}
-	.navbar-toggler-icon:active {
-		position: absolute;
-		right: 2%;
-		top: 20%;
+	#navbarToggler {
+		max-width: 250px;
+	}
+	.nav_menu_principal {
+		padding-top: 20px;
+	}
+	.tag_enlace_menu, .tag_enlace_menu:hover {
+		color: #000;
+	}
+	.navbar-nav.ml-auto {
+		background: #fff;
 	}
 	.fas.fa-bars {
 		color: white;
@@ -1698,7 +1713,9 @@ box-shadow: 0px 9px 10px -5px black;
 		position: unset; 	
 	}
 	.titulo-banner.digital-agency {
-		bottom: 37%;
+		bottom: 18%;
+		left: 63px;
+		right: 22px;
 	}
 	.tag_titulo_detalle_servicio.digital {
 		margin-top: 6px;
@@ -1737,11 +1754,15 @@ box-shadow: 0px 9px 10px -5px black;
 	.tag_titulo_detalle_servicio.training {
 		margin-top: 0px;
 	}
+	.tag_titulo_secciones.tag_titulo_secciones_black.text-center.titulo-banner.training {
+		left: 36%;
+		top: 35%;
+	}
 	/*PROMOCIONAL PAGE*/
 	.titulo-banner.promocional {
-		left: 37%;
-		font-size: 1.7em;
-		top: 45px;
+		left: 33%;
+		font-size: 1.6em;
+		top: 93px;
 	}
 
 	/*info imagen*/
@@ -1768,6 +1789,10 @@ box-shadow: 0px 9px 10px -5px black;
 	}
 	.tag_titulo_detalle_servicio.printing {
 		margin-top: 0px;
+	}
+	.titulo-banner.printing {
+		left: 37%;
+		top: 40%;
 	}
 	/*imagen*/
 	.img_detalle_servicios.printing {

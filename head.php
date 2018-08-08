@@ -7,16 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/style.css">
 </head>
 <body>
+<span class="navbar-toggler-icon"  data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">   
+				<i class="fas fa-bars"></i>
+			</span>	
 	<input type="hidden" value="<?php echo $path; ?>" id="txt_path">
 	<header class="header">			
-		<div class="container-fluid div_menu_principal">	
+		<div class="container-fluid div_menu_principal">
 			<nav class="navbar navbar-expand-lg container nav_menu_principal">
 				<a class="navbar-brand fondo_img_brand_navbar bg_blanco" href="index.php">
 					<img class="img_brand_navbar" src="<?php echo $path; ?>image/logo.png">
 				</a>
-				<span class="navbar-toggler-icon"  data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">   
-					<i class="fas fa-bars"></i>
-				</span>
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
@@ -68,7 +68,7 @@
 					</ul>
 				</div>
 			</nav>
-		</div>	
+		</div>
 	</header>
 
 	<div class="back-to-top">
