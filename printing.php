@@ -43,14 +43,14 @@
 	<div class="div_diagonal div_diagonal_white"></div>
 </section>
 
-<section id="seccion_servicios" class="seccion_padding">
+<section id="seccion_servicios" class="seccion_padding printing">
 	<div class="container">
 		<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center printing">
 			SERVICIOS DE <span>IMPRESIÓN</span>
 		</h2>
 
 		<!--CONTENEDORES SERVICIOS-->
-		<div class="row contenedor_detalles_servicios promocional">
+		<div class="row contenedor_detalles_servicios printing">
 			<div class="col-12 digital item-services able" id="digital">
 				<div class="row align-items-center">
 					<div class="col-12  col-lg-6">
@@ -61,7 +61,7 @@
 							Mediante Alianzas Estratégicas tercerizamos el proceso de Impresión el cual incluye todo lo
 							referente a material publicitario.
 						</p>
-						<div class="col-12 col-lg-6 right training">
+						<div class="col-12 col-lg-6 right printing">
 							<div class="barra-izq printing">
 
 							</div>

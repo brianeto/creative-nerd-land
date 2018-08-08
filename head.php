@@ -14,9 +14,9 @@
 				<a class="navbar-brand fondo_img_brand_navbar bg_blanco" href="index.php">
 					<img class="img_brand_navbar" src="<?php echo $path; ?>image/logo.png">
 				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>			
+				<span class="navbar-toggler-icon"  data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">   
+					<i class="fas fa-bars"></i>
+				</span>
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">

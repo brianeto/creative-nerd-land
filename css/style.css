@@ -148,7 +148,7 @@ p {
 .div_menu_principal{
 	position: fixed;
 	top: 0;
-	z-index: 9;
+	z-index: 11;
 	transition: all .3s;
 	padding-bottom: 1em;
 }
@@ -275,6 +275,7 @@ footer{
 	bottom: -70px;
 	right: -10px;
 	transform: rotate(-3deg);
+	z-index: 10;
 }
 .diagonal_cut_footer::before {
 	content: '';
@@ -473,6 +474,9 @@ footer{
 .tag_titulo_detalle_servicio span.training {
 	color: #902B89 !important;
 }
+.tag_titulo_detalle_servicio.training {
+    padding-left: 15px;
+}
 
 .training .tag_caracteristicas_detalle_servicio i{
 	color: #902B89;
@@ -525,7 +529,9 @@ footer{
 .promocional .tag_enlace_servicios_2:hover{
 	background-color: #0D91C1;
 }
-
+.seccion_padding.promocional{
+    margin-bottom: 68px;
+}
 
 /*Printing*/
 .titulo-banner.printing {
@@ -557,15 +563,21 @@ footer{
 .printing .tag_enlace_servicios_2:hover{
 	background-color: #3CA630;
 }
-
-
-
+.contenedor_detalles_servicios.printing {
+    padding-top: 9em;
+}
+.seccion_padding.printing{
+	margin-bottom: 68px;
+}
 .tag_descripcion_detalle_servicio{
+	position: relative;
 	color: #545454;
 	text-align: justify;
 	line-height: 30px;
 	font-size: 1em;
-	margin-bottom: 15px;
+	padding: 30px;
+	bottom: 0;
+	right: 29px;
 }
 .tag_caracteristicas_detalle_servicio{
 	color: #545454;
@@ -598,10 +610,6 @@ footer{
 	font-size: 1.2em;
 	border-radius: 14px;
 }
-
-
-
-
 #seccion_quienes_somos{
 	background-image: url('../image/bg-quienes-somos-shadow.png');
 	background-position: center;
@@ -1067,12 +1075,13 @@ footer{
 .nav.nav-pills.servicios{
 	display: none;
 }
-
+.col-12.col-lg-6.right.digital {
+	top: 70%;
+}
 /*cotiza tu proyecto || right side*/
 .col-12.col-lg-6.right {
 	display: flex;
 	position: absolute;
-    top: 70%;
     max-width: 27%;
 	height: 50%;
 	cursor: pointer;
@@ -1250,7 +1259,6 @@ box-shadow: 0px 9px 10px -5px black;
 .grid-icon {
 	overflow: hidden;
 	position: relative;
-	padding: 2em;
 }
 .grid-icon img{
 	max-width: 80px;
@@ -1268,61 +1276,71 @@ box-shadow: 0px 9px 10px -5px black;
 
 #div_contenedor_iconos {
     padding-bottom: 7%;
-	padding-top: 6%;
+	padding-top: 10%;
 	position: relative;
 	z-index: 3;
 }
 
 /*TRAINING PAGE*/
+.tag_descripcion_detalle_servicio.training{
+    right: 0;
+}
 .tag_titulo_secciones.tag_titulo_secciones_black.text-center.training span {
 	color: #902B89;
 }
-.tag_descripcion_detalle_servicio {
-    color: #545454;
-    line-height: 30px;
-    font-size: 1em;
-    text-align: justify;
-}
+
 .barra-izq.training {
 	background-color: #902B89;
+	margin-left: 15px;
 }
 .fab.fa-telegram-plane.fa-3x.training {
 	background: #902B89;
 }
 .col-12.col-lg-6.right.training {
     display: flex;
-    position: absolute;
-    top: 112%;
+    position: relative;
     max-width: 73%;
     cursor: pointer;
 	left: 0;
-	margin-left: 1em;
 }
 /*PROMOCIONAL PAGE*/
 .titulo-banner.promocional {
 	left: 43%;
 }
-
 .fab.fa-telegram-plane.fa-3x.promocional {
 	background:#0D91C1;
+}
+.tag_descripcion_detalle_servicio.promocional {
+	right: 0;
 }
 .tag_titulo_secciones.tag_titulo_secciones_black.text-center.promocional span {
 	color: #0D91C1;
 }
+.tag_titulo_detalle_servicio.promocional {
+    margin-left: 15px;
+}
 .barra-izq.promocional {
 	background-color: #0D91C1;
 }
-.contenedor_detalles_servicios {
-    padding-top: 5em;
+.contenedor_detalles_servicios.promocional {
+    padding-top: 4em;
 }
+
 .img_detalle_servicios.promocional {
     width: 100%;
     position: absolute;
     z-index: 2;
-    top: -10em;
+    top: -9em;
 	padding: 2em;
 }
+.col-12.col-lg-6.right.promocional {
+    left: 6%;
+    max-width: 73%;
+}
 /*PRINTING PAGE*/
+.tag_descripcion_detalle_servicio.printing {
+    right: 0;
+}
 .fab.fa-telegram-plane.fa-3x.printing {
 	background:#3CA630;
 }
@@ -1331,6 +1349,10 @@ box-shadow: 0px 9px 10px -5px black;
 }
 .barra-izq.printing {
 	background-color: #3CA630;
+}
+.col-12.col-lg-6.right.printing {
+	left: 30px;
+	max-width: 50%;
 }
 .img_detalle_servicios.printing {
 	width: 100%;
@@ -1491,11 +1513,19 @@ box-shadow: 0px 9px 10px -5px black;
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 575px) {  
-	.navbar-toggler {
-		margin-left: 80%;
-		margin-top: -10%;
-		background-color: wheat;
-	
+	.navbar-toggler-icon {
+		position: absolute;
+		right: 2%;
+		top: 20%;
+	}
+	.navbar-toggler-icon:active {
+		position: absolute;
+		right: 2%;
+		top: 20%;
+	}
+	.fas.fa-bars {
+		color: white;
+		font-size: 2.3em;
 	}
 	.navbar-nav.ml-auto {
 		width: 70%;

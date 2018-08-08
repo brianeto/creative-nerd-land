@@ -43,7 +43,7 @@
 	<div class="div_diagonal div_diagonal_white"></div>
 </section>
 
-<section id="seccion_servicios" class="seccion_padding">
+<section id="seccion_servicios" class="seccion_padding promocional">
 	<div class="container">
 		<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center promocional">
 			MATERIAL <span>PROMOCIONAL</span>
@@ -57,12 +57,12 @@
 						<img class="img_detalle_servicios promocional" src="<?php echo $path; ?>image/promocional.png">
 					</div>
 					<div class="col-12 col-lg-6 promocional">
-						<p class="tag_descripcion_detalle_servicio">
+						<p class="tag_descripcion_detalle_servicio promocional">
 							Material promocional para las empresas que desean promocionar sus productos o servicios a través
 							del uso de elementos publicitarios que lleven la marca de su compañia entregándolo a clientes 
 							internos y clientes externos en eventos, ferias, etc...
 						</p>
-						<div class="col-12 col-lg-6 right training promocional">
+						<div class="col-12 col-lg-6 right promocional">
 							<div class="barra-izq promocional">
 
 							</div>
