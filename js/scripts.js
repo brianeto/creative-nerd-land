@@ -29,17 +29,33 @@ $(document).ready(function(){
                autoplay: true,
                nav: true
     });
+    // header
+    $('.header .nav-link').click(function() {
+        $('.nav-link').removeClass('link_active');
+        $(this).addClass('link_active');
+        
+    });
+
+    $('.header .btn_toggle').click(function() {
+      $('.header .nav').slideToggle();
+      $('.nav.flex-column.content_dropdown').css("display","none");
+    }); 
+
+    $('.item_dropdown.dropdown').click(function() {
+      $('.content_dropdown').slideToggle();
+    });
+
 
     //Carousel clientes
     $(".owl-clientes").owlCarousel({
                items: 6,
                autoplay: true,
                autoplayTimeout:2000,
-               nav: false,
+               nav: true,
                 responsive : {
                  // breakpoint from 0 up
                  0 : {
-                     items: 1,
+                     items: 1
                  },
                  // breakpoint from 480 up
                  480 : {
@@ -54,12 +70,14 @@ $(document).ready(function(){
              }
     });
 
+        //Smoothscroll
+        $('html').smoothScroll(2000);
     //Carousel afiliados
 
     $(".owl-afiliados").owlCarousel({
                items: 6,
                autoplay: true,
-               nav: false,
+               nav: true,
                 responsive : {
                  // breakpoint from 0 up
                  0 : {
@@ -90,6 +108,8 @@ $(document).ready(function(){
             $(".dropdown-item.promocional").addClass("col-2");
             $(".dropdown-item.printing").addClass("col-2");
             $(".grid-icon").removeClass("col-2");
+            $(".grid-icon").addClass("col-lg-1");
+            $(".d-block.w-100").removeAttr("src");
 
          }    
      });
@@ -100,7 +120,7 @@ $(document).ready(function(){
            $(".dropdown-item.promocional").addClass("col-2");
            $(".dropdown-item.printing").addClass("col-2");
            $(".grid-icon").removeClass("col-2");
-
+           $(".grid-icon").addClass("col-lg-1");
         }    
     });
 
@@ -111,7 +131,7 @@ $(document).ready(function(){
          if ($(this).scrollTop() > 250) {
             // esta parte cambia el atributo "src" de la etiqueta "img"
             $('.navbar-nav.ml-auto').css("background","none");
-            $('.tag_enlace_menu').css("color","#fff");
+            $('.tag_enlace_menu').css("color","#000");
           }
           if ($(this).scrollTop() < 250) {
             $('.navbar-nav.ml-auto').css("background","white");
@@ -153,12 +173,12 @@ $(document).ready(function(){
          // aca se pregunta si el scroll se movio de pa bajo.
             if ($(this).scrollTop() > 250) {
               // esta parte cambia el atributo "src" de la etiqueta "img"
-                $('.div_menu_principal').addClass('bg_dark');
+                $('.header').addClass('bg_dark');
                 $('.img_brand_navbar').addClass('resize');
 
             }
             if ($(this).scrollTop() < 250) {
-                $('.div_menu_principal').removeClass('bg_dark');
+                $('.header').removeClass('bg_dark');
                 $('.img_brand_navbar').removeClass('resize');
 
             }

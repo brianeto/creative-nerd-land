@@ -52,5 +52,6 @@
 	<script type="text/javascript" src="<?php echo $path; ?>js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="<?php echo $path; ?>js/jquery.modal.js"></script>
 	<script type="text/javascript" src="<?php echo $path; ?>js/scripts.js"></script>
+	<script type="text/javascript" src="<?php echo $path; ?>js/jquery.smoothscroll.min.js"></script>
 </body>
 </html>

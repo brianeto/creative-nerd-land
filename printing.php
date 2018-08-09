@@ -81,21 +81,21 @@
 <section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-green">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
-				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#tarjetasPresentacionModal">
+				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#tarjetasPresentacionModal">
 					<img class="img-fluid" src="image/id-card.png" alt="">
-					<h5 class="grid-icon text">Tarjetas de<br>Presentación</h5>
+					<h5 class="grid-icon -icon text">Tarjetas de<br>Presentación</h5>
 				</div>
-				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#impresionDigitalModal">
+				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#impresionDigitalModal">
 					<img class="img-fluid" src="image/printer.png" alt="">
-					<h5 class="grid-icon text">Impresión Digital</h5>
+					<h5 class="grid-icon -icon text">Impresión Digital</h5>
 				</div>
-				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#publicidadImpresaModal">
+				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#publicidadImpresaModal">
 					<img class="img-fluid" src="image/menu.png" alt="">
-					<h5 class="grid-icon text">Publicidad Impresa</h5> 
+					<h5 class="grid-icon -icon text">Publicidad Impresa</h5> 
 				</div>
-				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#bolsasEmpaquesModal">
+				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#bolsasEmpaquesModal">
 					<img class="img-fluid" src="image/shopping-bag.png" alt="">
-					<h5 class="grid-icon text">Bolsas y Empaques</h5> 
+					<h5 class="grid-icon -icon text">Bolsas y Empaques</h5> 
 				</div>
 			</div>
 		</div>

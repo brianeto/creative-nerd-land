@@ -132,7 +132,7 @@
 								<i class="fas fa-check"></i><a href="#">Diseño industrial</a>
 							</p>
 							<div class="div_botones_detalle_servicio">
-								<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
+								<a class="btn tag_enlace_servicios" href="digital-agency.php" role="button">Ver más</a>
 								<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
 							</div>
 						</div>
@@ -162,7 +162,7 @@
 							</p>
 							-->
 							<div class="div_botones_detalle_servicio">
-								<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
+								<a class="btn tag_enlace_servicios" href="training.php" role="button">Ver más</a>
 								<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
 							</div>
 						</div>
@@ -188,7 +188,7 @@
 								<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 							</p>
 							<div class="div_botones_detalle_servicio">
-								<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
+								<a class="btn tag_enlace_servicios" href="promocional.php" role="button">Ver más</a>
 								<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
 							</div>
 						</div>
@@ -217,8 +217,8 @@
 								<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 							</p>
 							<div class="div_botones_detalle_servicio">
-								<a class="btn tag_enlace_servicios" href="" role="button">Ver más</a>
-								<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+								<a class="btn tag_enlace_servicios" href="printing.php" role="button">Ver más</a>
+								<a class="btn tag_enlace_servicios_2" href="#" role="button">Cotizar</a>
 							</div>
 						</div>
 					</div>
@@ -276,9 +276,73 @@
 			<div class="row">
 				<div class="owl-carousel owl-team col-xs-12">
 					<div class="item">
-						<img src="image/team-1.png" alt="">
+						<img src="image/equipo/Johan.jpg" alt="">
 						<div class="caption equipo">
-							<h2>nombre</h2>
+							<h2>Johan Ángel</h2>
+							<h3>Director General</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="image/equipo/Angelica1.jpg" alt="">
+						<div class="caption equipo">
+							<h2>Angélica Pineda</h2>
+							<h3>Directora de Proyectos</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="image/equipo/Camilo.jpg" alt="">
+						<div class="caption equipo">
+							<h2>Camilo Rojas</h2>
+							<h3>Desarrollador Móvil</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="image/equipo/Pedro.jpg" alt="">
+						<div class="caption equipo">
+							<h2>Pedro Cruz</h2>
+							<h3>Desarrollador Web BackEnd</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="image/equipo/Liseth2.jpg" alt="">
+						<div class="caption equipo">
+							<h2>Liseth</h2>
 							<h3>cargo</h3>
 							<hr class="line-bottom">
 							<div class="links">
@@ -292,41 +356,9 @@
 						</div>
 					</div>
 					<div class="item">
-						<img src="image/team-2.png" alt="">
+						<img src="image/equipo/man.jpg" alt="">
 						<div class="caption equipo">
-							<h2>nombre</h2>
-							<h3>cargo</h3>
-							<hr class="line-bottom">
-							<div class="links">
-								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
-								</nav>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="image/team-3.png" alt="">
-						<div class="caption equipo">
-							<h2>nombre</h2>
-							<h3>cargo</h3>
-							<hr class="line-bottom">
-							<div class="links">
-								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
-								</nav>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="image/team-1.png" alt="">
-						<div class="caption equipo">
-							<h2>nombre</h2>
+							<h2>??</h2>
 							<h3>cargo</h3>
 							<hr class="line-bottom">
 							<div class="links">
@@ -478,8 +510,58 @@
 								</p>
 							</div>
 						</div>
+						<div class="row item">
+							<div class="col-12 col-lg-4 text-center align-self-end">
+								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonio.jpeg">
+							</div>
+							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-start div_contenido_testimonios">
+								<p class="tag_nombre_testimonio">Luna Rose</p>
+								<p class="tag_asunto_testimonio">Web Developer Experience</p>
+								<p class="tag_texto_testimonio">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+						<div class="row item">
+							<div class="col-12 col-lg-4 text-center align-self-end">
+								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonio.jpeg">
+							</div>
+							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-start div_contenido_testimonios">
+								<p class="tag_nombre_testimonio">Luna Rose</p>
+								<p class="tag_asunto_testimonio">Web Developer Experience</p>
+								<p class="tag_texto_testimonio">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+						<div class="row item">
+							<div class="col-12 col-lg-4 text-center align-self-end">
+								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonio.jpeg">
+							</div>
+							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-start div_contenido_testimonios">
+								<p class="tag_nombre_testimonio">Luna Rose</p>
+								<p class="tag_asunto_testimonio">Web Developer Experience</p>
+								<p class="tag_texto_testimonio">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
 					</div>
-					
 				</div>
 			</div>
 		</div>	

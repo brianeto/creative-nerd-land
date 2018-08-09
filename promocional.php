@@ -82,17 +82,17 @@
 <section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-blue">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
-				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#materialesAltaCalidadModal">
+				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#materialesAltaCalidadModal">
 					<img class="img-fluid" src="image/quality.png" alt="">
-					<h5 class="grid-icon text">Materiales de<br>Alta Calidad</h5>
+					<h5 class="grid-icon -icon text">Materiales de<br>Alta Calidad</h5>
 				</div>
-				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#preciosCompetitivosModal">
+				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#preciosCompetitivosModal">
 					<img class="img-fluid" src="image/price-tag.png" alt="">
-					<h5 class="grid-icon text">Precios Competitivos</h5>
+					<h5 class="grid-icon -icon text">Precios Competitivos</h5>
 				</div>
-				<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#respuestaInmediataModal">
+				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#respuestaInmediataModal">
 					<img class="img-fluid" src="image/running-man.png" alt="">
-					<h5 class="grid-icon text">Respuesta Inmediata</h5> 
+					<h5 class="grid-icon -icon text">Respuesta Inmediata</h5> 
 				</div>
 			</div>
 		</div>
