@@ -53,7 +53,8 @@
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
-	  font-size: 1.5em;
+	  font-size: 1.7em;
+	  border-radius: 100%;
   }
   
   .back-to-top a{
@@ -90,9 +91,7 @@
   .dropdown-item.printing .drop-left {
 	  background: #3CA630;
   }
-  .nav.flex-column.content_dropdown {
-    padding-right: 50px;
-}  
+  
   /*new content*/
   .header {
 	  position: fixed;
@@ -141,14 +140,11 @@
 	  position: absolute;
 	  background: #fff;
 	  display: none;
+	  width: 200px;
   }
   
   .header .link_dropdown .content_dropdown .separator{
 	  margin: 0;
-  }
-  
-  .content_dropdown .nav-item{
-	  padding: .5rem;
   }
   
   .content_dropdown .nav-item .nav-link{
@@ -249,6 +245,25 @@
 	  text-decoration: none;
 	  border-color: #a5141c;
 	  color: white;
+  }
+
+   .owl-carousel .owl-nav .disabled {
+   	cursor: inherit;
+   }
+
+   .owl-carousel .owl-nav .disabled:hover{
+   	cursor: inherit;
+   	opacity: 1;
+   }
+
+   .owl-carousel .owl-nav .disabled i:hover{
+   	color: #d7d7d7;
+   	opacity: 1;
+   }
+
+  .owl-carousel .owl-nav .disabled i {
+  	color: #d7d7d7;
+  	cursor: none;
   }
   /*opciones del navbar*/
   .ml-auto {
@@ -1596,14 +1611,11 @@
 	  .fondo_img_brand_navbar {
 		  margin-left: 20px;
 	  }
-	  .owl-carousel .owl-dots {
-		  display: block;
-		  margin-left: 60px;
-	  }
 	   .header .link_dropdown .content_dropdown{
 		position: relative;
 		background: #fff;
 		display: none;
+		width: 100%;
 	  }
 		
   	  .header .nav a{
@@ -1785,9 +1797,35 @@
   
 	  .grid-item {
 
-		margin-bottom: 60px;
+		margin-bottom: 35px;
+		border: 2px solid #ccc;
 	  }
 	  /*Nuestro equipo*/
+	  .caption h2 {
+	  	font-size: 1.2rem;
+	  }
+
+	  .owl-team .owl-nav{
+	  	top: 48%;
+	  	color: #fff;
+	  	padding: 0 .5rem;
+	  	font-size: 12px;
+	  }
+
+
+	  .owl-team .owl-dots {
+	  	align-items: flex-start;
+	  }
+
+	  /*flechas slider*/
+	  .category {
+	  	flex-direction: column;
+	  	padding-bottom: 0;
+	  }
+
+	  .category li{
+	  	margin-bottom: .8rem;
+	  }
 	  /*flechas slider*/
 
 	  #div_contenedor_testimonios.owl-nav {
@@ -1855,6 +1893,7 @@
 	  #seccion_testimonios{
 		  padding-bottom: 0;
 	  }
+
 	  /*DIGITAL AGENCY PAGE*/
 	  #seccion_diseño_web_iconos{
 		  padding-bottom: 0;
@@ -1886,10 +1925,6 @@
 		  margin-top: 35%;
 		  left: 15%;
   
-	  }
-	  /*iconos*/
-	  .owl-clientes.owl-carousel.owl-dots {
-		  display: block;
 	  }
   
 	  /* TRAINING PAGE */

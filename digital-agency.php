@@ -32,6 +32,7 @@
 	$idPagina = "digital"; 
 	include('head.php');
 ?>	
+	<div id="home"></div>
 	<section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut opacity">
 		<img class="d-block w-100" src="<?php echo $path; ?>image/bg-digital.png">
 			<h1 class="tag_titulo_secciones tag_titulo_secciones_black text-center titulo-banner digital-agency">
@@ -51,13 +52,13 @@
 					<div class="col-md-8 digital">
 						<div class="carrusel first">
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/mockup-web3.jpg" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/mockup-web.jpg" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/mockup-web2.jpg" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>

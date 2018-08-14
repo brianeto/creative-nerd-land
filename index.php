@@ -32,7 +32,7 @@
 	$idPagina = "index";
 	include('head.php');
 ?>
-	
+	<div id="home"></div>
 	<section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut">
 		<img class="d-block w-100" src="<?php echo $path; ?>image/portada-home.jpeg">
 		<div class="div_diagonal div_diagonal_white"></div>
@@ -152,15 +152,7 @@
 							</h3>
 							<p class="tag_descripcion_detalle_servicio">
 								El conocimiento adquirido en cada una de nuestras áreas de interés ayuda a que muchas personas se interesen y es por ello que creamos una unidad en la cual podamos ofrecer capacitaciones de cada uno de los servicios que ofrecemos.
-							</p>
-							<!-- ITEMS DETALLE DE SERVICIO
-							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-							</p>
-							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-							</p>
-							-->
+							</p> target="_blank"
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="training.php" role="button">Ver más</a>
 								<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
@@ -283,10 +275,9 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+									<a href="https://www.facebook.com/johanangel.1319" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+									<a href="https://www.linkedin.com/in/johanangel/" class="nav-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+									<a href="mailto:gerencia@agenciaelnerd.com" class="nav-link"><i class="fas fa-envelope"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -299,10 +290,24 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+									<a href="https://www.facebook.com/agelik0023" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+									<a href="https://www.linkedin.com/in/angélica-pineda-rodr%C3%ADguez-70855898/" class="nav-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+									<a href="mailto:angelica.pineda@agenciaelnerd.com" class="nav-link"><i class="fas fa-envelope"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="image/equipo/Camila.jpg" alt="">
+						<div class="caption equipo">
+							<h2>Camila Medina</h2>
+							<h3>Community Manager- Líder de Proyecto</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="https://www.facebook.com/MariaCamila.16" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+									<a href="https://www.linkedin.com/in/maria-camila-urrea-medina-763141114/" class="nav-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+									<a href="mailto:camila.medina@agenciaelnerd.com" class="nav-link"><i class="fas fa-envelope"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -311,14 +316,13 @@
 						<img src="image/equipo/Camilo.jpg" alt="">
 						<div class="caption equipo">
 							<h2>Camilo Rojas</h2>
-							<h3>Desarrollador Móvil</h3>
+							<h3>Desarrollador Aplicaciones</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+									<a href="https://www.facebook.com/camilo.rojas.86" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+									<a href="https://www.linkedin.com/in/camilorojas1986/" class="nav-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+									<a href="mailto:camilo.rojas@agenciaelnerd.com" class="nav-link"><i class="fas fa-envelope"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -327,30 +331,11 @@
 						<img src="image/equipo/Pedro.jpg" alt="">
 						<div class="caption equipo">
 							<h2>Pedro Cruz</h2>
-							<h3>Desarrollador Web BackEnd</h3>
+							<h3>Desarrollador Back End</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
-								</nav>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="image/equipo/Liseth2.jpg" alt="">
-						<div class="caption equipo">
-							<h2>Liseth</h2>
-							<h3>cargo</h3>
-							<hr class="line-bottom">
-							<div class="links">
-								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+									<a href="mailto:pedro.cruz@agenciaelnerd.com" class="nav-link"><i class="fas fa-envelope"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -358,15 +343,28 @@
 					<div class="item">
 						<img src="image/equipo/man.jpg" alt="">
 						<div class="caption equipo">
-							<h2>??</h2>
-							<h3>cargo</h3>
+							<h2>Angello Donato</h2>
+							<h3>Planner Digital</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-									<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-									<a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+									<a href="https://www.facebook.com/johanangel.1319" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+									<a href="https://www.linkedin.com/in/johanangel/" class="nav-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+									<a href="mailto:angello.donato@agenciaelnerd.com" class="nav-link"><i class="fas fa-envelope"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="image/equipo/Liseth2.jpg" alt="">
+						<div class="caption equipo">
+							<h2>Liseth Rivero</h2>
+							<h3>Líder de Proyecto</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="https://www.facebook.com/liseth.rivero.5" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+									<a href="mailto:liseth.rivero@agenciaelnerd.com" class="nav-link"><i class="fas fa-envelope"></i></a>
 								</nav>
 							</div>
 						</div>

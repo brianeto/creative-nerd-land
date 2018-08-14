@@ -33,7 +33,7 @@
 	$idPagina = "printing";
 	include('head.php');
 ?>
-
+<div id="home"></div>
 <section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut opacity">
 	<img class="d-block w-100" src="<?php echo $path; ?>image/bg-printing.jpeg">
 		<h1 class="tag_titulo_secciones tag_titulo_secciones_black text-center titulo-banner printing">

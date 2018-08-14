@@ -1,13 +1,14 @@
 $(document).ready(function(){
     $(".owl-team").owlCarousel({
                items: 2,
-               autoplay: true,
+               autoplay: false,
                nav: true,
 
              responsive : {
                  // breakpoint from 0 up
                  0 : {
-                     items: 1
+                     items: 1,
+                     autoplay: true
                  },
                  // breakpoint from 480 up
                  480 : {
@@ -48,7 +49,7 @@ $(document).ready(function(){
 
     //Carousel clientes
     $(".owl-clientes").owlCarousel({
-               items: 6,
+               items: 5,
                autoplay: true,
                autoplayTimeout:2000,
                nav: true,
@@ -64,7 +65,7 @@ $(document).ready(function(){
                  },
                  // breakpoint from 768 up
                  768 : {
-                     items: 6
+                     items: 5
 
                  }
              }
