@@ -366,7 +366,7 @@
 					</div>
 
 					<div class="item">
-						<img src="image/equipo/Liseth2.jpg" alt="">
+						<img src="image/equipo/luis-pino.jpg" alt="">
 						<div class="caption equipo">
 							<h2>Luis Pino</h2>
 							<h3>Publicista y diseñador</h3>
@@ -382,7 +382,7 @@
 					</div>
 
 					<div class="item">
-						<img src="image/equipo/Liseth2.jpg" alt="">
+						<img src="image/equipo/laura-deantonio1.jpg" alt="">
 						<div class="caption equipo">
 							<h2>Laura Deantonio</h2>
 							<h3>Líder de Diseño</h3>
