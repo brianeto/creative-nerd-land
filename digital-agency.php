@@ -363,6 +363,70 @@
 				</div>	
 			</div>
 	</section>
+
+	<section id="seccion_servicios" class="seccion_padding">
+		<div class="container">
+			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+				DISEÑO <span>MULTIMEDIA</span> Y FOTOGRAFÍA
+			</h2>
+			<div class="row contenedor_slider">
+				<div class="row align-items-center digital">
+					<div class="col-md-8 digital">
+						<div class="carrusel third">
+							<div class="item-carrusel">
+								<img src="image/mux1.png" alt="" class="img-fluid">
+							</div>
+							<div class="item-carrusel">
+								<img src="image/mux1.png" alt="" class="img-fluid">
+							</div>
+							<div class="item-carrusel">
+								<img src="image/mux1.png" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 right digital">
+					<div class="barra-izq">
+
+					</div>
+					<h3 class="tag_titulo_detalle_servicio digital">
+						COTIZA TU <br> <span class="digital">PROYECTO</span>
+					</h3>
+					<div class="container-icon-place digital-icon">
+						<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
+			<div id="div_contenedor_iconos">
+				<div class="row justify-content-center text-center">
+					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#brandingModal">
+						<img class="img-fluid" src="image/branding.png" alt="">
+						<h5 class="grid-icon text">Branding</h5>
+					</div>
+					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#piezasPublicitariasModal">
+						<img class="img-fluid" src="image/banner.png" alt="">
+						<h5 class="grid-icon text">Piezas Publicitarias</h5>
+					</div>
+					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#diseñoCampañasModal">
+						<img class="img-fluid" src="image/campaign.png" alt="">
+						<h5 class="grid-icon text">Diseño de Campañas</h5>
+					</div>
+				</div>
+				<div class="row justify-content-center text-center">
+					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#suministrosPublicidadModal">
+						<img class="img-fluid" src="image/app-development.svg" alt="">
+						<h5 class="grid-icon text">Suministros de <br>Publicidad</h5>
+					</div>
+					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#mediosImpresosModal">
+						<img class="img-fluid" src="image/printer.png" alt="">
+						<h5 class="grid-icon text">Medios Impresos</h5>
+					</div>
+				</div>	
+			</div>
+	</section>
 	<!-- Modal Branding -->
 	<div class="modal fade" id="brandingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
@@ -503,7 +567,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
+	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-red">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
 					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#marketingDigitalModal">
@@ -696,7 +760,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-red">
+	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
 					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#desarrolloProductosModal">

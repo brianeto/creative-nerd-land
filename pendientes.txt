@@ -13,3 +13,6 @@
 * Cambiar las imagenes que no tienen transparencia a .png
 
 * Montserrat, work sans
+
+
+*Formulario debe apuntar a ventas@agenciaelnerd.com

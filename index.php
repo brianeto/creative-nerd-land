@@ -109,9 +109,7 @@
 								Creative Nerd <span class="digital">Digital Agency</span>
 							</h3>
 							<p class="tag_descripcion_detalle_servicio">
-								Somos una marca que nace con el fin de solucionar las necesidades de los empresarios de promocionar 
-								sus productos y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos 
-								corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
+								Somos una empresa que nace con el fin de solucionar las necesidades de los empresarios de promocionar sus marcas y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
 								<i class="fas fa-check"></i><a href="#">Desarrollo web</a>
@@ -227,10 +225,7 @@
 						¿QUIÉNES <b>SOMOS?</b>
 					</h2>
 					<p class="tag_texto_quienes_somos">
-						Somos una marca que nace con el fin de solucionar las necesidades de los empresarios 
-						de promocionar sus productos y de darle un valor agregado a sus empresas que les 
-						permita alcanzar sus objetivos corporativos mediante el uso de las nuevas tecnologías, 
-						las ideas creativas y la innovación.
+						Somos una empresa que nace con el fin de solucionar las necesidades de los empresarios de promocionar sus marcas y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
 					</p>				
 				</div>
 				<div class="col-12 col-lg-6">
@@ -369,6 +364,38 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="item">
+						<img src="image/equipo/Liseth2.jpg" alt="">
+						<div class="caption equipo">
+							<h2>Luis Pino</h2>
+							<h3>Publicista y diseñador</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="https://www.facebook.com/yhoney" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+									<a href="https://www.pinterest.es/luispino" class="nav-link" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+									<a href="https://www.linkedin.com/in/luispino" class="nav-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="image/equipo/Liseth2.jpg" alt="">
+						<div class="caption equipo">
+							<h2>Laura Deantonio</h2>
+							<h3>Líder de Diseño</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="https://www.instagram.com/amalia.rar/" class="nav-link" target="_blank"><i class="fab fa-instagram"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+
+
 				</div>
 			</div>
 		</div>
@@ -380,27 +407,27 @@
 				NUESTRO <span>PORTAFOLIO</span>
 			</h2>
 			<ul class="nav nav-pills justify-content-center category">
-			<li class="nav-item">
-				<a class="nav-link active" href="#">Active</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Link</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Link</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link disabled" href="#">Disabled</a>
-			</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Digital Agency</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Training</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Promocional</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Printing</a>
+				</li>
 			</ul>
 				
 			<div class="container">
 				<div class="grid">
 					<div class="grid-item large">
-						<img src="image/mockup-1.png" alt="">
+						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Titulo</h2>
-							<h3>categoria</h3>
+							<h2>Landing Page</h2>
+							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -410,10 +437,10 @@
 						</div>
 					</div>
 					<div class="grid-item x-small">
-						<img src="image/mockup-3.png" alt="">
+						<img src="image/portafolio/lotus-web.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Titulo</h2>
-							<h3>categoria</h3>
+							<h2>Página web</h2>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -423,10 +450,10 @@
 						</div>
 					</div>
 					<div class="grid-item small">
-						<img src="image/mockup-4.png" alt="">
+						<img src="image/portafolio/lotus-web.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Titulo</h2>
-							<h3>categoria</h3>
+							<h2>Página web</h2>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -436,10 +463,10 @@
 						</div>
 					</div>
 					<div class="grid-item medium">
-						<img src="image/mockup-2.png" alt="">
+						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Titulo</h2>
-							<h3>categoria</h3>
+							<h2>Landing Page</h2>
+							<h3>Diseño web / Landing Page</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -475,87 +502,16 @@
 				<div class="div_item_testimonios">
 					<div class="owl-carousel owl-testimonials">
 						<div class="row item">
-							<div class="col-12 col-lg-4 text-center align-self-end">
-								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonio.jpeg">
+							<div class="col-12 col-lg-4 text-center">
+								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonios/cristian.jpg">
 							</div>
-							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-start div_contenido_testimonios">
-								<p class="tag_nombre_testimonio">Luna Rose</p>
-								<p class="tag_asunto_testimonio">Web Developer Experience</p>
+							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-center div_contenido_testimonios">
+								<p class="tag_nombre_testimonio">Cristian Gonzalez</p>
+								<p class="tag_asunto_testimonio">Publicista Independiente- Digital Agency</p>
 								<p class="tag_texto_testimonio">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-						</div>
-						<div class="row item">
-							<div class="col-12 col-lg-4 text-center align-self-end">
-								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonio.jpeg">
-							</div>
-							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-start div_contenido_testimonios">
-								<p class="tag_nombre_testimonio">Luna Rose</p>
-								<p class="tag_asunto_testimonio">Web Developer Experience</p>
-								<p class="tag_texto_testimonio">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-						</div>
-						<div class="row item">
-							<div class="col-12 col-lg-4 text-center align-self-end">
-								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonio.jpeg">
-							</div>
-							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-start div_contenido_testimonios">
-								<p class="tag_nombre_testimonio">Luna Rose</p>
-								<p class="tag_asunto_testimonio">Web Developer Experience</p>
-								<p class="tag_texto_testimonio">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-						</div>
-						<div class="row item">
-							<div class="col-12 col-lg-4 text-center align-self-end">
-								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonio.jpeg">
-							</div>
-							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-start div_contenido_testimonios">
-								<p class="tag_nombre_testimonio">Luna Rose</p>
-								<p class="tag_asunto_testimonio">Web Developer Experience</p>
-								<p class="tag_texto_testimonio">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-						</div>
-						<div class="row item">
-							<div class="col-12 col-lg-4 text-center align-self-end">
-								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonio.jpeg">
-							</div>
-							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-start div_contenido_testimonios">
-								<p class="tag_nombre_testimonio">Luna Rose</p>
-								<p class="tag_asunto_testimonio">Web Developer Experience</p>
-								<p class="tag_texto_testimonio">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									<i class="fas fa-quote-left"></i>
+									Me pareció muy profesional el trabajo... Realmente me siento muy a gusto y creo que fue una gran decisión haberles entregado el proyecto. Muchas gracias.
+									<i class="fas fa-quote-right"></i>
 								</p>
 							</div>
 						</div>
@@ -569,14 +525,24 @@
 		<div class="container">
 			<div class="row">
 				<div class="owl-carousel owl-clientes col-md-12">
-					<div class="item clientes"><img src="image/cliente-alianza-sst.png"></div>
-					<div class="item clientes"><img src="image/cliente-Bioclass.png"></div>
-					<div class="item clientes"><img src="image/cliente-carpas-e- ingenieria.png"></div>
-					<div class="item clientes"><img src="image/cliente-clavel-y-la-rosa.png"></div>
-					<div class="item clientes"><img src="image/cliente-coop-futura.png"></div>
-					<div class="item clientes"><img src="image/cliente-inversionin.png"></div>
-					<div class="item clientes"><img src="image/cliente-jimenes-higuita.png"></div>
-					<div class="item clientes"><img src="image/cliente-lotus.png"></div>
+					<div class="item clientes"><img src="image/clientes/hurbu.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-alianza-sst.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-Bioclass.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-carpas-e- ingenieria.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-clavel-y-la-rosa.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-coop-futura.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-inversionin.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-jimenes-higuita.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-lotus.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-del mar a tu casa.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-fish box.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-gsc moda.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-men magazine gay.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-mireya pinilla.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-one style.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-Starken.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-uib seguros.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-vanima.png"></div>
 				</div>
 			</div>	
 		</div>	
