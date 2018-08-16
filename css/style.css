@@ -162,7 +162,7 @@
 }	
   .bg_dark {
 	  background: rgba(0, 0, 0, .4);
-	  z-index: 10;
+	  z-index: 12;
   }
   /* imagen cover */
   .bg-imagen {
@@ -1948,7 +1948,7 @@
 	  }
 	  /*banner*/
 	  .diagonal_cut::before{
-		  position: unset; 	
+		z-index: 2;
 	  }
 	  .titulo-banner.digital-agency {
 		  bottom: 18%;

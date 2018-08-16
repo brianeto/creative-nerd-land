@@ -110,8 +110,6 @@ $(document).ready(function(){
             $(".dropdown-item.printing").addClass("col-2");
             $(".grid-icon").removeClass("col-2");
             $(".grid-icon").addClass("col-lg-1");
-            $(".d-block.w-100").removeAttr("src");
-
          }    
      });
      $(document).ready(function () {
