@@ -63,18 +63,19 @@
 						</div>
 					</div>
 				</div>
-			
-				<div class="col-12 col-lg-6 right digital">
-					<div class="barra-izq">
+				<a href="#seccion_contacto">
+					<div class="col-12 col-lg-6 right digital">
+						<div class="barra-izq">
 
+						</div>
+						<h3 class="tag_titulo_detalle_servicio digital">
+							COTIZA TU <br> <span class="digital">PROYECTO</span>
+						</h3>
+						<div class="container-icon-place digital-icon">
+							<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+						</div>
 					</div>
-					<h3 class="tag_titulo_detalle_servicio digital">
-						COTIZA TU <br> <span class="digital">PROYECTO</span>
-					</h3>
-					<div class="container-icon-place digital-icon">
-						<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
-					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -111,9 +112,9 @@
 					</button>
 				</div>
 				<div class="modal-body">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
-						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
-						quas dolore impedit? Ad dolore veritatis sit tenetur.
+					Atrévete a diseñar una página web llena de creatividad, innovación, fácil acceso y con un diseño que tus
+					clientes amarán. Una página web no solo es la vitrina para mostrar tus productos y servicios al mundo; es
+					el primer paso para la generación de ventas en tu negocio o empresa.
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -132,9 +133,9 @@
 					</button>
 				</div>
 				<div class="modal-body">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
-						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
-						quas dolore impedit? Ad dolore veritatis sit tenetur.
+					Por medio del diseño de una Página de Aterrizaje podrás potencializar los objetivos de tu campaña creativa.
+					Diseña y desarrolla una página donde tus clientes podrán insertar sus datos y llevarse la información que
+					realmente ellos necesitan. ¡Aumenta el número de Leads de tu negocio! 
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -153,9 +154,10 @@
 					</button>
 				</div>
 				<div class="modal-body">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
-						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
-						quas dolore impedit? Ad dolore veritatis sit tenetur.
+					¿Tienes productos y deseas venderlos a través de internet? Crea tu Página Web E-Commerce (Comercio Electrónico).
+					Somos especialistas en el diseño y desarrollo de páginas que permitirán que tengas los resultados que siempre has
+					deseado, haciendo crecer tu negocio y brindándole a tus clientes una vitrina digital creativa, llena de herramientas
+					que pontencializara el número de conversiones que al final se traducen en ventas para tu negocio.
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -174,9 +176,8 @@
 					</button>
 				</div>
 				<div class="modal-body">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
-						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
-						quas dolore impedit? Ad dolore veritatis sit tenetur.
+					¿Tienes un problema con tu sitio web? ¿El ingeniero que te apoyaba ahora no quiere responder por su desarrollo? No te preocupes,
+					te ayudamos a recuperar la información, realizar los cambios que necesites o aplicar nuevas tecnologías a tu página web. 
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -205,17 +206,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-6 right digital">
-					<div class="barra-izq">
+				<a href="#seccion_contacto">
+					<div class="col-12 col-lg-6 right digital">
+						<div class="barra-izq">
 
+						</div>
+						<h3 class="tag_titulo_detalle_servicio digital">
+							COTIZA TU <br> <span class="digital">PROYECTO</span>
+						</h3>
+						<div class="container-icon-place digital-icon">
+							<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+						</div>
 					</div>
-					<h3 class="tag_titulo_detalle_servicio digital">
-						COTIZA TU <br> <span class="digital">PROYECTO</span>
-					</h3>
-					<div class="container-icon-place digital-icon">
-						<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
-					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -321,17 +324,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-6 right digital">
-					<div class="barra-izq">
+				<a href="#seccion_contacto">
+					<div class="col-12 col-lg-6 right digital">
+						<div class="barra-izq">
 
+						</div>
+						<h3 class="tag_titulo_detalle_servicio digital">
+							COTIZA TU <br> <span class="digital">PROYECTO</span>
+						</h3>
+						<div class="container-icon-place digital-icon">
+							<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+						</div>
 					</div>
-					<h3 class="tag_titulo_detalle_servicio digital">
-						COTIZA TU <br> <span class="digital">PROYECTO</span>
-					</h3>
-					<div class="container-icon-place digital-icon">
-						<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
-					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -385,17 +390,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-6 right digital">
-					<div class="barra-izq">
+				<a href="#seccion_contacto">
+					<div class="col-12 col-lg-6 right digital">
+						<div class="barra-izq">
 
+						</div>
+						<h3 class="tag_titulo_detalle_servicio digital">
+							COTIZA TU <br> <span class="digital">PROYECTO</span>
+						</h3>
+						<div class="container-icon-place digital-icon">
+							<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+						</div>
 					</div>
-					<h3 class="tag_titulo_detalle_servicio digital">
-						COTIZA TU <br> <span class="digital">PROYECTO</span>
-					</h3>
-					<div class="container-icon-place digital-icon">
-						<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
-					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -553,17 +560,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-6 right digital">
-					<div class="barra-izq">
+				<a href="#seccion_contacto">
+					<div class="col-12 col-lg-6 right digital">
+						<div class="barra-izq">
 
+						</div>
+						<h3 class="tag_titulo_detalle_servicio digital">
+							COTIZA TU <br> <span class="digital">PROYECTO</span>
+						</h3>
+						<div class="container-icon-place digital-icon">
+							<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+						</div>
 					</div>
-					<h3 class="tag_titulo_detalle_servicio digital">
-						COTIZA TU <br> <span class="digital">PROYECTO</span>
-					</h3>
-					<div class="container-icon-place digital-icon">
-						<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
-					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -746,17 +755,19 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-6 right digital">
-					<div class="barra-izq">
+				<a href="#seccion_contacto">
+					<div class="col-12 col-lg-6 right digital">
+						<div class="barra-izq">
 
+						</div>
+						<h3 class="tag_titulo_detalle_servicio digital">
+							COTIZA TU <br> <span class="digital">PROYECTO</span>
+						</h3>
+						<div class="container-icon-place digital-icon">
+							<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+						</div>
 					</div>
-					<h3 class="tag_titulo_detalle_servicio digital">
-						COTIZA TU <br> <span class="digital">PROYECTO</span>
-					</h3>
-					<div class="container-icon-place digital-icon">
-						<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
-					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</section>

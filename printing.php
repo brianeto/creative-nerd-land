@@ -61,17 +61,19 @@
 							Mediante Alianzas Estratégicas tercerizamos el proceso de Impresión el cual incluye todo lo
 							referente a material publicitario.
 						</p>
-						<div class="col-12 col-lg-6 right printing">
-							<div class="barra-izq printing">
+						<a href="#seccion_contacto">
+							<div class="col-12 col-lg-6 right printing">
+								<div class="barra-izq printing">
 
+								</div>
+								<h3 class="tag_titulo_detalle_servicio digital printing">
+									COTIZA TUS <br> IMPRESOS
+								</h3>
+								<div class="container-icon-place printing-icon">
+									<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+								</div>
 							</div>
-							<h3 class="tag_titulo_detalle_servicio digital printing">
-								COTIZA TUS <br> IMPRESOS
-							</h3>
-							<div class="container-icon-place printing-icon">
-								<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>	
 			</div>

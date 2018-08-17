@@ -62,17 +62,19 @@
 							del uso de elementos publicitarios que lleven la marca de su compañia entregándolo a clientes 
 							internos y clientes externos en eventos, ferias, etc...
 						</p>
-						<div class="col-12 col-lg-6 right promocional">
-							<div class="barra-izq promocional">
+						<a href="#seccion_contacto">
+							<div class="col-12 col-lg-6 right promocional">
+								<div class="barra-izq promocional">
 
+								</div>
+								<h3 class="tag_titulo_detalle_servicio promocional">
+									COTIZA TUS <br> PROMOCIONALES
+								</h3>
+								<div class="container-icon-place promocional-icon">
+									<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+								</div>
 							</div>
-							<h3 class="tag_titulo_detalle_servicio promocional">
-								COTIZA TUS <br> PROMOCIONALES
-							</h3>
-							<div class="container-icon-place promocional-icon">
-								<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>	
 			</div>

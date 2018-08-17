@@ -1403,6 +1403,11 @@
 	  cursor: pointer;
 	  left: 0;
   }
+  a.hover_training {
+		color: #007bff;
+		text-decoration: none;
+		background-color: transparent;
+  }
   /*PROMOCIONAL PAGE*/
   .titulo-banner.promocional {
 	  left: 43%;
