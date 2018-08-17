@@ -63,7 +63,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto">
+				<a href="#seccion_contacto" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -206,7 +206,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto">
+				<a href="#seccion_contacto" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -324,7 +324,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto">
+				<a href="#seccion_contacto" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -390,7 +390,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto">
+				<a href="#seccion_contacto" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -560,7 +560,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto">
+				<a href="#seccion_contacto" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -755,7 +755,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto">
+				<a href="#seccion_contacto" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 

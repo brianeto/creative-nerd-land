@@ -1,4 +1,5 @@
 
+<div>
 <footer class="seccion_padding diagonal_cut_footer">
 	<div class="container">
 		<div class="row">
