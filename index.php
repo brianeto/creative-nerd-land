@@ -409,16 +409,16 @@
 				NUESTRO <span>PORTAFOLIO</span>
 			</h2>
 			<ul class="nav nav-pills justify-content-center category">
-				<li class="nav-item active">
+				<li class="nav-item active portafolio">
 					<a class="digital active nav-link nav-link-portafolio" data-category-portafolio="digital-portafolio">Digital Agency</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item portafolio">
 					<a class="training nav-link nav-link-portafolio" data-category-portafolio="training-portafolio">Training</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item portafolio">
 					<a class="promocional nav-link nav-link-portafolio" data-category-portafolio="promocional-portafolio">Promocional</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item portafolio">
 					<a class="printing nav-link nav-link-portafolio" data-category-portafolio="printing-portafolio">Printing</a>
 				</li>
 			</ul>			
@@ -432,7 +432,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="https://modelos-webcam.com" class="nav-link"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -445,7 +445,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="https://modelos-webcam.com" class="nav-link"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -551,7 +551,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="·" class="nav-link"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>

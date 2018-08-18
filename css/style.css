@@ -510,7 +510,7 @@ footer{
 }
 .portafolio-button {
 	background: #A4141B;
-	margin-left: 43%;
+	margin-left: 40%;
 	margin-top: 6%;
 	margin-bottom: 4%;
 }
@@ -540,10 +540,16 @@ footer{
 
 .item-portafolio-general{
 	padding: 0;
+	height: 265px;
 }
 
 .item-portafolio-general{
 	position: relative;
+}
+.item-portafolio-general img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
 /*----------------*/
@@ -1042,8 +1048,6 @@ footer{
 	background: #A5141C;
 	color: #fff;
 }
-
-
 
 /*Caption*/
 
@@ -1834,8 +1838,20 @@ a.hover_training {
 	#seccion_portafolio {
 		margin-top: -100px;
 	}
+	.nav-item.portafolio {
+		margin-bottom: 0;
+	}
+	.digital.active.nav-link.nav-link-portafolio {
+		width: 50%;
+		margin-left: 25%;
+	}
+	.portafolio-button {
+		margin-left: 15%;
+	}
 	/*imagenes portfolio*/
-	
+	#digital-portafolio {
+		display: flex;
+	}
 	.grid {
 		display: flex;
 		flex-direction: column;

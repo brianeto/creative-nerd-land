@@ -50,7 +50,7 @@
 			</h2>
 			<ul class="nav nav-pills justify-content-center category">
                 <li class="nav-item active">
-					<a class="digital active nav-link btn-portafolio" data-category-button="todo">Todo</a>
+					<a class="todo digital active nav-link btn-portafolio" data-category-button="todo">Todo</a>
 				</li>
 				<li class="nav-item active">
 					<a class="digital nav-link btn-portafolio" data-category-button="digital-agency">Digital Agency</a>

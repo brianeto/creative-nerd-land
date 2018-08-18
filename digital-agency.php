@@ -47,7 +47,6 @@
 				DISEÑO <span>WEB</span>
 			</h2>
 			<div class="row div_contenedor_detalles_servicios">
-
 				<div class="row align-items-center digital">
 					<div class="col-md-8 digital">
 						<div class="carrusel first">
@@ -195,13 +194,13 @@
 					<div class="col-md-8 digital">
 						<div class="carrusel second">
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/portafolio/alianza-web.jpg" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/portafolio/carpas-web.jpg" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/portafolio/coopfutura-web.jpg" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
