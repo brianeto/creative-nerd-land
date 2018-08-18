@@ -71,7 +71,7 @@
                         <img src="image/portafolio/alianza-web.jpg" alt="" class="img-fluid">
                             <div class="caption portafolio">
                                 <h2>Alianza SST</h2>
-                                <h3>Diseño web / Landing page</h3>
+                                <h3>Diseño web / Soporte Web</h3>
                                 <hr class="line-bottom">
                                 <div class="links">
                                     <nav class="nav justify-content-center">
@@ -98,7 +98,7 @@
                         <img src="image/portafolio/lotus-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>Lotus <br>Web Cam Model</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -111,7 +111,7 @@
                         <img src="image/portafolio/carpas-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>Carpas <br>e Ingenieria</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -124,7 +124,7 @@
                         <img src="image/portafolio/GHY-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>GHY Siso</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -137,7 +137,7 @@
                         <img src="image/portafolio/Redemancy-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>Redemancy <br> Photo Studios</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -150,7 +150,7 @@
                         <img src="image/portafolio/vr3-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>Vr3</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -163,7 +163,7 @@
                         <img src="image/portafolio/sur-alturas-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>Sur Alturas</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -175,8 +175,8 @@
                     <div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency">
                         <img src="image/portafolio/jhr-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
-							<h2>JH Abogados</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h2>JHR Abogados</h2>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -188,8 +188,8 @@
                     <div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency">
                         <img src="image/portafolio/bioclass-letrero.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
-							<h2>Bioclass Spa</h2>
-							<h3>Marketing Digital / Post Social Media</h3>
+							<h2>Bioclass Spa Letrero</h2>
+							<h3>Diseño Gráfico</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -201,8 +201,8 @@
                     <div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency">
                         <img src="image/portafolio/pendon-bioclass.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
-							<h2>Pendon</h2>
-							<h3>Diseño Grafico</h3>
+							<h2>Pendón</h2>
+							<h3>Diseño Gráfico</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -215,7 +215,7 @@
                         <img src="image/portafolio/gsc-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>GSC Moda</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -228,7 +228,7 @@
                         <img src="image/portafolio/gsc-web-venezuela.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>GSC Moda <br> Venezuela</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -271,7 +271,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="image/portafolio/coopfutura-web.jpg" data-lightbox="portafolio6" data-title="Coopfutura" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="http://agenciaelnerd.com/demo/coopfutura/" class="nav-link" target="_blank"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -280,7 +280,7 @@
                         <img src="image/portafolio/UIB-presentacion.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>UIB Seguros</h2>
-							<h3>Diseño Grafico</h3>
+							<h3>Diseño Gráfico</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -293,7 +293,7 @@
                         <img src="image/portafolio/vanima-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>Vanima Tours</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -306,7 +306,7 @@
                         <img src="image/portafolio/men-magazine-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>Men<br> Magazine Gay</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -319,7 +319,7 @@
                         <img src="image/portafolio/mireya-web.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>Mireya Pinilla<br>Interior Design</h2>
-							<h3>Diseño web / Landing page</h3>
+							<h3>Diseño web</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -332,7 +332,7 @@
                         <img src="image/portafolio/hurbu-app.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>Hurbu</h2>
-							<h3>App Movil</h3>
+							<h3>App Móvil</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
@@ -345,7 +345,7 @@
                         <img src="image/portafolio/logo-onestyle.jpg" alt="" class="img-fluid">
                         <div class="caption portafolio">
 							<h2>OneStyle</h2>
-							<h3>Diseño Grafico</h3>
+							<h3>Diseño Gráfico</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">

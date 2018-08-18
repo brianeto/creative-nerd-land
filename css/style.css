@@ -2186,3 +2186,8 @@ a.hover_training {
   No media query since this is the default in Bootstrap because it is "mobile first"
   */
 }
+
+
+.caption h2{
+	font-size: 1.5rem; 
+}
