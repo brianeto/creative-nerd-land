@@ -51,8 +51,9 @@ $(document).ready(function(){
     $(".owl-clientes").owlCarousel({
                items: 5,
                autoplay: true,
-               autoplayTimeout:2000,
-               nav: true,
+               autoplayTimeout:1000,
+               nav: false,
+               loop: true,
                 responsive : {
                  // breakpoint from 0 up
                  0 : {

@@ -114,26 +114,26 @@
 								mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="#">Desarrollo web</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php">Desarrollo web</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="#">Desarrollo de apps</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php">Desarrollo de apps</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="#">Diseño gráfico</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php">Diseño gráfico</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="#">Diseño multimedia</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php">Diseño multimedia</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="#">Social media</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php">Social media</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="#">Diseño industrial</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php">Diseño industrial</a>
 							</p>
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="digital-agency.php" role="button">Ver más</a>
-								<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+								<a class="btn tag_enlace_servicios_2" href="#seccion_contacto" role="button">Cotizar</a>
 							</div>
 						</div>
 					</div>	
@@ -155,7 +155,7 @@
 							</p> target="_blank"
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="training.php" role="button">Ver más</a>
-								<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+								<a class="btn tag_enlace_servicios_2" href="#seccion_contacto" role="button">Cotizar</a>
 							</div>
 						</div>
 					</div>
@@ -181,7 +181,7 @@
 							</p>
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="promocional.php" role="button">Ver más</a>
-								<a class="btn tag_enlace_servicios_2" href="" role="button">Cotizar</a>
+								<a class="btn tag_enlace_servicios_2" href="#seccion_contacto" role="button">Cotizar</a>
 							</div>
 						</div>
 					</div>
@@ -210,7 +210,7 @@
 							</p>
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="printing.php" role="button">Ver más</a>
-								<a class="btn tag_enlace_servicios_2" href="#" role="button">Cotizar</a>
+								<a class="btn tag_enlace_servicios_2" href="#seccion_contacto" role="button">Cotizar</a>
 							</div>
 						</div>
 					</div>
@@ -736,16 +736,15 @@
 					<div class="item clientes"><img src="image/clientes/cliente-coop-futura.png"></div>
 					<div class="item clientes"><img src="image/clientes/cliente-inversionin.png"></div>
 					<div class="item clientes"><img src="image/clientes/cliente-jimenes-higuita.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-lotus.png"></div>
 					<div class="item clientes"><img src="image/clientes/cliente-del mar a tu casa.png"></div>
 					<div class="item clientes"><img src="image/clientes/cliente-fish box.png"></div>
 					<div class="item clientes"><img src="image/clientes/cliente-gsc moda.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-men magazine gay.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-men magazine gay.png" class="brand_grey"></div>
 					<div class="item clientes"><img src="image/clientes/cliente-mireya pinilla.png"></div>
 					<div class="item clientes"><img src="image/clientes/cliente-one style.png"></div>
 					<div class="item clientes"><img src="image/clientes/cliente-Starken.png"></div>
 					<div class="item clientes"><img src="image/clientes/cliente-uib seguros.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-vanima.png"></div>
+					<div class="item clientes"><img src="image/clientes/cliente-vanima.png" class="brand_grey"></div>
 				</div>
 			</div>	
 		</div>	

@@ -81,19 +81,19 @@
 	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut opacity bg-imagen opacity opacity-red">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#paginasWebModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#paginasWebModal">
 						<img class="img-fluid" src="image/launch.svg" alt="">
 						<h5 class="grid-icon text">Páginas web</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#landingPagesModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#landingPagesModal">
 						<img class="img-fluid" src="image/pagelanding.svg" alt="">
 						<h5 class="grid-icon text">Landing Pages</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#comercioElectronicoModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#comercioElectronicoModal">
 						<img class="img-fluid" src="image/smartphone-comercio.svg" alt="">
 						<h5 class="grid-icon text">Comercio <br> Electrónico</h5> 
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#soporteAdministracionModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#soporteAdministracionModal">
 						<img class="img-fluid" src="image/support-administracion.svg" alt="">
 						<h5 class="grid-icon text">Soporte <br>y administración de <br>sitios web</h5>
 					</div>
@@ -224,15 +224,15 @@
 	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#desarrolloAppModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#desarrolloAppModal">
 						<img class="img-fluid" src="image/app-development.svg" alt="">
 						<h5 class="grid-icon text">Desarrollo App Móvil</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#diseñoAppsModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñoAppsModal">
 						<img class="img-fluid" src="image/smartphone-diseño.svg" alt="">
 						<h5 class="grid-icon text">Diseño de Apps</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#tiendasOficialesModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#tiendasOficialesModal">
 						<img class="img-fluid" src="image/app-play.svg" alt="">
 						<h5 class="grid-icon text">Implementación en<br>Tiendas Oficiales</h5>
 					</div>
@@ -342,25 +342,25 @@
 	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-red">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#brandingModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#brandingModal">
 						<img class="img-fluid" src="image/branding.png" alt="">
 						<h5 class="grid-icon text">Branding</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#piezasPublicitariasModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#piezasPublicitariasModal">
 						<img class="img-fluid" src="image/banner.png" alt="">
 						<h5 class="grid-icon text">Piezas Publicitarias</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#diseñoCampañasModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñoCampañasModal">
 						<img class="img-fluid" src="image/campaign.png" alt="">
 						<h5 class="grid-icon text">Diseño de Campañas</h5>
 					</div>
 				</div>
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#suministrosPublicidadModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#suministrosPublicidadModal">
 						<img class="img-fluid" src="image/app-development.svg" alt="">
 						<h5 class="grid-icon text">Suministros de <br>Publicidad</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#mediosImpresosModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#mediosImpresosModal">
 						<img class="img-fluid" src="image/printer.png" alt="">
 						<h5 class="grid-icon text">Medios Impresos</h5>
 					</div>
@@ -408,25 +408,25 @@
 	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#brandingModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#brandingModal">
 						<img class="img-fluid" src="image/branding.png" alt="">
 						<h5 class="grid-icon text">Branding</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#piezasPublicitariasModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#piezasPublicitariasModal">
 						<img class="img-fluid" src="image/banner.png" alt="">
 						<h5 class="grid-icon text">Piezas Publicitarias</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#diseñoCampañasModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñoCampañasModal">
 						<img class="img-fluid" src="image/campaign.png" alt="">
 						<h5 class="grid-icon text">Diseño de Campañas</h5>
 					</div>
 				</div>
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#suministrosPublicidadModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#suministrosPublicidadModal">
 						<img class="img-fluid" src="image/app-development.svg" alt="">
 						<h5 class="grid-icon text">Suministros de <br>Publicidad</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#mediosImpresosModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#mediosImpresosModal">
 						<img class="img-fluid" src="image/printer.png" alt="">
 						<h5 class="grid-icon text">Medios Impresos</h5>
 					</div>
@@ -578,29 +578,29 @@
 	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-red">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#marketingDigitalModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#marketingDigitalModal">
 						<img class="img-fluid" src="image/pie-chart.svg" alt="">
 						<h5 class="grid-icon text">Marketing Digital</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#socialMediaModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#socialMediaModal">
 						<img class="img-fluid" src="image/facebook.svg" alt="">
 						<h5 class="grid-icon text">Social Media</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#mailMarketingModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#mailMarketingModal">
 						<img class="img-fluid" src="image/mail.svg" alt="">
 						<h5 class="grid-icon text">Mail Marketing</h5>
 					</div>
 				</div>
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#googleAdwordsModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#googleAdwordsModal">
 						<img class="img-fluid" src="image/adwords.svg" alt="">
 						<h5 class="grid-icon text">Publicidad en<br>Google Adwords</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#posicionamientoBuscadoresModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#posicionamientoBuscadoresModal">
 						<img class="img-fluid" src="image/search.svg" alt="">
 						<h5 class="grid-icon text">Posicionamiento en<br>Buscadores</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#administracionCampañasModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#administracionCampañasModal">
 						<img class="img-fluid" src="image/startup.svg" alt="">
 						<h5 class="grid-icon text">Administración de<br>Campañas Digitales<br>(Ads)</h5>
 					</div>
@@ -773,15 +773,15 @@
 	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#desarrolloProductosModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#desarrolloProductosModal">
 						<img class="img-fluid" src="image/flour.svg" alt="">
 						<h5 class="grid-icon text">Desarrollo de<br>Productos</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#diseñadoEmpaquesModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñadoEmpaquesModal">
 						<img class="img-fluid" src="image/donation.svg" alt="">
 						<h5 class="grid-icon text">Diseñado de<br>Empaques</h5>
 					</div>
-					<div class="grid-icon col-2 btn" data-toggle="modal" data-target="#ambientacionModal">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#ambientacionModal">
 						<img class="img-fluid"src="image/lamp.svg" alt="">
 						<h5 class="grid-icon text">Ambientación</h5>
 					</div>

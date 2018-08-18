@@ -533,6 +533,19 @@ footer{
 	margin: 0 1em;
 	color: #fff;
 	transition: all .3s;
+	font-size: 1.5rem;
+}
+
+.plus.portafolio:hover{
+	color: #000;
+}
+
+.img-service{
+	transition: all .2s;
+}
+
+.img-service:hover{
+	transform: scale(1.2);
 }
 
 
@@ -550,6 +563,7 @@ footer{
 .item-portafolio-general{
 	padding: 0;
 	height: 265px;
+	transform: scale(.98);
 }
 
 .item-portafolio-general{
@@ -854,9 +868,13 @@ footer{
 	width: 100%;
 }
 
-#seccion_contacto{
-	
-}
+/*CLIENTES*/
+.owl-clientes .brand_grey{
+		-moz-filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+	}
+
 .tag_indicador_form{
 	font-weight: bold;
 	color: #282828;
@@ -1231,6 +1249,16 @@ footer{
 	background: rgba(165, 20, 28, .8);
 	
 }
+
+
+.img-button{
+	transition: all .2s;
+	cursor: pointer;
+}
+
+.img-button:hover{
+	transform: scale(1.2);
+}
 /*display:none, nuestros servicios nav*/
 .nav.nav-pills.servicios{
 	display: none;
@@ -1527,10 +1555,7 @@ a.hover_training {
 	padding: 4em;
 }
 /*PORTAFOLIO PAGE*/
-.tag_titulo_secciones.tag_titulo_secciones_black.text-center.titulo-banner.portafolio {
-	left: 15%;
-	top: 30%;
-}
+
 .nav-item {
 	cursor: pointer;
 }
