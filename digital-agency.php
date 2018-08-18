@@ -194,13 +194,13 @@
 					<div class="col-md-8 digital">
 						<div class="carrusel second">
 							<div class="item-carrusel">
-								<img src="image/portafolio/alianza-web.jpg" alt="" class="img-fluid">
+								<img src="image/appRecurso 1.png" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/portafolio/carpas-web.jpg" alt="" class="img-fluid">
+								<img src="image/appRecurso2.png" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/portafolio/coopfutura-web.jpg" alt="" class="img-fluid">
+								<img src="image/appRecurso 1.png" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
