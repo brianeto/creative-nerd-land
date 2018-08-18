@@ -499,6 +499,15 @@ footer{
 }
 
 /*portafolio index*/
+.training.nav-link.nav-link-portafolio {
+	display: none;
+}
+.promocional.nav-link.nav-link-portafolio {
+	display: none;
+}
+.printing.nav-link.nav-link-portafolio {
+	display: none;
+}
 .portafolio-button {
 	background: #A4141B;
 	margin-left: 43%;
@@ -1505,6 +1514,12 @@ a.hover_training {
 	padding: 4em;
 }
 /*PORTAFOLIO PAGE*/
+.tag_titulo_secciones.tag_titulo_secciones_black.text-center.titulo-banner.portafolio {
+    left: 42%;
+}
+.nav-item {
+	cursor: pointer;
+}
 .portafolio-item {
     display: flex;
     justify-content: center;
@@ -1513,7 +1528,15 @@ a.hover_training {
 	position: relative;
 	padding: 0 !important;
 }
-
+.training.nav-link.btn-portafolio {
+	display: none;
+}
+.promocional.nav-link.btn-portafolio {
+	display: none;
+}
+.printing.nav-link.btn-portafolio {
+	display: none;
+}
 @media (min-width: 1366px){
 	.diagonal_cut::before {
 		content: '';

@@ -109,7 +109,9 @@
 								Creative Nerd <span class="digital">Digital Agency</span>
 							</h3>
 							<p class="tag_descripcion_detalle_servicio">
-								Somos una empresa que nace con el fin de solucionar las necesidades de los empresarios de promocionar sus marcas y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
+								Somos una empresa que nace con el fin de solucionar las necesidades de los empresarios de promocionar
+								sus marcas y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos corporativos
+								mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
 								<i class="fas fa-check"></i><a href="#">Desarrollo web</a>
@@ -689,7 +691,7 @@
 						</div>
 					</div>
 				</div>
-				<a class="btn tag_enlace_servicios portafolio-button" href="portafolio.php" role="button">Ver Portafolio</a>
+				<a class="btn tag_enlace_servicios portafolio-button" href="portafolio.php" role="button">Ver Todo el Portafolio</a>
 			</div>
 		</div>	
 	</section>
