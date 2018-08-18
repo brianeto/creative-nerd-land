@@ -407,23 +407,22 @@
 				NUESTRO <span>PORTAFOLIO</span>
 			</h2>
 			<ul class="nav nav-pills justify-content-center category">
-				<li class="nav-item">
-					<a class="nav-link active" href="#">Digital Agency</a>
+				<li class="nav-item active">
+					<a class="digital active nav-link nav-link-portafolio" data-category-portafolio="digital-portafolio">Digital Agency</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Training</a>
+					<a class="training nav-link nav-link-portafolio" data-category-portafolio="training-portafolio">Training</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Promocional</a>
+					<a class="promocional nav-link nav-link-portafolio" data-category-portafolio="promocional-portafolio">Promocional</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Printing</a>
+					<a class="printing nav-link nav-link-portafolio" data-category-portafolio="printing-portafolio">Printing</a>
 				</li>
-			</ul>
-				
+			</ul>			
 			<div class="container">
-				<div class="grid">
-					<div class="grid-item large">
+				<div class="grid item-services-portafolio able-portafolio" id="digital-portafolio">
+					<div class="grid-item large item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Landing Page</h2>
@@ -436,7 +435,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item x-small">
+					<div class="grid-item x-small item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/lotus-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Página web</h2>
@@ -449,8 +448,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item small">
-						<img src="image/portafolio/lotus-web.jpg" alt="">
+					<div class="grid-item small item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/alianza-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Página web</h2>
 							<h3>Diseño web</h3>
@@ -462,8 +461,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item medium">
-						<img src="image/portafolio/landing-starken.jpg" alt="">
+					<div class="grid-item medium item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/carpas-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Landing Page</h2>
 							<h3>Diseño web / Landing Page</h3>
@@ -475,8 +474,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="grid-item small">
-						<img src="image/mockup-6.png" alt="">
+					<div class="grid-item small item-portafolio able" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/GHY-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Titulo</h2>
 							<h3>categoria</h3>
@@ -489,6 +488,208 @@
 						</div>
 					</div>
 				</div>
+				<div class="grid item-services-portafolio" id="training-portafolio">
+					<div class="grid-item large item-portafolio" data-category-portafolio="training-portafolio">
+						<img src="image/portafolio/landing-starken.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Landing Page</h2>
+							<h3>Diseño web / Landing page</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item x-small item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/landing-starken.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Página web</h2>
+							<h3>Diseño web</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item small item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/landing-starken.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Página web</h2>
+							<h3>Diseño web</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item medium item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/landing-starken.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Landing Page</h2>
+							<h3>Diseño web / Landing Page</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item small item-portafolio able" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/landing-starken.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Titulo</h2>
+							<h3>categoria</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="grid item-services-portafolio" id="promocional-portafolio">
+					<div class="grid-item large item-portafolio" data-category-portafolio="promocional-portafolio">
+						<img src="image/portafolio/lotus-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Landing Page</h2>
+							<h3>Diseño web / Landing page</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item x-small item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/lotus-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Página web</h2>
+							<h3>Diseño web</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item small item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/lotus-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Página web</h2>
+							<h3>Diseño web</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item medium item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/lotus-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Landing Page</h2>
+							<h3>Diseño web / Landing Page</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item small item-portafolio able" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/lotus-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Titulo</h2>
+							<h3>categoria</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="grid item-services-portafolio" id="printing-portafolio">
+					<div class="grid-item large item-portafolio" data-category-portafolio="printing-portafolio">
+						<img src="image/portafolio/GHY-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Landing Page</h2>
+							<h3>Diseño web / Landing page</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item x-small item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/GHY-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Página web</h2>
+							<h3>Diseño web</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item small item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/GHY-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Página web</h2>
+							<h3>Diseño web</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item medium item-portafolio" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/GHY-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Landing Page</h2>
+							<h3>Diseño web / Landing Page</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item small item-portafolio able" data-category-portafolio="digital-portafolio">
+						<img src="image/portafolio/GHY-web.jpg" alt="">
+						<div class="caption portafolio">
+							<h2>Titulo</h2>
+							<h3>categoria</h3>
+							<hr class="line-bottom">
+							<div class="links">
+								<nav class="nav justify-content-center">
+									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="btn tag_enlace_servicios portafolio-button" href="portafolio.php" role="button">Ver Portafolio</a>
 			</div>
 		</div>	
 	</section>
@@ -546,44 +747,6 @@
 				</div>
 			</div>	
 		</div>	
-	</section>
-
-	<section id="seccion_contacto" class="seccion_padding">
-		<div class="container">
-			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
-				CONTÁCTANOS
-			</h2>
-			<p class="tag_subtitulo_secciones tag_titulo_secciones_black text-center">
-				¿Estás listo para iniciar tu proyecto?<br>
-				<span>Cuéntanos de él</span>
-			</p>
-			<div class="row">
-				<div class="col-12 col-lg-6 align-self-center">
-					<form class="text-center" id="form_contacto" method="post" action="javascript:enviarContacto();">
-						<div class="form-row">
-							<div class="col-12 col-lg-6 text-left">
-								<label for="txt_nombre" class="tag_indicador_form">Nombre</label>
-								<input type="text" class="form-control form-control-mine" id="txt_nombre">
-							</div>
-							<div class="col-12 col-lg-6 text-left">
-								<label for="txt_email" class="tag_indicador_form">Email</label>
-								<input type="email" class="form-control form-control-mine" id="txt_email">
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="col-12 text-left">
-								<label for="txt_mensaje" class="tag_indicador_form">Mensaje</label>
-								<textarea class="form-control form-control-mine" id="txt_mensaje"></textarea>
-							</div>
-						</div>
-						<button type="submit" class="btn btn-form-mine" id="btn_enviar">ENVIAR</button>
-					</form>
-				</div>
-				<div class="col-12 col-lg-6 align-self-end man">
-					<img class="img_persona_contacto" src="<?php echo $path; ?>image/contact.png">
-				</div>			
-			</div>		
-		</div>		
 	</section>
 <?php 
 	include('footer.php');

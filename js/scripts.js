@@ -257,6 +257,39 @@ $(document).ready(function(){
         $('.item-services[id="'+category+'"]').addClass('able');
       });
 
+      //PORTAFOLIO INDEX
+      $('#seccion_portafolio .nav-link').click(function(){
+        $('#seccion_portafolio .nav-link').removeClass('active');
+        $(this).addClass('active');
+
+        var categoryportafolio = $(this).attr('data-category-portafolio');
+
+        $('.item-services-portafolio').removeClass('able-portafolio');
+        $('.item-services-portafolio[id="'+categoryportafolio+'"]').addClass('able-portafolio');
+      });
+
+        //PORTAFOLIO PAGE
+      $('.btn-portafolio').click(function(e){
+          e.preventDefault();
+        $('.btn-portafolio').removeClass('active');
+        $(this).addClass('active');
+        
+        
+        var itemCategory = $(this).attr('data-category-button');
+
+        $('.item-portafolio-general').css('display','none');
+        $('.item-portafolio-general[data-category-item="'+itemCategory+'"]').css('display','block');
+        
+        
+      });
+      $('.btn-portafolio[data-category-button="todo"]').click(function(e){
+        $('.item-portafolio-general').css('display','block');
+      
+      
+    });
+
+
+
  });
 
 $(window).resize(function() {

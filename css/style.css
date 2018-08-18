@@ -498,8 +498,27 @@ footer{
 	background-color:#3CA630;
 }
 
+/*portafolio index*/
+.portafolio-button {
+	background: #A4141B;
+	margin-left: 43%;
+	margin-top: 6%;
+	margin-bottom: 4%;
+}
+.portafolio-button:hover {
+	color: #A4141B;
+	border:2px solid #A4141B;
+	background: transparent;
+}
+.grid.item-services-portafolio {
+	display: none;
+}
 
+.grid.able-portafolio {
+	display: grid;
+}
 
+/*secciones index*/
 .item-services {
 	display: none;
 }
@@ -508,7 +527,17 @@ footer{
 	display: block;
 }
 
+/*portafolio page*/
 
+.item-portafolio-general{
+	padding: 0;
+}
+
+.item-portafolio-general{
+	position: relative;
+}
+
+/*----------------*/
 .img_detalle_servicios{
 	width: 100%;
 	
@@ -1005,6 +1034,8 @@ footer{
 	color: #fff;
 }
 
+
+
 /*Caption*/
 
 .caption{
@@ -1086,7 +1117,7 @@ footer{
 	height: 50px;
 }
 
-.grid-item:before{
+.grid-item:before, .item-portafolio-general:before{
 	content: '';
 	position: absolute;
 	height: 2px;
@@ -1099,7 +1130,7 @@ footer{
 	transition: all .3s;
 }
 
-.grid-item:after {
+.grid-item:after, .item-portafolio-general:after {
 	content: '';
 	position: absolute;
 	height: 0;
@@ -1112,15 +1143,18 @@ footer{
 	transition: all .3s;
 }
 
-.grid-item:hover:before{
+
+
+
+.grid-item:hover:before, .item-portafolio-general:before{
 	width: 50px;
 }
 
-.grid-item:hover:after{
+.grid-item:hover:after, .item-portafolio-general:after{
 	height: 50px;
 }
 
-.grid-item:hover:before, .grid-item:hover:after  {
+.grid-item:hover:before, .grid-item:hover:after, .item-portafolio-general:hover:before, .item-portafolio-general:hover:after  {
 	opacity: 1;
 }
 
@@ -1470,6 +1504,15 @@ a.hover_training {
 	top: -13em;
 	padding: 4em;
 }
+/*PORTAFOLIO PAGE*/
+.portafolio-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	position: relative;
+	padding: 0 !important;
+}
 
 @media (min-width: 1366px){
 	.diagonal_cut::before {
@@ -1739,6 +1782,7 @@ a.hover_training {
 	.nav-link.col-12.col-md-3.printing.btn-services.servicios {
 		background: #3CA630;
 	}
+	
 	/*info and img*/
 	.contenedor_detalles_servicios {
 		padding-top: 2em !important;

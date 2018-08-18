@@ -5,6 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/animations.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/style.css">
+	<link rel="stylesheet" href="<?php echo $path; ?>css/owl.carousel.min.css">
+	<link rel="stylesheet" href="<?php echo $path; ?>css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="<?php echo $path; ?>css/jquery.modal.css">
+	<link rel="stylesheet" href="<?php echo $path; ?>css/lightbox.min.css">
+
 </head>
 <body>
 	<header class="header">
@@ -21,7 +26,7 @@
 						<li class="nav-item"><a href="index.php" class="tag_enlace_menu nav-link">HOME</a></li>
 						<li class="nav-item link_dropdown">
 							<div class="item_dropdown dropdown">
-								<a href="#" class="tag_enlace_menu nav-link">SERVICIOS</a>
+								<a href="" class="tag_enlace_menu nav-link">SERVICIOS</a>
 								<div class="div_img">
 								<i class="fas fa-angle-down img-fluid"></i>
 								</div>
@@ -51,7 +56,7 @@
 							</ul>
 						</li>
 						<li class="nav-item"><a href="index.php#seccion_quienes_somos" class="tag_enlace_menu nav-link">¿QUIÉNES SOMOS?</a></li>
-						<li class="nav-item"><a href="index.php#seccion_portafolio" class="tag_enlace_menu nav-link">PORTAFOLIO</a></li>
+						<li class="nav-item"><a href="portafolio.php" class="tag_enlace_menu nav-link">PORTAFOLIO</a></li>
 						<li class="nav-item"><a href="#" class="tag_enlace_menu nav-link">BLOG</a></li>
 						<li class="nav-item"><a href="#seccion_contacto" class="tag_enlace_menu nav-link">CONTACTO</a></li>
 					</ul>	
