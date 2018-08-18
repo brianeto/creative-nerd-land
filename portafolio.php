@@ -48,7 +48,7 @@
 			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
 				NUESTRO <span>PORTAFOLIO</span>
 			</h2>
-			<ul class="nav nav-pills justify-content-center category">
+			<ul class="nav nav-pills justify-content-center category portafolio">
                 <li class="nav-item active">
 					<a class="todo digital active nav-link btn-portafolio" data-category-button="todo">Todo</a>
 				</li>

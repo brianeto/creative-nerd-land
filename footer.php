@@ -66,7 +66,7 @@
 				</p>				
 			</div>						
 		</div>
-		<div class="row">
+		<div class="row afiliados">
 			<div class="col-12">
 				<p class="tag_texto_item_footer tag_texto_item_footer_margin">Afiliados a:</p>
 				<div class="owl-carousel owl-afiliados">

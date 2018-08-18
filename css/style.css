@@ -324,6 +324,9 @@ footer{
 	margin-right: 8px;
 	min-width: 21px;
 }
+.row.afiliados{
+	display: none;
+}
 /*footer*/
 /*Index*/
 .tag_titulo_secciones{
@@ -526,6 +529,12 @@ footer{
 .grid.able-portafolio {
 	display: grid;
 }
+.plus.portafolio{
+	margin: 0 1em;
+	color: #fff;
+	transition: all .3s;
+}
+
 
 /*secciones index*/
 .item-services {
@@ -1519,7 +1528,8 @@ a.hover_training {
 }
 /*PORTAFOLIO PAGE*/
 .tag_titulo_secciones.tag_titulo_secciones_black.text-center.titulo-banner.portafolio {
-    left: 42%;
+	left: 15%;
+	top: 30%;
 }
 .nav-item {
 	cursor: pointer;
@@ -2130,7 +2140,16 @@ a.hover_training {
 		left: 18px;
 		max-width: 100%;
 	}
-	
+	/*PORTAFOLIO PAGE*/
+	.category.portafolio {
+		width: 60%;
+		margin-left: 20%;
+		margin-bottom: 0;
+
+	}
+	.item-portafolio-general {
+		margin-bottom: 300px;
+	}
 	/*FOOTER*/
 	.col-12.col-lg-6.align-self-end.man {
 		top: 36px;

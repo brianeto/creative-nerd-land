@@ -427,12 +427,12 @@
 					<div class="grid-item large item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Landing Page</h2>
+							<h2>Starken <br>Vegan Protein</h2>
 							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="https://modelos-webcam.com" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="https://starkenvegano.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -440,12 +440,12 @@
 					<div class="grid-item x-small item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/lotus-web.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Página web</h2>
-							<h3>Diseño web</h3>
+							<h2>Lotus <br>Web Cam Model</h2>
+							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="https://modelos-webcam.com" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="https://modelos-webcam.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -453,12 +453,12 @@
 					<div class="grid-item small item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/alianza-web.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Página web</h2>
-							<h3>Diseño web</h3>
+							<h2>Alianza SST</h2>
+                            <h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="https://alianzasst.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -466,12 +466,12 @@
 					<div class="grid-item medium item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/carpas-web.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Landing Page</h2>
-							<h3>Diseño web / Landing Page</h3>
+							<h2>Carpas <br>e Ingenieria</h2>
+							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="https://www.carpascolombia.com/"target="_blank"  class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -479,12 +479,12 @@
 					<div class="grid-item small item-portafolio able" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/GHY-web.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Titulo</h2>
-							<h3>categoria</h3>
+							<h2>GHY Siso</h2>
+							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="https://ghysiso.com/" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -494,12 +494,12 @@
 					<div class="grid-item large item-portafolio" data-category-portafolio="training-portafolio">
 						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Landing Page</h2>
+							<h2>Starken <br>Vegan Protein</h2>
 							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="https://starkenvegano.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -507,12 +507,12 @@
 					<div class="grid-item x-small item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
-							<h2>Página web</h2>
-							<h3>Diseño web</h3>
+							<h2>Starken <br>Vegan Protein</h2>
+							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="https://starkenvegano.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -525,7 +525,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -538,7 +538,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -551,7 +551,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="·" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="·" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -566,7 +566,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -579,7 +579,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -592,7 +592,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -605,7 +605,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -618,7 +618,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -633,7 +633,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -646,7 +646,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -659,7 +659,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -672,7 +672,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>
@@ -685,7 +685,7 @@
 							<hr class="line-bottom">
 							<div class="links">
 								<nav class="nav justify-content-center">
-									<a href="#" class="nav-link"><i class="fas fa-plus-circle"></i></a>
+									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 								</nav>
 							</div>
 						</div>

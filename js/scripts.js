@@ -257,6 +257,7 @@ $(document).ready(function(){
         $('.item-services[id="'+category+'"]').addClass('able');
       });
 
+    
       //PORTAFOLIO INDEX
       $('#seccion_portafolio .nav-link').click(function(){
         $('#seccion_portafolio .nav-link').removeClass('active');
