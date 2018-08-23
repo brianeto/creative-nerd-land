@@ -34,7 +34,7 @@
 ?>
 	<div id="home"></div>
 	<section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut">
-		<img class="d-block w-100" src="<?php echo $path; ?>image/portada-home.jpeg">
+		<img class="d-block w-100" src="<?php echo $path; ?>image/bg-home.jpg">
 		<div class="div_diagonal div_diagonal_white"></div>
 	</section>
 
@@ -50,14 +50,7 @@
 					</div>
 					<h3>Digital Agency</h3>
 					<hr class="rayita">
-				</div>
-				<div class="col-12 col-md-3 training btn-services" data-category="training">
-					<div class="boton">
-						<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
-					</div>
-					<h3>Training</h3>
-					<hr class="rayita">
-				</div>
+				</div>				
 				<div class="col-12 col-md-3 promocional btn-services" data-category="promocional">
 					<div class="boton">
 						<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
@@ -70,6 +63,13 @@
 						<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
 					</div>
 					<h3>Printing</h3>
+					<hr class="rayita">
+				</div>
+				<div class="col-12 col-md-3 training btn-services" data-category="training">
+					<div class="boton">
+						<img class="img-fluid" src="<?php echo $path; ?>image/logo-blanco-2.png">
+					</div>
+					<h3>Training</h3>
 					<hr class="rayita">
 				</div>
 			</div>

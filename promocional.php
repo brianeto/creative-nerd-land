@@ -81,7 +81,7 @@
 		</div>
 	</div>
 </section>
-<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity opacity-blue">
+<section id="seccion_diseño_web_iconos" class="seccion_padding bg-imagen opacity opacity-blue">
 		<div id="div_contenedor_iconos">
 			<div class="row justify-content-center text-center">
 				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#materialesAltaCalidadModal">

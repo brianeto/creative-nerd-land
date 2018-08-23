@@ -770,7 +770,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
+	<section id="seccion_diseño_web_iconos" class="seccion_padding bg-imagen opacity">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#desarrolloProductosModal">

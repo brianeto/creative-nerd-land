@@ -26,7 +26,7 @@
 						<li class="nav-item"><a href="index.php" class="tag_enlace_menu nav-link">HOME</a></li>
 						<li class="nav-item link_dropdown">
 							<div class="item_dropdown dropdown">
-								<a href="" class="tag_enlace_menu nav-link">SERVICIOS</a>
+								<a href="#seccion_servicios" class="tag_enlace_menu nav-link">SERVICIOS</a>
 								<div class="div_img">
 								<i class="fas fa-angle-down img-fluid"></i>
 								</div>
@@ -35,30 +35,25 @@
 									<li class="dropdown-item digital" href="digital-agency.php">
 										<a href="digital-agency.php"><img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1"></a>
 										<a href="digital-agency.php"><span class="drop-right">Digital Agency</span></a>
-									</li>
-
-									<li class="dropdown-item training" href="training.php">
-										<a href="training.php"><img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid"></a>
-										<a href="training.php"><span class="drop-right">Training</span></a>	
-									</li>
-								
-							
+									</li>							
 									<li class="dropdown-item promocional" href="promocional.php">
 										<a href="promocional.php"><img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid"></a>
 										<a href="promocional.php"><span class="drop-right">Promocional</span></a>
-									</li>
-								
-							
+									</li>															
 									<li class="dropdown-item printing" href="printing.php">
 										<a href="printing.php"><img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid"></a>
 										<a href="printing.php"><span class="drop-right">Printing</span></a>	
 									</li>
+									<li class="dropdown-item training" href="training.php">
+										<a href="training.php"><img src="image/logo-blanco-2.png" alt="img" class="drop-left col-lg-3 col-sm-1 img-fluid"></a>
+										<a href="training.php"><span class="drop-right">Training</span></a>	
+									</li>
 							</ul>
 						</li>
 						<li class="nav-item"><a href="index.php#seccion_quienes_somos" class="tag_enlace_menu nav-link">¿QUIÉNES SOMOS?</a></li>
-						<li class="nav-item"><a href="portafolio.php" class="tag_enlace_menu nav-link">PORTAFOLIO</a></li>
+						<li class="nav-item"><a href="portafolio.php" class="tag_enlace_menu nav-link">CLIENTES</a></li>
 						<li class="nav-item"><a href="#" class="tag_enlace_menu nav-link">BLOG</a></li>
-						<li class="nav-item"><a href="#seccion_contacto" class="tag_enlace_menu nav-link">CONTACTO</a></li>
+						<li class="nav-item"><a href="contact.php" class="tag_enlace_menu nav-link">CONTACTO</a></li>
 					</ul>	
 				</div>
 			</nav>

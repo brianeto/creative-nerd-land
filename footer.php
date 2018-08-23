@@ -1,40 +1,3 @@
-<section id="seccion_contacto" class="seccion_padding">
-		<div class="container">
-			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
-				CONTÁCTANOS
-			</h2>
-			<p class="tag_subtitulo_secciones tag_titulo_secciones_black text-center">
-				¿Estás listo para iniciar tu proyecto?<br>
-				<span>Cuéntanos de él</span>
-			</p>
-			<div class="row">
-				<div class="col-12 col-lg-6 align-self-center">
-					<form class="text-center" id="form_contacto" method="post" action="javascript:enviarContacto();">
-						<div class="form-row">
-							<div class="col-12 col-lg-6 text-left">
-								<label for="txt_nombre" class="tag_indicador_form">Nombre</label>
-								<input type="text" class="form-control form-control-mine" id="txt_nombre">
-							</div>
-							<div class="col-12 col-lg-6 text-left">
-								<label for="txt_email" class="tag_indicador_form">Email</label>
-								<input type="email" class="form-control form-control-mine" id="txt_email">
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="col-12 text-left">
-								<label for="txt_mensaje" class="tag_indicador_form">Mensaje</label>
-								<textarea class="form-control form-control-mine" id="txt_mensaje"></textarea>
-							</div>
-						</div>
-						<button type="submit" class="btn btn-form-mine" id="btn_enviar">ENVIAR</button>
-					</form>
-				</div>
-				<div class="col-12 col-lg-6 align-self-end man">
-					<img class="img_persona_contacto" src="<?php echo $path; ?>image/contact.png">
-				</div>			
-			</div>		
-		</div>		
-	</section>
 <footer class="seccion_padding diagonal_cut_footer">
 	<div class="container">
 		<div class="row">
@@ -43,11 +6,17 @@
 				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Instagram">
 					<i class="fab fa-twitter tag_fa_footer_redes"></i>
 				</a>
-				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Facebbok">
+				<a href="https://www.facebook.com/CreativeNerd-Agency-190806211550756/?hc_ref=ARSuBo04Ald4jvMTiXtJVPyxn8qtoKC4iDpxE0-nMf6OHw-NsDlKDiC6QJs_Kzt7nmc&fref=nf&__xts__[0]=68.ARCpxUbwVmhR_drfAqPBAedudi0gmxgFZOcAkfrgbtf7pU-38Jbs1Txom_WJqT_WydjM9pTe2_PiXqyhaE09Tn94f3pi7zMwuge3yqrWgJn67dBCxBiAyA9Sut5d3e2oze5nL-I&__tn__=kC-R" class="tag_enlace_footer_redes text-center" target="blank" title="Facebbok">
 					<i class="fab fa-facebook-f tag_fa_footer_redes"></i>
 				</a>
-				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Instagram">
+				<a href="https://www.instagram.com/creativenerdagency/" class="tag_enlace_footer_redes text-center" target="blank" title="Instagram">
 					<i class="fab fa-instagram tag_fa_footer_redes"></i>
+				</a>
+				<a href="https://www.instagram.com/creativenerdagency/" class="tag_enlace_footer_redes text-center" target="blank" title="Instagram">
+					<i class="fab fa-linkedin tag_fa_footer_redes"></i>
+				</a>
+				<a href="https://www.instagram.com/creativenerdagency/" class="tag_enlace_footer_redes text-center" target="blank" title="Instagram">
+					<i class="fab fa-whatsapp tag_fa_footer_redes"></i>
 				</a>
 				<p class="tag_texto_item_footer tag_texto_item_footer_opacity" id="tag_texto_item_footer_copyright">
 					Copyright Ⓒ  2018. Creative Nerd<br>all rights reserved

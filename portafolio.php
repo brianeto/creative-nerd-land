@@ -36,8 +36,8 @@
 <div id="home"></div>
 <section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut opacity">
 	<img class="d-block w-100" src="<?php echo $path; ?>image/portfolio-bg.jpeg">
-		<h1 class="tag_titulo_secciones tag_titulo_secciones_black text-center titulo-banner portafolio">
-			PORTAFOLIO
+		<h1 class="tag_titulo_secciones tag_titulo_secciones_black text-center titulo-banner portafolio clientes">
+			CLIENTES
 		</h1>
 	</img>
 	<div class="div_diagonal div_diagonal_white"></div>
@@ -46,7 +46,7 @@
 	<section id="seccion_portafolio" class="seccion_padding">
 		<div class="container">
 			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
-				NUESTRO <span>PORTAFOLIO</span>
+				NUESTROS <span>CLIENTES</span>
 			</h2>
 			<ul class="nav nav-pills justify-content-center category portafolio">
                 <li class="nav-item active">

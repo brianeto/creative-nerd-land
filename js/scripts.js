@@ -245,7 +245,6 @@ $(document).ready(function(){
     });
 
 
-
       //SERVICIOS
 
       $('.btn-services').click(function(){

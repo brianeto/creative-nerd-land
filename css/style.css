@@ -52,7 +52,7 @@ p {
 	right: 10px;
 	width: 40px;
 	height: 40px;
-	z-index: 9;
+	z-index: 12;
 	border: 1px solid #a4141b;
 	display: flex;
 	justify-content: center;
@@ -380,6 +380,7 @@ footer{
 	top: -10px;
 	right: -10px;
 	transform: rotate(-3deg);
+	z-index: 10;	
 }
 .div_diagonal{
 	position: absolute;
@@ -1032,6 +1033,22 @@ footer{
 }
 
 /*Index*/
+/*nuestro equipo*/
+#seccion_equipo {
+	display: none;
+}
+/*clientes gray logo*/
+.item.clientes {
+	/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+	filter: gray; /* IE5+ */
+	-webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+	-webkit-transition: all .2s ease-in-out;  
+}
+.item.clientes:hover {
+	filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+}
 /*porfafolio*/
 .grid {
 	display: grid;
@@ -1555,7 +1572,9 @@ a.hover_training {
 	padding: 4em;
 }
 /*PORTAFOLIO PAGE*/
-
+.portafolio.clientes {
+	left: 45%;
+}
 .nav-item {
 	cursor: pointer;
 }
@@ -1725,6 +1744,15 @@ a.hover_training {
 	.owl-nav {
 		left: 45px;
 		width: 97%;
+	}
+	/*index carrusel clientes*/
+	.item.clientes {
+		filter: none;
+		-webkit-filter: grayscale(0);
+	}
+	.item.clientes:hover {
+		filter: none;
+		-webkit-filter: grayscale(0);
 	}
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -2175,9 +2203,23 @@ a.hover_training {
 	.item-portafolio-general {
 		margin-bottom: 300px;
 	}
+	/*CONTACT PAGE*/
+	.portafolio.contact-title {
+		top: 30%;
+		left: 10%;
+	}
 	/*FOOTER*/
 	.col-12.col-lg-6.align-self-end.man {
 		top: 36px;
+	}
+	/*index carrusel clientes*/
+	.item.clientes {
+		filter: none;
+		-webkit-filter: grayscale(0);
+	}
+	.item.clientes:hover {
+		filter: none;
+		  -webkit-filter: grayscale(0);
 	}
 	/* Small devices (landscape phones, 576px and up) */
 	
