@@ -26,8 +26,8 @@
 						<li class="nav-item"><a href="index.php" class="tag_enlace_menu nav-link">HOME</a></li>
 						<li class="nav-item link_dropdown">
 							<div class="item_dropdown dropdown">
-								<a href="#seccion_servicios" class="tag_enlace_menu nav-link">SERVICIOS</a>
-								<div class="div_img">
+								<a href="index.php#seccion_servicios" class="tag_enlace_menu nav-link">SERVICIOS</a>
+									<div class="div_img seccion_de_servicios">
 								<i class="fas fa-angle-down img-fluid"></i>
 								</div>
 							</div>

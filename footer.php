@@ -3,19 +3,19 @@
 		<div class="row">
 			<div class="col-12 col-lg-5 text-center order-2 order-lg-1 div_item_footer">
 				<p class="tag_texto_item_footer tag_texto_item_footer_margin text-center text-lg-left">Síguenos</p>
-				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Instagram">
+				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Twitter">
 					<i class="fab fa-twitter tag_fa_footer_redes"></i>
 				</a>
-				<a href="https://www.facebook.com/CreativeNerd-Agency-190806211550756/?hc_ref=ARSuBo04Ald4jvMTiXtJVPyxn8qtoKC4iDpxE0-nMf6OHw-NsDlKDiC6QJs_Kzt7nmc&fref=nf&__xts__[0]=68.ARCpxUbwVmhR_drfAqPBAedudi0gmxgFZOcAkfrgbtf7pU-38Jbs1Txom_WJqT_WydjM9pTe2_PiXqyhaE09Tn94f3pi7zMwuge3yqrWgJn67dBCxBiAyA9Sut5d3e2oze5nL-I&__tn__=kC-R" class="tag_enlace_footer_redes text-center" target="blank" title="Facebbok">
+				<a href="https://www.facebook.com/CreativeNerd-Agency-190806211550756/?hc_ref=ARSuBo04Ald4jvMTiXtJVPyxn8qtoKC4iDpxE0-nMf6OHw-NsDlKDiC6QJs_Kzt7nmc&fref=nf&__xts__[0]=68.ARCpxUbwVmhR_drfAqPBAedudi0gmxgFZOcAkfrgbtf7pU-38Jbs1Txom_WJqT_WydjM9pTe2_PiXqyhaE09Tn94f3pi7zMwuge3yqrWgJn67dBCxBiAyA9Sut5d3e2oze5nL-I&__tn__=kC-R" class="tag_enlace_footer_redes text-center" target="blank" title="Facebook">
 					<i class="fab fa-facebook-f tag_fa_footer_redes"></i>
 				</a>
 				<a href="https://www.instagram.com/creativenerdagency/" class="tag_enlace_footer_redes text-center" target="blank" title="Instagram">
 					<i class="fab fa-instagram tag_fa_footer_redes"></i>
 				</a>
-				<a href="https://www.instagram.com/creativenerdagency/" class="tag_enlace_footer_redes text-center" target="blank" title="Instagram">
+				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Linkedin">
 					<i class="fab fa-linkedin tag_fa_footer_redes"></i>
 				</a>
-				<a href="https://www.instagram.com/creativenerdagency/" class="tag_enlace_footer_redes text-center" target="blank" title="Instagram">
+				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Whatsapp">
 					<i class="fab fa-whatsapp tag_fa_footer_redes"></i>
 				</a>
 				<p class="tag_texto_item_footer tag_texto_item_footer_opacity" id="tag_texto_item_footer_copyright">

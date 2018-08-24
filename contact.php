@@ -37,7 +37,7 @@
 <section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut opacity">
 	<img class="d-block w-100" src="<?php echo $path; ?>image/original-contact.jpg">
 		<h1 class="tag_titulo_secciones tag_titulo_secciones_black text-center titulo-banner portafolio contact-title">
-			CONTACTANOS
+			CONTÁCTANOS
 		</h1>
 	</img>
 	<div class="div_diagonal div_diagonal_white"></div>

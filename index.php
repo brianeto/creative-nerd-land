@@ -34,7 +34,7 @@
 ?>
 	<div id="home"></div>
 	<section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut">
-		<img class="d-block w-100" src="<?php echo $path; ?>image/bg-home.jpg">
+		<img class="d-block w-100" src="<?php echo $path; ?>image/home-image.jpeg">
 		<div class="div_diagonal div_diagonal_white"></div>
 	</section>
 
@@ -114,26 +114,26 @@
 								mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="digital-agency.php">Desarrollo web</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php#diseño_web_digital">Diseño web</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="digital-agency.php">Desarrollo de apps</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php#desarrollo_apps_digital">Desarrollo de apps</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="digital-agency.php">Diseño gráfico</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php#diseño_grafico_digital">Diseño gráfico</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="digital-agency.php">Diseño multimedia</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php#diseño_multimedia_digital">Diseño multimedia y fotografía</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="digital-agency.php">Social media</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php#marketing_digital_digital">Marketing digital</a>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i><a href="digital-agency.php">Diseño industrial</a>
+								<i class="fas fa-check"></i><a href="digital-agency.php#diseño_industrial_digital">Diseño industrial</a>
 							</p>
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="digital-agency.php" role="button">Ver más</a>
-								<a class="btn tag_enlace_servicios_2" href="#seccion_contacto" role="button">Cotizar</a>
+								<a class="btn tag_enlace_servicios_2" href="contact.php" role="button">Cotizar</a>
 							</div>
 						</div>
 					</div>	
@@ -155,7 +155,7 @@
 							</p> target="_blank"
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="training.php" role="button">Ver más</a>
-								<a class="btn tag_enlace_servicios_2" href="#seccion_contacto" role="button">Cotizar</a>
+								<a class="btn tag_enlace_servicios_2" href="contact.php" role="button">Cotizar</a>
 							</div>
 						</div>
 					</div>
@@ -181,7 +181,7 @@
 							</p>
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="promocional.php" role="button">Ver más</a>
-								<a class="btn tag_enlace_servicios_2" href="#seccion_contacto" role="button">Cotizar</a>
+								<a class="btn tag_enlace_servicios_2" href="contact.php" role="button">Cotizar</a>
 							</div>
 						</div>
 					</div>
@@ -210,7 +210,7 @@
 							</p>
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="printing.php" role="button">Ver más</a>
-								<a class="btn tag_enlace_servicios_2" href="#seccion_contacto" role="button">Cotizar</a>
+								<a class="btn tag_enlace_servicios_2" href="contact.php" role="button">Cotizar</a>
 							</div>
 						</div>
 					</div>
@@ -406,7 +406,7 @@
 	<section id="seccion_portafolio" class="seccion_padding">
 		<div class="container">
 			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
-				NUESTRO <span>PORTAFOLIO</span>
+				NUESTROS <span>CLIENTES</span>
 			</h2>
 			<ul class="nav nav-pills justify-content-center category">
 				<li class="nav-item active portafolio">
@@ -426,68 +426,43 @@
 				<div class="grid item-services-portafolio able-portafolio" id="digital-portafolio">
 					<div class="grid-item large item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/landing-starken.jpg" alt="">
-						<div class="caption portafolio">
+						<a class="caption portafolio" href="image/portafolio/landing-starken.jpg" data-lightbox="portafolio21" data-title="Landing Page">
 							<h2>Starken <br>Vegan Protein</h2>
-							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
-							<div class="links">
-								<nav class="nav justify-content-center">
-									<a href="https://starkenvegano.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-								</nav>
-							</div>
-						</div>
+							<h3>Diseño web / Landing page</h3>
+						</a>
 					</div>
 					<div class="grid-item x-small item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/lotus-web.jpg" alt="">
-						<div class="caption portafolio">
+						<a class="caption portafolio" href="image/portafolio/lotus-web.jpg" data-lightbox="portafolio22" data-title="Landing Page">
 							<h2>Lotus <br>Web Cam Model</h2>
-							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
-							<div class="links">
-								<nav class="nav justify-content-center">
-									<a href="https://modelos-webcam.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-								</nav>
-							</div>
-						</div>
+							<h3>Diseño web / Landing page</h3>
+						</a>
 					</div>
 					<div class="grid-item small item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/alianza-web.jpg" alt="">
-						<div class="caption portafolio">
+						<a class="caption portafolio" href="image/portafolio/alianza-web.jpg" data-lightbox="portafolio23" data-title="Landing Page">
 							<h2>Alianza SST</h2>
-                            <h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
-							<div class="links">
-								<nav class="nav justify-content-center">
-									<a href="https://alianzasst.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-								</nav>
-							</div>
-						</div>
+                            <h3>Diseño web / Landing page</h3>
+						</a>
 					</div>
 					<div class="grid-item medium item-portafolio" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/carpas-web.jpg" alt="">
-						<div class="caption portafolio">
+						<a class="caption portafolio" href="image/portafolio/carpas-web.jpg" data-lightbox="portafolio24" data-title="Landing Page">
 							<h2>Carpas <br>e Ingenieria</h2>
-							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
-							<div class="links">
-								<nav class="nav justify-content-center">
-									<a href="https://www.carpascolombia.com/"target="_blank"  class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-								</nav>
-							</div>
-						</div>
+							<h3>Diseño web / Landing page</h3>
+						</a>
 					</div>
 					<div class="grid-item small item-portafolio able" data-category-portafolio="digital-portafolio">
 						<img src="image/portafolio/GHY-web.jpg" alt="">
-						<div class="caption portafolio">
+						<a class="caption portafolio" href="image/portafolio/GHY-web.jpg" data-lightbox="portafolio25" data-title="Landing Page">
 							<h2>GHY Siso</h2>
-							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
-							<div class="links">
-								<nav class="nav justify-content-center">
-									<a href="https://ghysiso.com/" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-								</nav>
-							</div>
-						</div>
+							<h3>Diseño web / Landing page</h3>
+						</a>
 					</div>
 				</div>
 				<div class="grid item-services-portafolio" id="training-portafolio">
@@ -495,8 +470,8 @@
 						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Starken <br>Vegan Protein</h2>
-							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web / Landing page</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="https://starkenvegano.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -508,8 +483,8 @@
 						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Starken <br>Vegan Protein</h2>
-							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web / Landing page</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="https://starkenvegano.com" target="_blank" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -521,8 +496,8 @@
 						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Página web</h2>
-							<h3>Diseño web</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -534,8 +509,8 @@
 						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Landing Page</h2>
-							<h3>Diseño web / Landing Page</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web / Landing Page</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -547,8 +522,8 @@
 						<img src="image/portafolio/landing-starken.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Titulo</h2>
-							<h3>categoria</h3>
 							<hr class="line-bottom">
+							<h3>categoria</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="·" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -562,8 +537,8 @@
 						<img src="image/portafolio/lotus-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Landing Page</h2>
-							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web / Landing page</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -575,8 +550,8 @@
 						<img src="image/portafolio/lotus-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Página web</h2>
-							<h3>Diseño web</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -588,8 +563,8 @@
 						<img src="image/portafolio/lotus-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Página web</h2>
-							<h3>Diseño web</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -601,8 +576,8 @@
 						<img src="image/portafolio/lotus-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Landing Page</h2>
-							<h3>Diseño web / Landing Page</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web / Landing Page</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -614,8 +589,8 @@
 						<img src="image/portafolio/lotus-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Titulo</h2>
-							<h3>categoria</h3>
 							<hr class="line-bottom">
+							<h3>categoria</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -629,8 +604,8 @@
 						<img src="image/portafolio/GHY-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Landing Page</h2>
-							<h3>Diseño web / Landing page</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web / Landing page</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -642,8 +617,8 @@
 						<img src="image/portafolio/GHY-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Página web</h2>
-							<h3>Diseño web</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -655,8 +630,8 @@
 						<img src="image/portafolio/GHY-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Página web</h2>
-							<h3>Diseño web</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -668,8 +643,8 @@
 						<img src="image/portafolio/GHY-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Landing Page</h2>
-							<h3>Diseño web / Landing Page</h3>
 							<hr class="line-bottom">
+							<h3>Diseño web / Landing Page</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -681,8 +656,8 @@
 						<img src="image/portafolio/GHY-web.jpg" alt="">
 						<div class="caption portafolio">
 							<h2>Titulo</h2>
-							<h3>categoria</h3>
 							<hr class="line-bottom">
+							<h3>categoria</h3>
 							<div class="links">
 								<nav class="nav justify-content-center">
 									<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
@@ -691,7 +666,7 @@
 						</div>
 					</div>
 				</div>
-				<a class="btn tag_enlace_servicios portafolio-button" href="portafolio.php" role="button">Ver Todo el Portafolio</a>
+				<a class="btn tag_enlace_servicios portafolio-button" href="portafolio.php" role="button">Ver todos los Clientes</a>
 			</div>
 		</div>	
 	</section>

@@ -43,7 +43,7 @@
 	</section>
 	<section id="seccion_servicios" class="seccion_padding">
 		<div class="container">
-			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center" id="diseño_web_digital">
 				DISEÑO <span>WEB</span>
 			</h2>
 			<div class="row div_contenedor_detalles_servicios">
@@ -83,19 +83,39 @@
 				<div class="row justify-content-center text-center">
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#paginasWebModal">
 						<img class="img-fluid" src="image/launch.svg" alt="">
-						<h5 class="grid-icon text">Páginas web</h5>
+						<h5 class="grid-icon text">Páginas Web</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#landingPagesModal">
 						<img class="img-fluid" src="image/pagelanding.svg" alt="">
 						<h5 class="grid-icon text">Landing Pages</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#comercioElectronicoModal">
 						<img class="img-fluid" src="image/smartphone-comercio.svg" alt="">
-						<h5 class="grid-icon text">Comercio <br> Electrónico</h5> 
+						<h5 class="grid-icon text">Comercio Electrónico</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div> 
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#soporteAdministracionModal">
 						<img class="img-fluid" src="image/support-administracion.svg" alt="">
-						<h5 class="grid-icon text">Soporte <br>y administración de <br>sitios web</h5>
+						<h5 class="grid-icon text">Soporte <br>y Administración de <br>sitios web</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -186,7 +206,7 @@
 	</div>
 	<section id="seccion_servicios" class="seccion_padding">
 		<div class="container">
-			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center" id="desarrollo_apps_digital">
 				DESARROLLO DE <span>APPS</span>
 			</h2>
 			<div class="row div_contenedor_detalles_servicios">
@@ -227,14 +247,29 @@
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#desarrolloAppModal">
 						<img class="img-fluid" src="image/app-development.svg" alt="">
 						<h5 class="grid-icon text">Desarrollo App Móvil</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñoAppsModal">
 						<img class="img-fluid" src="image/smartphone-diseño.svg" alt="">
 						<h5 class="grid-icon text">Diseño de Apps</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#tiendasOficialesModal">
 						<img class="img-fluid" src="image/app-play.svg" alt="">
 						<h5 class="grid-icon text">Implementación en<br>Tiendas Oficiales</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -304,7 +339,7 @@
 	</div>
 	<section id="seccion_servicios" class="seccion_padding">
 		<div class="container">
-			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center" id="diseño_grafico_digital">
 				DISEÑO <span>GRÁFICO</span>
 			</h2>
 			<div class="row contenedor_slider">
@@ -345,24 +380,49 @@
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#brandingModal">
 						<img class="img-fluid" src="image/branding.png" alt="">
 						<h5 class="grid-icon text">Branding</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#piezasPublicitariasModal">
 						<img class="img-fluid" src="image/banner.png" alt="">
 						<h5 class="grid-icon text">Piezas Publicitarias</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñoCampañasModal">
 						<img class="img-fluid" src="image/campaign.png" alt="">
 						<h5 class="grid-icon text">Diseño de Campañas</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 				</div>
 				<div class="row justify-content-center text-center">
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#suministrosPublicidadModal">
 						<img class="img-fluid" src="image/app-development.svg" alt="">
 						<h5 class="grid-icon text">Suministros de <br>Publicidad</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#mediosImpresosModal">
 						<img class="img-fluid" src="image/printer.png" alt="">
-						<h5 class="grid-icon text">Medios Impresos</h5>
+						<h5 class="grid-icon text">Medios <br>Impresos</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 				</div>	
 			</div>
@@ -370,7 +430,7 @@
 
 	<section id="seccion_servicios" class="seccion_padding">
 		<div class="container">
-			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center" id="diseño_multimedia_digital">
 				DISEÑO <span>MULTIMEDIA</span> Y FOTOGRAFÍA
 			</h2>
 			<div class="row contenedor_slider">
@@ -411,24 +471,49 @@
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#brandingModal">
 						<img class="img-fluid" src="image/branding.png" alt="">
 						<h5 class="grid-icon text">Branding</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#piezasPublicitariasModal">
 						<img class="img-fluid" src="image/banner.png" alt="">
 						<h5 class="grid-icon text">Piezas Publicitarias</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñoCampañasModal">
 						<img class="img-fluid" src="image/campaign.png" alt="">
 						<h5 class="grid-icon text">Diseño de Campañas</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 				</div>
 				<div class="row justify-content-center text-center">
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#suministrosPublicidadModal">
 						<img class="img-fluid" src="image/app-development.svg" alt="">
 						<h5 class="grid-icon text">Suministros de <br>Publicidad</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#mediosImpresosModal">
 						<img class="img-fluid" src="image/printer.png" alt="">
-						<h5 class="grid-icon text">Medios Impresos</h5>
+						<h5 class="grid-icon text">Medios<br>Impresos</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 				</div>	
 			</div>
@@ -540,7 +625,7 @@
 	</div>
 	<section id="seccion_servicios" class="seccion_padding">
 		<div class="container">
-			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center" id="marketing_digital_digital">
 				MARKETING <span>DIGITAL</span>
 			</h2>
 			<div class="row contenedor_slider">
@@ -581,28 +666,58 @@
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#marketingDigitalModal">
 						<img class="img-fluid" src="image/pie-chart.svg" alt="">
 						<h5 class="grid-icon text">Marketing Digital</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#socialMediaModal">
 						<img class="img-fluid" src="image/facebook.svg" alt="">
 						<h5 class="grid-icon text">Social Media</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#mailMarketingModal">
 						<img class="img-fluid" src="image/mail.svg" alt="">
 						<h5 class="grid-icon text">Mail Marketing</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 				</div>
 				<div class="row justify-content-center text-center">
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#googleAdwordsModal">
 						<img class="img-fluid" src="image/adwords.svg" alt="">
 						<h5 class="grid-icon text">Publicidad en<br>Google Adwords</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#posicionamientoBuscadoresModal">
 						<img class="img-fluid" src="image/search.svg" alt="">
 						<h5 class="grid-icon text">Posicionamiento en<br>Buscadores</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#administracionCampañasModal">
 						<img class="img-fluid" src="image/startup.svg" alt="">
 						<h5 class="grid-icon text">Administración de<br>Campañas Digitales<br>(Ads)</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 				</div>	
 			</div>
@@ -735,7 +850,7 @@
 	</div>
 	<section id="seccion_servicios" class="seccion_padding">
 		<div class="container">
-			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
+			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center" id="diseño_industrial_digital">
 				DISEÑO <span>INDUSTRIAL</span>
 			</h2>
 			<div class="row contenedor_slider">
@@ -776,14 +891,29 @@
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#desarrolloProductosModal">
 						<img class="img-fluid" src="image/flour.svg" alt="">
 						<h5 class="grid-icon text">Desarrollo de<br>Productos</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñadoEmpaquesModal">
 						<img class="img-fluid" src="image/donation.svg" alt="">
 						<h5 class="grid-icon text">Diseñado de<br>Empaques</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#ambientacionModal">
 						<img class="img-fluid"src="image/lamp.svg" alt="">
 						<h5 class="grid-icon text">Ambientación</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
 					</div>
 				</div>
 			</div>

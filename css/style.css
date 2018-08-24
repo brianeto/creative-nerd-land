@@ -209,10 +209,10 @@ p {
 	padding-bottom: 18px;
 	top: 0;
 	box-shadow: 0 3px 8px 0 black;
-	max-width: 80px;
+	max-width: 95px;
 }
 .img_brand_navbar{
-	width: 70px;
+	width: 85px;
 	transition: all .3s;
 }
 
@@ -1200,9 +1200,6 @@ footer{
 	transition: all .3s;
 }
 
-
-
-
 .grid-item:hover:before, .item-portafolio-general:before{
 	width: 50px;
 }
@@ -1215,13 +1212,17 @@ footer{
 	opacity: 1;
 }
 
-
+a.caption{
+	color:#fff;
+}
 .caption:hover{
 	opacity: 1;
+	text-decoration: none;
 }
 
 .caption:hover h2, .caption:hover h3{
 	transform: translateX(0);
+	color:white;
 }
 
 
@@ -1273,9 +1274,7 @@ footer{
 	cursor: pointer;
 }
 
-.img-button:hover{
-	transform: scale(1.2);
-}
+
 /*display:none, nuestros servicios nav*/
 .nav.nav-pills.servicios{
 	display: none;

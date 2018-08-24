@@ -86,18 +86,38 @@
 				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#tarjetasPresentacionModal">
 					<img class="img-fluid" src="image/id-card.png" alt="">
 					<h5 class="grid-icon -icon text">Tarjetas de<br>Presentación</h5>
-				</div>
+					<div class="links">
+						<nav class="nav justify-content-center">
+							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+						</nav>
+					</div>
+				</div>	
 				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#impresionDigitalModal">
 					<img class="img-fluid" src="image/printer.png" alt="">
-					<h5 class="grid-icon -icon text">Impresión Digital</h5>
+					<h5 class="grid-icon -icon text">Impresión <br> Digital</h5>
+					<div class="links">
+						<nav class="nav justify-content-center">
+							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+						</nav>
+					</div>
 				</div>
 				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#publicidadImpresaModal">
 					<img class="img-fluid" src="image/menu.png" alt="">
-					<h5 class="grid-icon -icon text">Publicidad Impresa</h5> 
+					<h5 class="grid-icon -icon text">Publicidad <br> Impresa</h5>
+					<div class="links">
+						<nav class="nav justify-content-center">
+							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+						</nav>
+					</div> 
 				</div>
 				<div class="grid-icon -icon col-2 btn" data-toggle="modal" data-target="#bolsasEmpaquesModal">
 					<img class="img-fluid" src="image/shopping-bag.png" alt="">
-					<h5 class="grid-icon -icon text">Bolsas y Empaques</h5> 
+					<h5 class="grid-icon -icon text">Bolsas y <br> Empaques</h5>
+					<div class="links">
+						<nav class="nav justify-content-center">
+							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+						</nav>
+					</div> 
 				</div>
 			</div>
 		</div>

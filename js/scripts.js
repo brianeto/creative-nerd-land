@@ -42,7 +42,7 @@ $(document).ready(function(){
       $('.nav.flex-column.content_dropdown').css("display","none");
     }); 
 
-    $('.item_dropdown.dropdown').click(function() {
+    $('.div_img.seccion_de_servicios').click(function() {
       $('.content_dropdown').slideToggle();
     });
 
@@ -51,7 +51,7 @@ $(document).ready(function(){
     $(".owl-clientes").owlCarousel({
                items: 5,
                autoplay: true,
-               autoplayTimeout:1000,
+               autoplayTimeout:2000,
                nav: false,
                loop: true,
                 responsive : {
