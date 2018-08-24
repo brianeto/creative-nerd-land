@@ -532,13 +532,13 @@ footer{
 }
 .plus.portafolio{
 	margin: 0 1em;
-	color: #fff;
+	color: #fff !important;
 	transition: all .3s;
 	font-size: 1.5rem;
 }
 
 .plus.portafolio:hover{
-	color: #000;
+	color: #000 !important;
 }
 
 .img-service{

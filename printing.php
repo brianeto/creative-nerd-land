@@ -88,7 +88,7 @@
 					<h5 class="grid-icon -icon text">Tarjetas de<br>Presentación</h5>
 					<div class="links">
 						<nav class="nav justify-content-center">
-							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							<a data-target="#tarjetasPresentacionModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 						</nav>
 					</div>
 				</div>	
@@ -97,7 +97,7 @@
 					<h5 class="grid-icon -icon text">Impresión <br> Digital</h5>
 					<div class="links">
 						<nav class="nav justify-content-center">
-							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							<a data-target="#impresionDigitalModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 						</nav>
 					</div>
 				</div>
@@ -106,7 +106,7 @@
 					<h5 class="grid-icon -icon text">Publicidad <br> Impresa</h5>
 					<div class="links">
 						<nav class="nav justify-content-center">
-							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							<a data-target="#publicidadImpresaModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 						</nav>
 					</div> 
 				</div>
@@ -115,7 +115,7 @@
 					<h5 class="grid-icon -icon text">Bolsas y <br> Empaques</h5>
 					<div class="links">
 						<nav class="nav justify-content-center">
-							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							<a data-target="#bolsasEmpaquesModal"class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 						</nav>
 					</div> 
 				</div>

@@ -89,7 +89,7 @@
 					<h5 class="grid-icon -icon text">Materiales de<br>Alta Calidad</h5>
 					<div class="links">
 						<nav class="nav justify-content-center">
-							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							<a data-target="#materialesAltaCalidadModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 						</nav>
 					</div>
 				</div>
@@ -98,7 +98,7 @@
 					<h5 class="grid-icon -icon text">Precios <br>Competitivos</h5>
 					<div class="links">
 						<nav class="nav justify-content-center">
-							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							<a data-target="#preciosCompetitivosModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 						</nav>
 					</div>
 				</div>
@@ -107,7 +107,7 @@
 					<h5 class="grid-icon -icon text">Respuesta <br> Inmediata</h5>
 					<div class="links">
 						<nav class="nav justify-content-center">
-							<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							<a data-target="#respuestaInmediataModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 						</nav>
 					</div> 
 				</div>

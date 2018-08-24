@@ -86,7 +86,7 @@
 						<h5 class="grid-icon text">Páginas Web</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#paginasWebModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -95,7 +95,7 @@
 						<h5 class="grid-icon text">Landing Pages</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#landingPagesModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -104,7 +104,7 @@
 						<h5 class="grid-icon text">Comercio Electrónico</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#comercioElectronicoModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div> 
 					</div>
@@ -113,7 +113,7 @@
 						<h5 class="grid-icon text">Soporte <br>y Administración de <br>sitios web</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#soporteAdministracionModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -249,7 +249,7 @@
 						<h5 class="grid-icon text">Desarrollo App Móvil</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#desarrolloAppModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -258,7 +258,7 @@
 						<h5 class="grid-icon text">Diseño de Apps</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#diseñoAppsModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -267,7 +267,7 @@
 						<h5 class="grid-icon text">Implementación en<br>Tiendas Oficiales</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#tiendasOficialesModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -382,7 +382,7 @@
 						<h5 class="grid-icon text">Branding</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#brandingModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -391,7 +391,7 @@
 						<h5 class="grid-icon text">Piezas Publicitarias</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#piezasPublicitariasModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -400,7 +400,7 @@
 						<h5 class="grid-icon text">Diseño de Campañas</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#diseñoCampañasModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -411,7 +411,7 @@
 						<h5 class="grid-icon text">Suministros de <br>Publicidad</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#suministrosPublicidadModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -420,7 +420,7 @@
 						<h5 class="grid-icon text">Medios <br>Impresos</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#mediosImpresosModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -473,7 +473,7 @@
 						<h5 class="grid-icon text">Branding</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#brandingModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -482,7 +482,7 @@
 						<h5 class="grid-icon text">Piezas Publicitarias</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#piezasPublicitariasModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -491,7 +491,7 @@
 						<h5 class="grid-icon text">Diseño de Campañas</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#diseñoCampañasModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -502,7 +502,7 @@
 						<h5 class="grid-icon text">Suministros de <br>Publicidad</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#suministrosPublicidadModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -511,7 +511,7 @@
 						<h5 class="grid-icon text">Medios<br>Impresos</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#mediosImpresosModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -668,7 +668,7 @@
 						<h5 class="grid-icon text">Marketing Digital</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#marketingDigitalModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -677,7 +677,7 @@
 						<h5 class="grid-icon text">Social Media</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#socialMediaModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -686,7 +686,7 @@
 						<h5 class="grid-icon text">Mail Marketing</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#mailMarketingModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -697,7 +697,7 @@
 						<h5 class="grid-icon text">Publicidad en<br>Google Adwords</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#googleAdwordsModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -706,7 +706,7 @@
 						<h5 class="grid-icon text">Posicionamiento en<br>Buscadores</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#posicionamientoBuscadoresModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -715,7 +715,7 @@
 						<h5 class="grid-icon text">Administración de<br>Campañas Digitales<br>(Ads)</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#administracionCampañasModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -893,7 +893,7 @@
 						<h5 class="grid-icon text">Desarrollo de<br>Productos</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#desarrolloProductosModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -902,7 +902,7 @@
 						<h5 class="grid-icon text">Diseñado de<br>Empaques</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#diseñadoEmpaquesModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
@@ -911,7 +911,7 @@
 						<h5 class="grid-icon text">Ambientación</h5>
 						<div class="links">
 							<nav class="nav justify-content-center">
-								<a href="#" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+								<a data-target="#ambientacionModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
 							</nav>
 						</div>
 					</div>
