@@ -51,7 +51,7 @@ $(document).ready(function(){
     $(".owl-clientes").owlCarousel({
                items: 5,
                autoplay: true,
-               autoplayTimeout:2000,
+               autoplayTimeout:4000,
                nav: false,
                loop: true,
                 responsive : {
@@ -167,7 +167,6 @@ $(document).ready(function(){
             }
         }
     });
-
      //Menu sroll
       $(window).on('scroll', function(){
          // aca se pregunta si el scroll se movio de pa bajo.

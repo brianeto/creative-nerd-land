@@ -15,7 +15,7 @@
 				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Linkedin">
 					<i class="fab fa-linkedin tag_fa_footer_redes"></i>
 				</a>
-				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Whatsapp">
+				<a href="http://api.whatsapp.com/send?phone=573164022489" class="tag_enlace_footer_redes text-center" target="blank" title="Whatsapp">
 					<i class="fab fa-whatsapp tag_fa_footer_redes"></i>
 				</a>
 				<p class="tag_texto_item_footer tag_texto_item_footer_opacity" id="tag_texto_item_footer_copyright">
@@ -31,7 +31,7 @@
 					<i class="far fa-envelope tag_fa_footer_contacto"></i> ventas@agenciaelnerd.com
 				</p>
 				<p class="tag_texto_item_footer tag_texto_item_footer_opacity tag_texto_item_footer_contacto">
-					<i class="fas fa-map-marker-alt tag_fa_footer_contacto"></i> Dirección: Cll 74 #15-13 Oficina 403, Bogotá 
+					<i class="fas fa-map-marker-alt tag_fa_footer_contacto"></i> Dirección: Cll 74 #15-15 Oficina 402, Bogotá 
 				</p>				
 			</div>						
 		</div>

@@ -46,7 +46,7 @@ p {
 }
 /*Generales*/
 /*Boton subir*/
-.back-to-top{
+.back-to-top {
 	position: fixed;
 	bottom: 3em;
 	right: 10px;
@@ -60,9 +60,13 @@ p {
 	font-size: 1.7em;
 	border-radius: 100%;
 }
-
 .back-to-top a{
 	color: #a4141b;
+}
+/*boton de Whatsapp*/
+.wa-icon {
+    bottom: 5em;
+    border: none;
 }
 /*Head*/
 .navbar-toggler-icon {
@@ -576,10 +580,13 @@ footer{
 	object-fit: cover;
 }
 
-/*----------------*/
+/*subcategorias digital*/
+.nav-item.sub-category-digital {
+	margin-top: 2em;
+	display: flex;
+}
 .img_detalle_servicios{
 	width: 100%;
-	
 }
 .tag_titulo_detalle_servicio{
 	color: #282828;
@@ -692,6 +699,14 @@ footer{
 	margin-bottom: 68px;
 }
 
+/*catalogo Promocional*/
+.col-3.catalogo-promocional {
+	cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.col-3.catalogo-promocional:hover {
+    transform: scale(1.1);
+}
 /*Printing*/
 .titulo-banner.printing {
 	left: 45%;

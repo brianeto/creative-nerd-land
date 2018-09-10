@@ -34,7 +34,7 @@
 ?>
 	<div id="home"></div>
 	<section id="seccion_banner_index" class="position_relative seccion_banner_index diagonal_cut">
-		<img class="d-block w-100" src="<?php echo $path; ?>image/home-image.jpeg">
+		<img class="d-block w-100" src="<?php echo $path; ?>image/index-bg-img.jpeg">
 		<div class="div_diagonal div_diagonal_white"></div>
 	</section>
 
@@ -152,7 +152,7 @@
 							</h3>
 							<p class="tag_descripcion_detalle_servicio">
 								El conocimiento adquirido en cada una de nuestras áreas de interés ayuda a que muchas personas se interesen y es por ello que creamos una unidad en la cual podamos ofrecer capacitaciones de cada uno de los servicios que ofrecemos.
-							</p> target="_blank"
+							</p>
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="training.php" role="button">Ver más</a>
 								<a class="btn tag_enlace_servicios_2" href="contact.php" role="button">Cotizar</a>
@@ -174,10 +174,13 @@
 								Material promocional para las empresas que desean promocionar sus productos o servicios a través del uso de elementos publicitarios que lleven la marca de su compañía entregándolo a clientes interno y cliente externo en eventos, ferias, etc..
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+								<i class="fas fa-check"></i><strong>Materiales de Alta Calidad</strong>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+								<i class="fas fa-check"></i><strong>Precios Competitivos</strong>
+							</p>
+							<p class="tag_caracteristicas_detalle_servicio">
+								<i class="fas fa-check"></i><strong>Respuesta Inmediata</strong>
 							</p>
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="promocional.php" role="button">Ver más</a>
@@ -203,10 +206,16 @@
 								corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+								<i class="fas fa-check"></i><strong>Tarjetas de Presentación</strong>
 							</p>
 							<p class="tag_caracteristicas_detalle_servicio">
-								<i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+								<i class="fas fa-check"></i><strong>Impresión Digital</strong>
+							</p>
+							<p class="tag_caracteristicas_detalle_servicio">
+								<i class="fas fa-check"></i><strong>Publicidad Impresa</strong>
+							</p>
+							<p class="tag_caracteristicas_detalle_servicio">
+								<i class="fas fa-check"></i><strong>Bolsas y Empaques</strong>
 							</p>
 							<div class="div_botones_detalle_servicio">
 								<a class="btn tag_enlace_servicios" href="printing.php" role="button">Ver más</a>
@@ -693,6 +702,48 @@
 								</p>
 							</div>
 						</div>
+						<div class="row item">
+							<div class="col-12 col-lg-4 text-center">
+								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonios/Mireya.jpeg">
+							</div>
+							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-center div_contenido_testimonios">
+								<p class="tag_nombre_testimonio">Mireya Pinilla</p>
+								<p class="tag_asunto_testimonio">Presidenta Mireya Pinilla Interior Design</p>
+								<p class="tag_texto_testimonio">
+									<i class="fas fa-quote-left"></i>
+									Llegamos a CreativeNerd debido a que muchos ingenieros prometieron hacernos una página web, sin embargo, ninguno de ellos lograba terminarla hasta que CreativeNerd nos apoyo y en poco tiempo nos apoyaron a programar la página web de la manera adecuada. Son un equipo de trabajo joven, comprometido, autentico y profesional. Asesoran nuestra compañía en el manejo de las redes sociales y nos ayudan a incrementar nuestro flujo de clientes.
+									<i class="fas fa-quote-right"></i>
+								</p>
+							</div>
+						</div>
+						<div class="row item">
+							<div class="col-12 col-lg-4 text-center">
+								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonios/Diego.jpeg">
+							</div>
+							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-center div_contenido_testimonios">
+								<p class="tag_nombre_testimonio">Diego Desensse</p>
+								<p class="tag_asunto_testimonio">Gerente Hurbu Colombia</p>
+								<p class="tag_texto_testimonio">
+									<i class="fas fa-quote-left"></i>
+									Soy un empresario mexicano residente en Colombia desde hace varios años. Decidí crear una empresa con el fin de beneficiar a muchas personas a hacer su vida mas fácil mediante el uso de una plataforma móvil. Con CreativeNerd cuento en este momento para llevar el desarrollo de mi proyecto de app móvil adelante.
+									<i class="fas fa-quote-right"></i>
+								</p>
+							</div>
+						</div>
+						<div class="row item">
+							<div class="col-12 col-lg-4 text-center">
+								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonios/Marlon.jpeg">
+							</div>
+							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-center div_contenido_testimonios">
+								<p class="tag_nombre_testimonio">Marlon Rodríguez</p>
+								<p class="tag_asunto_testimonio">Gerente Men Magazine</p>
+								<p class="tag_texto_testimonio">
+									<i class="fas fa-quote-left"></i>
+									Después de varias decepciones con ingenieros y diseñadores llegue a conocer a CreativeNerd la empresa que me ayudo con los ajustes web que mi página necesitaba, quedo como quería verla y me asesoran en el diseño de mis piezas para redes sociales. Son personas muy amables y muy profesionales.
+									<i class="fas fa-quote-right"></i>
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -703,26 +754,60 @@
 		<div class="container">
 			<div class="row">
 				<div class="owl-carousel owl-clientes col-md-12">
-					<div class="item clientes"><img src="image/clientes/hurbu.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-alianza-sst.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-Bioclass.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-carpas-e- ingenieria.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-clavel-y-la-rosa.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-coop-futura.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-inversionin.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-jimenes-higuita.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-del mar a tu casa.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-fish box.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-gsc moda.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-men magazine gay.png" class="brand_grey"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-mireya pinilla.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-one style.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-Starken.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-uib seguros.png"></div>
-					<div class="item clientes"><img src="image/clientes/cliente-vanima.png" class="brand_grey"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/hurbu.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-alianza-sst.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-Bioclass.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-carpas-e- ingenieria.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-clavel-y-la-rosa.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-coop-futura.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-inversionin.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-jimenes-higuita.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-del mar a tu casa.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-fish box.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-gsc moda.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-men magazine gay.png" class="brand_grey"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-mireya pinilla.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-one style.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-Starken.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-uib seguros.png"></div>
+					<div class="item clientes" style="width:250px"><img src="image/clientes/cliente-vanima.png" class="brand_grey"></div>
 				</div>
 			</div>	
 		</div>	
+	</section>
+	<section id="seccion_contacto" class="seccion_padding">
+		<div class="container">
+			<p class="tag_subtitulo_secciones tag_titulo_secciones_black text-center">
+				¿Estás listo para iniciar tu proyecto?<br>
+				<span>Cuéntanos de él</span>
+			</p>
+			<div class="row">
+				<div class="col-12 col-lg-6 align-self-center">
+					<form class="text-center" id="form_contacto" method="post" action="javascript:enviarContacto();">
+						<div class="form-row">
+							<div class="col-12 col-lg-6 text-left">
+								<label for="txt_nombre" class="tag_indicador_form">Nombre</label>
+								<input type="text" class="form-control form-control-mine" id="txt_nombre">
+							</div>
+							<div class="col-12 col-lg-6 text-left">
+								<label for="txt_email" class="tag_indicador_form">Email</label>
+								<input type="email" class="form-control form-control-mine" id="txt_email">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-12 text-left">
+								<label for="txt_mensaje" class="tag_indicador_form">Mensaje</label>
+								<textarea class="form-control form-control-mine" id="txt_mensaje"></textarea>
+							</div>
+						</div>
+						<button type="submit" class="btn btn-form-mine" id="btn_enviar">ENVIAR</button>
+					</form>
+				</div>
+				<div class="col-12 col-lg-6 align-self-end man">
+					<img class="img_persona_contacto" src="<?php echo $path; ?>image/contact.png">
+				</div>			
+			</div>		
+		</div>		
 	</section>
 <?php 
 	include('footer.php');

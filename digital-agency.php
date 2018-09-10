@@ -62,7 +62,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto" class="digital_href">
+				<a href="contact.php" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -225,7 +225,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto" class="digital_href">
+				<a href="contact.php" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -347,18 +347,18 @@
 					<div class="col-md-8 digital">
 						<div class="carrusel third">
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/diseno2.png" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/diseno1.png" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/diseno3.png" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto" class="digital_href">
+				<a href="contact.php" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -427,202 +427,6 @@
 				</div>	
 			</div>
 	</section>
-
-	<section id="seccion_servicios" class="seccion_padding">
-		<div class="container">
-			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center" id="diseño_multimedia_digital">
-				DISEÑO <span>MULTIMEDIA</span> Y FOTOGRAFÍA
-			</h2>
-			<div class="row contenedor_slider">
-				<div class="row align-items-center digital">
-					<div class="col-md-8 digital">
-						<div class="carrusel third">
-							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
-							</div>
-							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
-							</div>
-							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
-							</div>
-						</div>
-					</div>
-				</div>
-				<a href="#seccion_contacto" class="digital_href">
-					<div class="col-12 col-lg-6 right digital">
-						<div class="barra-izq">
-
-						</div>
-						<h3 class="tag_titulo_detalle_servicio digital">
-							COTIZA TU <br> <span class="digital">PROYECTO</span>
-						</h3>
-						<div class="container-icon-place digital-icon">
-							<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-	</section>
-	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
-			<div id="div_contenedor_iconos">
-				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#brandingModal">
-						<img class="img-fluid" src="image/branding.png" alt="">
-						<h5 class="grid-icon text">Branding</h5>
-						<div class="links">
-							<nav class="nav justify-content-center">
-								<a data-target="#brandingModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-							</nav>
-						</div>
-					</div>
-					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#piezasPublicitariasModal">
-						<img class="img-fluid" src="image/banner.png" alt="">
-						<h5 class="grid-icon text">Piezas Publicitarias</h5>
-						<div class="links">
-							<nav class="nav justify-content-center">
-								<a data-target="#piezasPublicitariasModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-							</nav>
-						</div>
-					</div>
-					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñoCampañasModal">
-						<img class="img-fluid" src="image/campaign.png" alt="">
-						<h5 class="grid-icon text">Diseño de Campañas</h5>
-						<div class="links">
-							<nav class="nav justify-content-center">
-								<a data-target="#diseñoCampañasModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-							</nav>
-						</div>
-					</div>
-				</div>
-				<div class="row justify-content-center text-center">
-					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#suministrosPublicidadModal">
-						<img class="img-fluid" src="image/app-development.svg" alt="">
-						<h5 class="grid-icon text">Suministros de <br>Publicidad</h5>
-						<div class="links">
-							<nav class="nav justify-content-center">
-								<a data-target="#suministrosPublicidadModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-							</nav>
-						</div>
-					</div>
-					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#mediosImpresosModal">
-						<img class="img-fluid" src="image/printer.png" alt="">
-						<h5 class="grid-icon text">Medios<br>Impresos</h5>
-						<div class="links">
-							<nav class="nav justify-content-center">
-								<a data-target="#mediosImpresosModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
-							</nav>
-						</div>
-					</div>
-				</div>	
-			</div>
-	</section>
-	<!-- Modal Branding -->
-	<div class="modal fade" id="brandingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Branding</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
-						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
-						quas dolore impedit? Ad dolore veritatis sit tenetur.
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Modal Piezas Publicitarias -->
-	<div class="modal fade" id="piezasPublicitariasModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Piezas Publicitarias</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
-						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
-						quas dolore impedit? Ad dolore veritatis sit tenetur.
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Modal Diseño de Campañas -->
-	<div class="modal fade" id="diseñoCampañasModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Diseño de Campañas</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
-						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
-						quas dolore impedit? Ad dolore veritatis sit tenetur.
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Modal Suministros de Publicidad -->
-	<div class="modal fade" id="suministrosPublicidadModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Suministros de Publicidad</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
-						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
-						quas dolore impedit? Ad dolore veritatis sit tenetur.
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Modal Medios Impresos -->
-	<div class="modal fade" id="mediosImpresosModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Medios Impresos</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
-						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
-						quas dolore impedit? Ad dolore veritatis sit tenetur.
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-				</div>
-			</div>
-		</div>
-	</div>
 	<section id="seccion_servicios" class="seccion_padding">
 		<div class="container">
 			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center" id="marketing_digital_digital">
@@ -633,18 +437,18 @@
 					<div class="col-md-8 digital">
 						<div class="carrusel fourth">
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/mireya2.png" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/mireya1.png" alt="" class="img-fluid">
 							</div>
 							<div class="item-carrusel">
-								<img src="image/mux1.png" alt="" class="img-fluid">
+								<img src="image/mireya3.png" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto" class="digital_href">
+				<a href="contact.php" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -857,19 +661,20 @@
 				<div class="row align-items-center digital">
 					<div class="col-md-8 digital">
 						<div class="carrusel fifth">
-							<div class="item-carrusel">
+						<!-- clase item-carrusel para rotar slider -->
+							<div class="">
 								<img src="image/mux1.png" alt="" class="img-fluid">
 							</div>
-							<div class="item-carrusel">
+							<div class="">
 								<img src="image/mux1.png" alt="" class="img-fluid">
 							</div>
-							<div class="item-carrusel">
+							<div class="">
 								<img src="image/mux1.png" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
 				</div>
-				<a href="#seccion_contacto" class="digital_href">
+				<a href="contact.php" class="digital_href">
 					<div class="col-12 col-lg-6 right digital">
 						<div class="barra-izq">
 
@@ -885,7 +690,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="seccion_diseño_web_iconos" class="seccion_padding bg-imagen opacity">
+	<section id="seccion_diseño_web_iconos" class="seccion_padding diagonal_cut bg-imagen opacity">
 			<div id="div_contenedor_iconos">
 				<div class="row justify-content-center text-center">
 					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#desarrolloProductosModal">
@@ -966,6 +771,203 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title" id="exampleModalLabel">Ambientación</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+						quas dolore impedit? Ad dolore veritatis sit tenetur.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<section id="seccion_servicios" class="seccion_padding">
+		<div class="container">
+			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center" id="diseño_multimedia_digital">
+				DISEÑO <span>MULTIMEDIA</span> Y FOTOGRAFÍA
+			</h2>
+			<div class="row contenedor_slider">
+				<div class="row align-items-center digital">
+					<div class="col-md-8 digital">
+						<div class="carrusel third">
+						<!-- clase item-carrusel para rotar -->
+							<div class="">
+								<img src="image/mux1.png" alt="" class="img-fluid">
+							</div>
+							<div class="">
+								<img src="image/mux1.png" alt="" class="img-fluid">
+							</div>
+							<div class="">
+								<img src="image/mux1.png" alt="" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="contact.php" class="digital_href">
+					<div class="col-12 col-lg-6 right digital">
+						<div class="barra-izq">
+
+						</div>
+						<h3 class="tag_titulo_detalle_servicio digital">
+							COTIZA TU <br> <span class="digital">PROYECTO</span>
+						</h3>
+						<div class="container-icon-place digital-icon">
+							<img class="paper-plane" src="image/paper-plane-white.svg" alt="">
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section id="seccion_diseño_web_iconos" class="seccion_padding bg-imagen opacity">
+			<div id="div_contenedor_iconos">
+				<div class="row justify-content-center text-center">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#brandingModal">
+						<img class="img-fluid" src="image/branding.png" alt="">
+						<h5 class="grid-icon text">Branding</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a data-target="#brandingModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
+					</div>
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#piezasPublicitariasModal">
+						<img class="img-fluid" src="image/banner.png" alt="">
+						<h5 class="grid-icon text">Piezas Publicitarias</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a data-target="#piezasPublicitariasModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
+					</div>
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#diseñoCampañasModal">
+						<img class="img-fluid" src="image/campaign.png" alt="">
+						<h5 class="grid-icon text">Diseño de Campañas</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a data-target="#diseñoCampañasModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center text-center">
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#suministrosPublicidadModal">
+						<img class="img-fluid" src="image/app-development.svg" alt="">
+						<h5 class="grid-icon text">Suministros de <br>Publicidad</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a data-target="#suministrosPublicidadModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
+					</div>
+					<div class="grid-icon col-2 img-button" data-toggle="modal" data-target="#mediosImpresosModal">
+						<img class="img-fluid" src="image/printer.png" alt="">
+						<h5 class="grid-icon text">Medios<br>Impresos</h5>
+						<div class="links">
+							<nav class="nav justify-content-center">
+								<a data-target="#mediosImpresosModal" class="plus portafolio"><i class="fas fa-plus-circle"></i></a>
+							</nav>
+						</div>
+					</div>
+				</div>	
+			</div>
+	</section>
+	<!-- Modal Branding -->
+	<div class="modal fade" id="brandingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Branding</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+						quas dolore impedit? Ad dolore veritatis sit tenetur.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Piezas Publicitarias -->
+	<div class="modal fade" id="piezasPublicitariasModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Piezas Publicitarias</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+						quas dolore impedit? Ad dolore veritatis sit tenetur.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Diseño de Campañas -->
+	<div class="modal fade" id="diseñoCampañasModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Diseño de Campañas</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+						quas dolore impedit? Ad dolore veritatis sit tenetur.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Suministros de Publicidad -->
+	<div class="modal fade" id="suministrosPublicidadModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Suministros de Publicidad</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio earum,
+						aliquam exercitationem eaque saepe unde dolores reiciendis dolorem ullam aspernatur fugiat cumque,
+						quas dolore impedit? Ad dolore veritatis sit tenetur.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Medios Impresos -->
+	<div class="modal fade" id="mediosImpresosModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Medios Impresos</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 					</button>

@@ -61,7 +61,7 @@
 							Mediante Alianzas Estratégicas tercerizamos el proceso de Impresión el cual incluye todo lo
 							referente a material publicitario.
 						</p>
-						<a href="#seccion_contacto">
+						<a href="contact.php">
 							<div class="col-12 col-lg-6 right printing">
 								<div class="barra-izq printing">
 

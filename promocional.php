@@ -62,7 +62,7 @@
 							del uso de elementos publicitarios que lleven la marca de su compañia entregándolo a clientes 
 							internos y clientes externos en eventos, ferias, etc...
 						</p>
-						<a href="#seccion_contacto">
+						<a href="contact.php">
 							<div class="col-12 col-lg-6 right promocional">
 								<div class="barra-izq promocional">
 
@@ -177,6 +177,36 @@
 		</div>
 	</div>
 </div>
+<section id="seccion_servicios" class="seccion_padding promocional">
+	<div class="container">
+		<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center promocional">
+			NUESTROS <span>CATALOGOS</span><BR></BR>
+		</h2>
+		<p class="text-center">
+			Ingresa a nuestros catalogos:
+		</p>
+
+		<!--CATALOGOS-->
+		<div class="row contenedor_detalles_servicios">
+			<div class="col-12">
+				<div class="row align-items-center">
+					<div class="col-3 catalogo-promocional">
+						<a href="http://gscmoda.com.co/img/cms/Catalogos/Geek.pdf" target="blank"><img src="image/catalogo1.png" alt="" class="img-fluid"></a>
+					</div>
+					<div class="col-3 catalogo-promocional">
+						<a href="http://gscmoda.com.co/img/cms/Catalogos/Merch.pdf" target="blank"><img src="image//catalogo2.png" alt="" class="img-fluid"></a>
+					</div>
+					<div class="col-3 catalogo-promocional">
+						<a href="http://gscmoda.com.co/img/cms/Catalogos/Salud.pdf" target="blank"><img src="image/catalogo3.png" alt="" class="img-fluid"></a>
+					</div>
+					<div class="col-3 catalogo-promocional">
+						<a href="http://gscmoda.com.co/img/cms/Catalogos/Solitarios.pdf" target="blank"><img src="image/catalogo4.png" alt="" class="img-fluid"></a>
+                    </div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</section>
 <?php 
 	include('footer.php');
 ?>

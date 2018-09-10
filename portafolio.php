@@ -55,6 +55,15 @@
 				<li class="nav-item active">
 					<a class="digital nav-link btn-portafolio" data-category-button="digital-agency">Digital Agency</a>
 				</li>
+				<!-- Sub categorias Digital-->
+				<li class="nav-item sub-category-digital">
+					<a class="digital nav-link btn-portafolio" data-category-button="digital-agency">Diseño Web</a>
+					<a class="digital nav-link btn-portafolio" data-category-button="digital-agency">Desarrollo de Apps</a>
+					<a class="digital nav-link btn-portafolio" data-category-button="digital-agency">Diseño Gráfico</a>
+					<a class="digital nav-link btn-portafolio" data-category-button="digital-agency">Marketing Digital</a>
+					<a class="digital nav-link btn-portafolio" data-category-button="digital-agency">Diseño Multimedia & Fotografía</a>
+					<a class="digital nav-link btn-portafolio" data-category-button="digital-agency">Diseño Industrial</a>
+				</li>
 				<li class="nav-item">
 					<a class="training nav-link btn-portafolio" data-category-button="training">Training</a>
 				</li>

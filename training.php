@@ -62,7 +62,7 @@
 							se interesen y es por ello que creamos una unidad en la cual podamos ofrecer capacitaciones de
 							cada uno de los servicios que ofrecemos.
 						</p>
-						<a href="#seccion_contacto" class="hover_training">
+						<a href="contact.php" class="hover_training">
 							<div class="col-12 col-lg-6 right training">
 								<div class="barra-izq training">
 
