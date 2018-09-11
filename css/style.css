@@ -52,7 +52,7 @@ p {
 	right: 10px;
 	width: 40px;
 	height: 40px;
-	z-index: 12;
+	z-index: 99999999;
 	border: 1px solid #a4141b;
 	display: flex;
 	justify-content: center;
@@ -581,8 +581,10 @@ footer{
 }
 
 /*subcategorias digital*/
-.nav-item.sub-category-digital {
-	margin-top: 2em;
+.sub-category-digital {
+	display: none;
+  }
+.sub-category-wrapper {
 	display: flex;
 }
 .img_detalle_servicios{
@@ -924,6 +926,7 @@ footer{
 /* carousel */
 .owl-carousel{
 	padding: 1em;
+	z-index: 999999 !important;
 }
 
 .owl-team .item{
@@ -1921,6 +1924,7 @@ a.hover_training {
 	.digital.active.nav-link.nav-link-portafolio {
 		width: 50%;
 		margin-left: 25%;
+		z-index: 20;
 	}
 	.portafolio-button {
 		margin-left: 15%;
@@ -2165,6 +2169,10 @@ a.hover_training {
 		left: 33%;
 		font-size: 1.6em;
 		top: 93px;
+	}
+	/*catalogo promocional*/
+	.catalogo-promocional {
+		margin-bottom: 30px;
 	}
 	
 	/*info imagen*/

@@ -63,8 +63,6 @@
 		<a href="#home"><i class="fas fa-angle-up"></i></a>
 	</div>
 	<div class="back-to-top wa-icon">
-		<a href="http://api.whatsapp.com/send?phone=573164022489" class="" target="blank" title="Whatsapp">
-			<i class="fab fa-whatsapp tag_fa_footer_redes" style="color:#25d266"></i>
-		</a>
+		<a href="https://web.whatsapp.com/send?l=es&amp;phone=573164022489&amp;text=Hola, estoy interesad@ en " target="_blank"><i class="fab fa-whatsapp tag_fa_footer_redes" style="color:#25d266"></i></a>
 	</div>
 	

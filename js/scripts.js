@@ -22,7 +22,62 @@ $(document).ready(function(){
                  }
              }
            });
+    
+        // portafolio sub categories
+        var selectAllButton = $("[data-category-button='todo']"),
+		digitalButton = $("[data-category-button='digital']"),
+        allPortfolioItems = $(".item-portafolio-general"),
+        allSubcategoryButtons = $(".sub-category-digital"),
+        webButton = $("[data-subcategory-button='web-design']"),
+        appButton = $("[data-subcategory-button='app']"),
+        graphicButton = $("[data-subcategory-button='graphic-design']"),
+        marketingButton = $("[data-subcategory-button='marketing']")
 
+        $( document ).ready(function() {
+
+            selectAllButton.on("click", function() {
+            allSubcategoryButtons.fadeOut();
+            allPortfolioItems.fadeIn();
+        })
+
+        digitalButton.on("click", function() {
+            allSubcategoryButtons.fadeIn();
+            allPortfolioItems.fadeIn();
+        })
+
+        webButton.on("click", function(e) {
+            var webDataValue = $(this)[0].attributes[2].nodeValue;
+            var allWebItems  = $("[data-subcategory-item=" + webDataValue + "]");
+                
+            allPortfolioItems.fadeOut();
+            allWebItems.fadeIn();
+            //console.log("e", e.target.attributes[2].value)
+        })
+        
+        appButton.on("click", function() {
+            var appDataValue = $(this)[0].attributes[2].value;
+            var allAppItems  = $("[data-subcategory-item=" + appDataValue + "]");
+                
+            allPortfolioItems.fadeOut();
+            allAppItems.fadeIn();
+        })
+
+        graphicButton.on("click", function() {
+            var graphicDataValue = $(this)[0].attributes[2].nodeValue;
+            var allGraphicItems  = $("[data-subcategory-item=" + graphicDataValue + "]");
+                
+            allPortfolioItems.fadeOut();
+            allGraphicItems.fadeIn();
+        })
+        
+        marketingButton.on("click", function() {
+            var marketingDataValue = $(this)[0].attributes[2].nodeValue;
+            var allMarketingItems  = $("[data-subcategory-item=" + marketingDataValue + "]");
+                
+            allPortfolioItems.fadeOut();
+            allMarketingItems.fadeIn();
+        })
+        });
     //Carousel testimonios
 
     $(".owl-testimonials").owlCarousel({
@@ -45,7 +100,6 @@ $(document).ready(function(){
     $('.div_img.seccion_de_servicios').click(function() {
       $('.content_dropdown').slideToggle();
     });
-
 
     //Carousel clientes
     $(".owl-clientes").owlCarousel({
@@ -111,6 +165,9 @@ $(document).ready(function(){
             $(".dropdown-item.printing").addClass("col-2");
             $(".grid-icon").removeClass("col-2");
             $(".grid-icon").addClass("col-lg-1");
+            // catalogo promocional, pagina promocional
+            $(".catalogo-promocional").removeClass("col-3")
+            $(".catalogo-promocional").addClass("col-6")
          }    
      });
      $(document).ready(function () {
