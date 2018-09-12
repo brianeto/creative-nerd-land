@@ -15,7 +15,7 @@
 				<a href="" class="tag_enlace_footer_redes text-center" target="blank" title="Linkedin">
 					<i class="fab fa-linkedin tag_fa_footer_redes"></i>
 				</a>
-				<a href="http://api.whatsapp.com/send?phone=573164022489" class="tag_enlace_footer_redes text-center" target="blank" title="Whatsapp">
+				<a href="https://web.whatsapp.com/send?l=es&amp;phone=573164022489&amp;text=Hola, estoy interesad@ en " class="tag_enlace_footer_redes text-center" target="blank" title="Whatsapp">
 					<i class="fab fa-whatsapp tag_fa_footer_redes"></i>
 				</a>
 				<p class="tag_texto_item_footer tag_texto_item_footer_opacity" id="tag_texto_item_footer_copyright">

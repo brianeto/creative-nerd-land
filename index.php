@@ -230,16 +230,27 @@
 
 	<section id="seccion_quienes_somos" class="diagonal_cut">
 		<div class="container">
-			<div class="row justify-content-between">
-				<div class="col-12 col-lg-5 align-self-center">
+			<div class="row justify-content-between align-items-center quienes_somos">
+				<div class="col-12 col-lg-6 align-self-center">
 					<h2 class="tag_titulo_secciones tag_titulo_secciones_white">
 						¿QUIÉNES <b>SOMOS?</b>
 					</h2>
 					<p class="tag_texto_quienes_somos">
-						Somos una empresa que nace con el fin de solucionar las necesidades de los empresarios de promocionar sus marcas y de darle un valor agregado a sus empresas que les permita alcanzar sus objetivos corporativos mediante el uso de las nuevas tecnologías, las ideas creativas y la innovación.
+					Somos una compañía construida por emprendedores para emprendedores y para aquellos que desean perseguir
+					sus sueños construyendo con bases solidas su participación empresarial.
+					<br>
+					Nuestra compañía se divide en 4 modelos de negocio clave inicialmente con la construcción de una agencia
+					digital que permita a emprendedores y empresarios a alcanzar sus objetivos mediante el uso de las
+					herramientas digitales y potencializar sus ideas de negocios. Luego continuamos con la construcción de
+					una marca que brindara soluciones para una opción promocional innovadora para el mercado empresarial y la
+					creación de una marca que solucionara las necesidades de materiales impresos para el sector empresarial.<br>
+					Por último, dando una perspectiva mucho mas amplia se realizo una marca con el fin de capacitar a nuestros
+					clientes y colaboradores en los temas que nuestra empresa ofrece brindando así también una oportunidad de
+					crecimiento y mejoramiento en la calidad de vida de nuestros StakeHolders.
+
 					</p>				
 				</div>
-				<div class="col-12 col-lg-6">
+				<div class="col-12 col-lg-5">
 					<div class="row">
 						<div class="col col-lg-4 text-center">
 							<div class="div_circulo_contadores">
@@ -704,7 +715,7 @@
 						</div>
 						<div class="row item">
 							<div class="col-12 col-lg-4 text-center">
-								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonios/Mireya.jpeg">
+								<img class="img_persona_testimonio" src="<?php echo $path; ?>image/testimonios/mireyafb.jpg">
 							</div>
 							<div class="col-md-12 col-12 col-lg-7 offset-lg-1 align-self-center div_contenido_testimonios">
 								<p class="tag_nombre_testimonio">Mireya Pinilla</p>

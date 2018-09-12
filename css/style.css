@@ -585,7 +585,8 @@ footer{
 	display: none;
   }
 .sub-category-wrapper {
-	display: flex;
+	display: none;
+	font-size: 0.8em;
 }
 .img_detalle_servicios{
 	width: 100%;
@@ -801,8 +802,8 @@ footer{
 	font-size: 1em;
 }
 .div_circulo_contadores{
-	width: 180px;
-	height: 180px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	background-color: rgba(0,0,0,0.8);
 	border: 3px solid;
@@ -1858,6 +1859,9 @@ a.hover_training {
 	.ml-auto {
 		margin: 0 0 0 0;
 	}
+	.quienes_somos {
+		background: none;
+	}
 	.row.justify-content-between.align-items-center {
 		background: black;
 		height: 70px;
@@ -1901,8 +1905,10 @@ a.hover_training {
 		margin-bottom: 52px;
 	}
 	/*Quienes somos*/
-	#seccion_quienes_somos {
+	#seccion_quienes_somos .quienes_somos {
 		margin-top: 10px;
+		height: 60rem;
+		background: none;
 	}
 	/*titulo*/
 	.tag_titulo_secciones {

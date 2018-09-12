@@ -43,6 +43,7 @@ $(document).ready(function(){
         digitalButton.on("click", function() {
             allSubcategoryButtons.fadeIn();
             allPortfolioItems.fadeIn();
+            allSubcategoryButtons.css("display","flex");
         })
 
         webButton.on("click", function(e) {
