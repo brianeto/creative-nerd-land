@@ -1922,7 +1922,8 @@ a.hover_training {
 	}
 	/*Portafolio*/
 	#seccion_portafolio {
-		margin-top: -100px;
+		z-index: 3;
+
 	}
 	.nav-item.portafolio {
 		margin-bottom: 0;

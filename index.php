@@ -276,7 +276,7 @@
 		</div>
 	</section>
 
-	<section id="seccion_equipo" class="seccion_padding">
+	<!--<section id="seccion_equipo" class="seccion_padding">
 		<div class="container">
 			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
 				NUESTRO <span>EQUIPO</span>
@@ -421,27 +421,14 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 
 	<section id="seccion_portafolio" class="seccion_padding">
 		<div class="container">
 			<h2 class="tag_titulo_secciones tag_titulo_secciones_black text-center">
 				NUESTROS <span>CLIENTES</span>
 			</h2>
-			<ul class="nav nav-pills justify-content-center category">
-				<li class="nav-item active portafolio">
-					<a class="digital active nav-link nav-link-portafolio" data-category-portafolio="digital-portafolio">Digital Agency</a>
-				</li>
-				<li class="nav-item portafolio">
-					<a class="training nav-link nav-link-portafolio" data-category-portafolio="training-portafolio">Training</a>
-				</li>
-				<li class="nav-item portafolio">
-					<a class="promocional nav-link nav-link-portafolio" data-category-portafolio="promocional-portafolio">Promocional</a>
-				</li>
-				<li class="nav-item portafolio">
-					<a class="printing nav-link nav-link-portafolio" data-category-portafolio="printing-portafolio">Printing</a>
-				</li>
-			</ul>			
+		
 			<div class="container">
 				<div class="grid item-services-portafolio able-portafolio" id="digital-portafolio">
 					<div class="grid-item large item-portafolio" data-category-portafolio="digital-portafolio">
