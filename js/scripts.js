@@ -112,7 +112,8 @@ $(document).ready(function(){
                 responsive : {
                  // breakpoint from 0 up
                  0 : {
-                     items: 1
+                     items: 1,
+                     dots: false
                  },
                  // breakpoint from 480 up
                  480 : {
