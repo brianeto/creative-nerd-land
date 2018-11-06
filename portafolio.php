@@ -83,56 +83,56 @@
 			<div class="container">
                 <div class="row" id="portafolio-general">
                     <div class="col-12 col-md-4 item-portafolio-general digital-agency" data-category-item="digital-agency" data-subcategory-item="web-design">
-						<img src="image/portafolio/alianza-web.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/alianza-web.jpg" data-lightbox="portafolio1" data-title="Landing Page">
+						<img src="image/portafolio/mockups/alianza.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/portafolio/mockups/alianza.png" data-lightbox="portafolio1" data-title="Landing Page">
 							<h2>Alianza SST</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web / Soporte Web</h3>
 						</a>
                     </div>
                     <div class="col-12 col-md-4 item-portafolio-general digital-agency" data-category-item="digital-agency" data-subcategory-item="web-design">
-                        <img src="image/portafolio/landing-starken.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/landing-starken.jpg" data-lightbox="portafolio2" data-title="Landing Page">
+                        <img src="image/mockups/starken.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/starken.png" data-lightbox="portafolio2" data-title="Landing Page">
 							<h2>Starken <br>Vegan Protein</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web / Landing page</h3>
 						</a>
                     </div>
                     <div class="col-12 col-md-4 item-portafolio-general digital-agency" data-category-item="digital-agency" data-subcategory-item="web-design">
-                        <img src="image/portafolio/lotus-web.jpg" alt="" class="img-fluid">
-                        <a class="caption portafolio" href="image/portafolio/lotus-web.jpg" data-lightbox="portafolio3" data-title="Landing Page">
+                        <img src="image/mockups/lotus.png" alt="" class="img-fluid">
+                        <a class="caption portafolio" href="image/mockups/lotus.png" data-lightbox="portafolio3" data-title="Landing Page">
 							<h2>Lotus <br>Web Cam Model</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web</h3>
 						</a>
                     </div>
                     <div class="col-12 col-md-4 item-portafolio-general digital-agency" data-category-item="digital-agency" data-subcategory-item="web-design">
-                        <img src="image/portafolio/carpas-web.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/carpas-web.jpg" data-lightbox="portafolio4" data-title="Landing Page">
+                        <img src="image/mockups/carpas.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/carpas.png" data-lightbox="portafolio4" data-title="Landing Page">
 							<h2>Carpas <br>e Ingenieria</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web</h3>
 						</a>
                     </div>
                     <div class="col-12 col-md-4 item-portafolio-general digital-agency" data-category-item="digital-agency" data-subcategory-item="web-design">
-                        <img src="image/portafolio/GHY-web.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/GHY-web.jpg" data-lightbox="portafolio4" data-title="Landing Page">
+                        <img src="image/mockups/ghy.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/ghy.png" data-lightbox="portafolio4" data-title="Landing Page">
 							<h2>GHY Siso</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web</h3>
 						</a>
                     </div>
                     <div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency" data-subcategory-item="web-design">
-                        <img src="image/portafolio/Redemancy-web.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/Redemancy-web.jpg" data-lightbox="portafolio5" data-title="Landing Page">
+                        <img src="image/mockups/redemancy.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/redemancy.png" data-lightbox="portafolio5" data-title="Landing Page">
 							<h2>Redemancy <br> Photo Studios</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web</h3>
 						</a>
                     </div>
                     <div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency" data-subcategory-item="web-design">
-                        <img src="image/portafolio/vr3-web.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/vr3-web.jpg" data-lightbox="portafolio6" data-title="Landing Page">
+                        <img src="image/mockups/vr3.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/vr3.png" data-lightbox="portafolio6" data-title="Landing Page">
 							<h2>Vr3</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web</h3>
@@ -147,16 +147,16 @@
 						</a>
                     </div>
                     <div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency" data-subcategory-item="web-design">
-                        <img src="image/portafolio/jhr-web.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/jhr-web.jpg" data-lightbox="portafolio8" data-title="Landing Page">
+                        <img src="image/mockups/jhr.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/jhr.png" data-lightbox="portafolio8" data-title="Landing Page">
 							<h2>JHR Abogados</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web</h3>
 						</a>
                     </div>
                     <div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency" data-subcategory-item="graphic-design">
-                        <img src="image/portafolio/bioclass-letrero.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/bioclass-letrero.jpg" data-lightbox="portafolio9" data-title="Bioclass Spa">
+                        <img src="image/mockups/bioclass.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/bioclass.png" data-lightbox="portafolio9" data-title="Bioclass Spa">
 							<h2>Bioclass Spa Letrero</h2>
 							<hr class="line-bottom">
 							<h3>Diseño Gráfico</h3>
@@ -171,8 +171,8 @@
 						</a>
                     </div>
 					<div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency" data-subcategory-item="web-design">
-                        <img src="image/portafolio/gsc-web.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/gsc-web.jpg" data-lightbox="portafolio11" data-title="Landing Page">
+                        <img src="image/mockups/gsc.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/gsc.png" data-lightbox="portafolio11" data-title="Landing Page">
 							<h2>GSC Moda</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web</h3>
@@ -187,8 +187,8 @@
 						</a>
                     </div>
 					<div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency" data-subcategory-item="marketing">
-						<img src="image/portafolio/post-redes-gsc-general.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/post-redes-gsc-general.jpg" data-lightbox="portafolio13" data-title="GSC Post Redes">
+						<img src="image/mockups/gsc-social.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/gsc-social.png" data-lightbox="portafolio13" data-title="GSC Post Redes">
 							<h2>GSC Post <br>Redes</h2>
 							<hr class="line-bottom">
 							<h3>Marketing Digital / Social Media</h3>
@@ -219,16 +219,16 @@
 						</a>
                     </div>
 					<div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency" data-subcategory-item="web-design">
-						<img src="image/portafolio/vanima-web.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/vanima-web.jpg" data-lightbox="portafolio17" data-title="Coopfutura">
+						<img src="image/mockups/vanima.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/vanima.png" data-lightbox="portafolio17" data-title="Coopfutura">
 							<h2>Vanima Tours</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web</h3>
 						</a>
                     </div>
 					<div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency" data-subcategory-item="web-design"> 
-                        <img src="image/portafolio/men-magazine-web.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/men-magazine-web.jpg" data-lightbox="portafolio18" data-title="Coopfutura">
+                        <img src="image/mockups/menmagazine.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/menmagazine.png" data-lightbox="portafolio18" data-title="Coopfutura">
 							<h2>Men<br> Magazine Gay</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web</h3>
@@ -243,8 +243,8 @@
 						</a>
                     </div>
 					<div class="col-12 col-md-4 item-portafolio-general training" data-category-item="digital-agency" data-subcategory-item="app">
-						<img src="image/portafolio/hurbu-app.jpg" alt="" class="img-fluid">
-						<a class="caption portafolio" href="image/portafolio/hurbu-app.jpg" data-lightbox="portafolio20" data-title="Coopfutura">
+						<img src="image/mockups/hurbu.png" alt="" class="img-fluid">
+						<a class="caption portafolio" href="image/mockups/hurbu.png" data-lightbox="portafolio20" data-title="Coopfutura">
 							<h2>Hurbu</h2>
 							<hr class="line-bottom">
 							<h3>App Móvil</h3>

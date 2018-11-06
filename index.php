@@ -432,40 +432,40 @@
 			<div class="container">
 				<div class="grid item-services-portafolio able-portafolio" id="digital-portafolio">
 					<div class="grid-item large item-portafolio" data-category-portafolio="digital-portafolio">
-						<img src="image/portafolio/landing-starken.jpg" alt="">
-						<a class="caption portafolio" href="image/portafolio/landing-starken.jpg" data-lightbox="portafolio21" data-title="Landing Page">
+						<img src="image/mockups/starken.png" alt="">
+						<a class="caption portafolio" href="image/mockups/starken.png" data-lightbox="portafolio21" data-title="Landing Page">
 							<h2>Starken <br>Vegan Protein</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web / Landing page</h3>
 						</a>
 					</div>
 					<div class="grid-item x-small item-portafolio" data-category-portafolio="digital-portafolio">
-						<img src="image/portafolio/lotus-web.jpg" alt="">
-						<a class="caption portafolio" href="image/portafolio/lotus-web.jpg" data-lightbox="portafolio22" data-title="Landing Page">
+						<img src="image/mockups/lotus.png" alt="">
+						<a class="caption portafolio" href="image/mockups/lotus.png" data-lightbox="portafolio22" data-title="Landing Page">
 							<h2>Lotus <br>Web Cam Model</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web / Landing page</h3>
 						</a>
 					</div>
 					<div class="grid-item small item-portafolio" data-category-portafolio="digital-portafolio">
-						<img src="image/portafolio/alianza-web.jpg" alt="">
-						<a class="caption portafolio" href="image/portafolio/alianza-web.jpg" data-lightbox="portafolio23" data-title="Landing Page">
+						<img src="image/mockups/alianza.png" alt="">
+						<a class="caption portafolio" href="image/mockups/alianza.png" data-lightbox="portafolio23" data-title="Landing Page">
 							<h2>Alianza SST</h2>
 							<hr class="line-bottom">
                             <h3>Diseño web / Landing page</h3>
 						</a>
 					</div>
 					<div class="grid-item medium item-portafolio" data-category-portafolio="digital-portafolio">
-						<img src="image/portafolio/carpas-web.jpg" alt="">
-						<a class="caption portafolio" href="image/portafolio/carpas-web.jpg" data-lightbox="portafolio24" data-title="Landing Page">
+						<img src="image/mockups/carpas.png" alt="">
+						<a class="caption portafolio" href="image/mockups/carpas.png" data-lightbox="portafolio24" data-title="Landing Page">
 							<h2>Carpas <br>e Ingenieria</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web / Landing page</h3>
 						</a>
 					</div>
 					<div class="grid-item small item-portafolio able" data-category-portafolio="digital-portafolio">
-						<img src="image/portafolio/GHY-web.jpg" alt="">
-						<a class="caption portafolio" href="image/portafolio/GHY-web.jpg" data-lightbox="portafolio25" data-title="Landing Page">
+						<img src="image/mockups/ghy.png" alt="">
+						<a class="caption portafolio" href="image/mockups/ghy.png" data-lightbox="portafolio25" data-title="Landing Page">
 							<h2>GHY Siso</h2>
 							<hr class="line-bottom">
 							<h3>Diseño web / Landing page</h3>
