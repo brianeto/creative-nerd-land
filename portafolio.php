@@ -83,7 +83,7 @@
 			<div class="container">
                 <div class="row" id="portafolio-general">
                     <div class="col-12 col-md-4 item-portafolio-general digital-agency" data-category-item="digital-agency" data-subcategory-item="web-design">
-						<img src="image/portafolio/mockups/alianza.png" alt="" class="img-fluid">
+						<img src="image/mockups/alianza.png" alt="" class="img-fluid">
 						<a class="caption portafolio" href="image/portafolio/mockups/alianza.png" data-lightbox="portafolio1" data-title="Landing Page">
 							<h2>Alianza SST</h2>
 							<hr class="line-bottom">
